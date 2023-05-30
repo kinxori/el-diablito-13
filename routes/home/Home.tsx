@@ -1,21 +1,13 @@
 import { Outlet, useLocation } from "react-router-dom";
 import backgroundImg from "./../../src/assets/BK.png";
-
+import LandingPage from "./../../components/landing-page/Landing-page";
 export default function () {
   const location = useLocation();
 
   return (
     <article>
-      <img src={backgroundImg} className="home-bg-img"></img>
-      {location.pathname !== "/" ? (
-        <Outlet />
-      ) : (
-        <section className="home-landing-page">
-          <div className="home-landing-page-content">
-            <div>homelo chino</div>
-          </div>
-        </section>
-      )}
+      <img src={backgroundImg} id="home-bg-img"></img>
+      {location.pathname !== "/" ? <Outlet /> : <LandingPage />}
     </article>
   );
 }
