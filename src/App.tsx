@@ -6,7 +6,7 @@ function App() {
       <h2>Hola soy homelo chino</h2>
       <img
         style={{ position: "absolute" }}
-        src="./src/assets/Pg.png"
+        src={require("./src/assets/Pg.png")}
         alt="el diablito mas 13"
       ></img>
     </div>
