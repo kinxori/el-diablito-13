@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "push": "git push",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "firebase deploy",
+    "cdep": "npm run push && npm run build && npm run deploy"
   },
   "dependencies": {
     "firebase": "^9.22.1",
