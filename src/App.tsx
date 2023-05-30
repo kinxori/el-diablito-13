@@ -4,7 +4,11 @@ function App() {
   return (
     <div className="App">
       <h2>Hola soy homelo chino</h2>
-      <img style={{ position: "absolute" }} src="./src/assets/Pg.png"></img>
+      <img
+        style={{ position: "absolute" }}
+        src="./src/assets/Pg.png"
+        alt="el diablito mas 13"
+      ></img>
     </div>
   );
 }
