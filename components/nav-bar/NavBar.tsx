@@ -1,9 +1,10 @@
 import "./🎨navBar.css";
+import NavMobile from "./navMobile";
 
 export default function NavBar() {
   return (
-    <section>
-      <div>this is the nav bar lol</div>
-    </section>
+    <>
+      <NavMobile />
+    </>
   );
 }

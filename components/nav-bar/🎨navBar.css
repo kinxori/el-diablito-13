@@ -1,0 +1,31 @@
+.nav-mobile-root {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.nav-mobile-content {
+  height: 80px;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-mobile-slide-root {
+  width: min-content;
+  height: min-content;
+  position: absolute;
+  font-size: 24px;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-mobile-main-logo {
+  height: 100%;
+  width: min-content;
+  object-fit: cover;
+  display: flex;
+}
