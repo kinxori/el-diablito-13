@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./../routes/home/Home";
 import Error404 from "./../routes/404 Error/404Error";
-import "./index.css";
+import "./🎨index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
