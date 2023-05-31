@@ -26,29 +26,34 @@
   width: 300px;
   height: 100vh;
   right: -80%;
+  transition: all 0.5s cubic-bezier(0.59, 0.22, 0.46, 0.99);
   position: fixed;
   display: flex;
-  background-color: red;
-  transition: right 0.5s cubic-bezier(0.59, 0.22, 0.46, 0.99);
+  background-color: black;
+  box-shadow: 0px 0px 0px 0px white;
 }
 
 .nav-mobile-slide-root-open {
   width: 300px;
   height: 100vh;
   right: 0%;
+  transition: all 0.5s cubic-bezier(0.59, 0.22, 0.46, 0.99);
   position: fixed;
   display: flex;
-  background-color: blue;
-  transition: right 0.5s cubic-bezier(0.59, 0.22, 0.46, 0.99);
+  background-color: black;
+  box-shadow: 0px 0px 200px 0px white;
 }
 
 .nav-mobile-slide-icon {
   width: min-content;
   height: min-content;
   position: absolute;
-  font-size: 30px;
   margin: 25px;
   left: -80px;
+}
+
+.nav-mobile-slide-icon i {
+  font-size: 30px;
 }
 
 .nav-mobile-slide-content {
