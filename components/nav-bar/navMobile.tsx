@@ -43,22 +43,22 @@ export default function NavMobile() {
             <hr className="nav-mobile-slide-separator"></hr>
             <div className="nav-mobile-slide-social-media">
               <div>
-                <Link to="">
+                <Link to="https://www.twitch.tv/eldiablitotrece" target="_blank">
                   <i className="fa-brands fa-twitch"></i>
                 </Link>
               </div>
               <div>
-                <Link to="">
+                <Link to="https://www.instagram.com/eldiablitotrece/" target="_blank">
                   <i className="fa-brands fa-instagram"></i>
                 </Link>
               </div>
               <div>
-                <Link to="">
+                <Link to="https://www.facebook.com/eldiablitotrece" target="_blank">
                   <i className="fa-brands fa-facebook"></i>
                 </Link>
               </div>
               <div>
-                <Link to="">
+                <Link to="https://www.tiktok.com/@eldiablitotrece" target="_blank">
                   <i className="fa-brands fa-tiktok"></i>
                 </Link>
               </div>
