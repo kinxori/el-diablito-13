@@ -54,6 +54,7 @@
 
 .nav-mobile-slide-icon i {
   font-size: 30px;
+  color: var(--main-color);
 }
 
 .nav-mobile-slide-content {
@@ -76,6 +77,7 @@
 
 .nav-mobile-slide-headline h2 {
   font-size: 28px;
+  color: var(--main-color);
 }
 
 .nav-mobile-slide-headline img {
@@ -104,7 +106,7 @@
 .nav-mobile-slide-anchor h3,
 i {
   font-size: 20px;
-  color: var(--main-color-text);
+  color: var(--main-color);
 }
 
 .nav-mobile-slide-separator {
@@ -113,7 +115,7 @@ i {
   height: min-content;
   margin-top: auto;
   width: 100%;
-  border-top: 1px solid var(--main-color-text);
+  border-top: 1px solid var(--main-color);
 }
 
 .nav-mobile-slide-social-media {
@@ -136,6 +138,6 @@ i {
 }
 
 .nav-mobile-slide-social-media i {
-  color: var(--invert-color-text);
+  color: var(--invert-color);
   font-size: 20px;
 }
