@@ -1,7 +1,16 @@
 :root {
   font-family: Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  --main-color-text: white;
+  --invert-color-text: black;
+  --sec-color-text: red;
+  --ter-color-text: orange;
+  --main-color: white;
+  --sec-color: red;
+  --ter-color: orange;
+  --invert-color: black;
+
+  color: var(--main-color-text);
+  background-color: var(--bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
