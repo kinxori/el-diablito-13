@@ -6,7 +6,7 @@ export default function () {
   const location = useLocation();
 
   return (
-    <article>
+    <article id="home-root">
       <img src={backgroundImg} id="home-bg-img"></img>
       {location.pathname !== "/" ? <Outlet /> : <LandingPage />}
     </article>

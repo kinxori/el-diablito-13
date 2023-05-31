@@ -1,11 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#home-root {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden scroll;
+}
+
 #home-bg-img {
-  rotate: 90deg;
-  position: fixed;
   z-index: -1000;
-  height: 10vh;
-  width: auto;
-  display: flex;
-  margin: 0 auto;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
 }
