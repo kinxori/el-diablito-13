@@ -7,7 +7,7 @@
   --invert-color: black;
 
   color: var(--main-color-text);
-  background-color: var(--bg-color);
+  background-color: var(--invert-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
