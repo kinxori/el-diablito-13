@@ -1,3 +1,5 @@
+import "./🎨landing-page.css";
+
 export default function LandingPage() {
   return (
     <section className="landing-page-root">
