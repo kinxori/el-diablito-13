@@ -1,19 +1,13 @@
 .nav-mobile-root {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  position: fixed;
-}
-
-.nav-mobile-content {
   height: 80px;
   width: 100%;
+  top: 0;
   overflow: hidden;
   background-color: var(--invert-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
 }
 
 .nav-mobile-main-logo {
