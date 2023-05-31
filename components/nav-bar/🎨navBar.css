@@ -1,6 +1,7 @@
 .nav-mobile-root {
   height: 100%;
   width: 100%;
+  top: 0;
   position: fixed;
 }
 .nav-mobile-content {
@@ -17,10 +18,15 @@
   width: min-content;
   height: min-content;
   position: absolute;
-  font-size: 24px;
-  left: 20px;
+  right: 20px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.nav-mobile-slide-icon {
+  width: min-content;
+  height: min-content;
+  font-size: 24px;
 }
 
 .nav-mobile-main-logo {
