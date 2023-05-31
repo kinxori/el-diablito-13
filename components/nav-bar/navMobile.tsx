@@ -8,7 +8,7 @@ export default function NavMobile() {
   return (
     <section className="nav-mobile-root">
       <div className="nav-mobile-content">
-        <div className="nav-mobile-slide-root">
+        <div className={isClicked ? "nav-mobile-slide-root-open" : "nav-mobile-slide-root-close"}>
           <span className="nav-mobile-slide-icon" onClick={() => setClicked(!isClicked)}>
             {isClicked ? (
               <i className="fa-solid fa-xmark"></i>
@@ -16,7 +16,7 @@ export default function NavMobile() {
               <i className="fa-solid fa-bars"></i>
             )}
           </span>
-          <div style={{ display: "none" }}>slide</div>
+          <div className="nav-mobile-slide-content">homelo chino</div>
         </div>
         <Link to="/">
           <img className="nav-mobile-main-logo" src={logoNav} alt="el-diablito-13"></img>
