@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import logoNav from "./../../src/assets/BK_f_white.png";
+import slideMenuPFP from "./../../src/assets/3333.png";
 
 export default function NavMobile() {
   const [isClicked, setClicked] = useState(false);
@@ -16,7 +17,45 @@ export default function NavMobile() {
               <i className="fa-solid fa-bars"></i>
             )}
           </span>
-          <div className="nav-mobile-slide-content">homelo chino</div>
+          <div className="nav-mobile-slide-content">
+            <div className="nav-mobile-slide-headline">
+              <h2>El Diablito 13</h2>
+              <img src={slideMenuPFP} alt="el diablito trece foto de perfil"></img>
+            </div>
+            <div className="nav-mobile-slide-copy">
+              <a className="nav-mobile-slide-anchor">
+                <h3>Inicio</h3>
+                <i className="fa-solid fa-house"></i>
+              </a>
+              <a className="nav-mobile-slide-anchor">
+                <h3>Acerca</h3>
+                <i className="fa-solid fa-user"></i>
+              </a>
+              <a className="nav-mobile-slide-anchor">
+                <h3>Proyectos</h3>
+                <i className="fa-solid fa-pencil"></i>
+              </a>
+              <a className="nav-mobile-slide-anchor">
+                <h3>Contacto</h3>
+                <i className="fa-solid fa-at"></i>
+              </a>
+            </div>
+            <hr className="nav-mobile-slide-separator"></hr>
+            <div className="nav-mobile-slide-social-media">
+              <div>
+                <i className="fa-brands fa-twitch"></i>
+              </div>
+              <div>
+                <i className="fa-brands fa-instagram"></i>
+              </div>
+              <div>
+                <i className="fa-brands fa-facebook"></i>
+              </div>
+              <div>
+                <i className="fa-brands fa-tiktok"></i>
+              </div>
+            </div>
+          </div>
         </div>
         <Link to="/">
           <img className="nav-mobile-main-logo" src={logoNav} alt="el-diablito-13"></img>
