@@ -1,19 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 #home-root {
   width: 100vw;
   height: 100vh;
   position: relative;
-  overflow: scroll;
+  overflow: hidden scroll;
+  margin-top: 80px;
 }
 
 #home-bg-img {
   z-index: -1000;
   height: 100vh;
   width: 100vw;
-  position: absolute;
-  object-fit: cover;
+  position: fixed;
+  object-fit: fill;
 }

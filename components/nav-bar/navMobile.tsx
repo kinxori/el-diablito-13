@@ -12,7 +12,7 @@ export default function NavMobile() {
         <img className="nav-mobile-main-logo" src={logoNav} alt="el-diablito-13"></img>
       </Link>
       <span
-        className={isClicked ? "nav-mobile-slide-icon-open" : "nav-mobile-slide-icon-close"}
+        className={isClicked ? "nav-mobile-icon-open" : "nav-mobile-icon-close"}
         onClick={() => setClicked(!isClicked)}
       >
         {isClicked ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars"></i>}
