@@ -12,12 +12,12 @@
   background-color: var(--invert-color);
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
 }
 
 .nav-mobile-main-logo {
-  height: 100%;
-  width: min-content;
+  width: 100px;
   object-fit: cover;
 }
 
