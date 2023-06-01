@@ -1,7 +1,7 @@
 :root {
   font-family: Helvetica, Arial, sans-serif;
   --main-color: white;
-  --sec-color: red;
+  --sec-color: hsla(3deg, 58%, 55%, 1);
   --ter-color: orange;
   --invert-color: black;
 
