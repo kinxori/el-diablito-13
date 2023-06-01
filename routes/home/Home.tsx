@@ -8,10 +8,10 @@ export default function () {
   const location = useLocation();
 
   return (
-    <section id="home-root">
+    <article id="home-root">
       <img src={backgroundImg} id="home-bg-img"></img>
       <NavBar />
       {location.pathname !== "/" ? <Outlet /> : <LandingPage />}
-    </section>
+    </article>
   );
 }

@@ -1,5 +1,19 @@
 .landing-page-root {
   width: 100%;
-  height: 100%;
   color: var(--main-color);
+  position: relative;
+}
+
+.landing-page-content {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.landing-page-content img {
+  height: 400px;
+  object-fit: cover;
 }
