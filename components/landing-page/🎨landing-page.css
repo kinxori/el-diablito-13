@@ -1,19 +1,32 @@
 .landing-page-root {
-  width: 100%;
+  width: 80%;
+  height: 100%;
   color: var(--main-color);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
 }
 
 .landing-page-content {
   width: 100%;
+  height: 100%;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
 }
 
 .landing-page-content img {
   height: 400px;
   object-fit: cover;
+}
+
+.landing-page-content h2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-right: auto;
+  font-size: 10px;
 }

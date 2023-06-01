@@ -10,46 +10,6 @@ export default function LandingPage() {
           <h2>Que tranza loco</h2>
         </div>
       </div>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ratione molestias earum
-        dolorum. Iusto minus quo porro eum voluptatem architecto distinctio dolores quisquam
-        maiores, cum corporis id ratione, culpa voluptatum.
-      </h1>
     </section>
   );
 }
