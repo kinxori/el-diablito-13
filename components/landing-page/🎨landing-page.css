@@ -35,3 +35,13 @@
   display: flex;
   margin-right: auto;
 }
+
+.landing-page-CTA {
+  width: 100%;
+  height: min-content;
+  margin-top: 10%;
+  gap: 10px;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
