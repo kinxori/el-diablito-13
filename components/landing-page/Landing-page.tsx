@@ -11,6 +11,9 @@ export default function LandingPage() {
           <h2>Que tranza loco</h2>
           <div className="landing-page-CTA">
             <CompButton>Hola</CompButton>
+            <CompButton variant="secButton">soy</CompButton>
+            <CompButton variant="ghostButton">homelo</CompButton>
+            <CompButton variant="linkButton">chino</CompButton>
           </div>
         </div>
       </div>
