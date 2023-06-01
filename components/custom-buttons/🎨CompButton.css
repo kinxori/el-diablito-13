@@ -7,6 +7,11 @@
   font-size: 16px;
 }
 
+.mainButton:hover {
+  opacity: 0.9;
+  scale: 0.95;
+}
+
 .secButton {
   color: var(--sec-color);
   border: 1px solid var(--sec-color);
@@ -14,6 +19,11 @@
   padding: 12px 20px;
   border-radius: 2px;
   font-size: 16px;
+}
+
+.secButton:hover {
+  opacity: 0.9;
+  scale: 0.95;
 }
 
 .ghostButton {
@@ -24,6 +34,11 @@
   font-size: 16px;
 }
 
+.ghostButton:hover {
+  opacity: 0.9;
+  scale: 0.95;
+}
+
 .linkButton {
   color: var(--sec-color);
   border: 1px solid transparent;
@@ -32,4 +47,9 @@
   font-size: 16px;
   font-style: italic;
   text-decoration-line: underline;
+}
+
+.linkButton:hover {
+  opacity: 0.9;
+  scale: 0.95;
 }
