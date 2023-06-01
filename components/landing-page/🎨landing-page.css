@@ -1,6 +1,6 @@
 .landing-page-root {
   width: 80%;
-  height: 100%;
+  height: min-content;
   color: var(--main-color);
   position: relative;
   display: flex;
@@ -15,7 +15,6 @@
   margin-top: 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .landing-page-content img {
@@ -23,10 +22,16 @@
   object-fit: cover;
 }
 
-.landing-page-content h2 {
+.landing-page-copy {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-page-copy h2 {
+  font-size: 34px;
+  display: flex;
   margin-right: auto;
-  font-size: 10px;
 }

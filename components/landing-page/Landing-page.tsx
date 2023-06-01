@@ -9,6 +9,9 @@ export default function LandingPage() {
         <div className="landing-page-copy">
           <h2>Que tranza loco</h2>
         </div>
+        <div className="landing-page-CTA">
+          <button>cta</button>
+        </div>
       </div>
     </section>
   );
