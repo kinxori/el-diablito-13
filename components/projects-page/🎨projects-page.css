@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0%;
+  margin-bottom: 25%;
   gap: 15px;
 }
 
@@ -39,12 +39,14 @@
   margin-right: auto;
 }
 
+.card-display-img-content {
+  width: 100%;
+  object-fit: contain;
+  margin: 20% 0;
+}
+
 .projects-page-CTA {
   width: 100%;
-  height: min-content;
-  margin-top: 10%;
-  gap: 10px;
-  align-items: flex-end;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }

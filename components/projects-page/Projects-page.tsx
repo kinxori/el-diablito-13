@@ -10,12 +10,17 @@ export default function ProjectsPage() {
         <div className="projects-page-copy">
           <h2>Proyectos de Ilustración 👺</h2>
           <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
-          <CardDisplay header="Dibujo 1">
-            <div className="projects-page-CTA">
-              <CompButton>Sigueme en tuich</CompButton>
-            </div>
-          </CardDisplay>
         </div>
+        <CardDisplay header="Dibujo 1">
+          <img
+            src={projectsMainImg}
+            alt="dibujo 1 - tal"
+            className="card-display-img-content"
+          ></img>
+          <div className="projects-page-CTA">
+            <CompButton>Visitar</CompButton>
+          </div>
+        </CardDisplay>
       </div>
     </section>
   );
