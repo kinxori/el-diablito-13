@@ -1,4 +1,4 @@
-.projects-page-root {
+.projects-draws-root {
   width: 80%;
   height: min-content;
   color: var(--main-color);
@@ -10,14 +10,14 @@
   margin-top: 25%;
 }
 
-.projects-page-content {
+.projects-draws-content {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.projects-page-copy {
+.projects-draws-copy {
   width: 100%;
   height: 100%;
   display: flex;
@@ -27,13 +27,13 @@
   gap: 15px;
 }
 
-.projects-page-copy h2 {
+.projects-draws-copy h2 {
   font-size: 34px;
   display: flex;
   margin-right: auto;
 }
 
-.projects-page-copy p {
+.projects-draws-copy p {
   font-size: 16px;
   display: flex;
   margin-right: auto;
@@ -45,7 +45,7 @@
   margin: 20% 0;
 }
 
-.projects-page-CTA {
+.projects-draws-CTA {
   width: 100%;
   display: flex;
   justify-content: center;

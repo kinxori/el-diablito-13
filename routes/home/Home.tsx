@@ -4,7 +4,8 @@ import backgroundImg from "./../../src/assets/BK.png";
 import NavBar from "./../../components/nav-bar/NavBar";
 import LandingPage from "./../../components/landing-page/Landing-page";
 import AboutPage from "./../../components/about-page/About-page";
-import ProjectsDrawsPage from "../../components/projects-draws-page/Projects-draws-page";
+import ProjectsDrawsPage from "./../../components/projects-draws-page/Projects-draws-page";
+import ProjectsVidsPage from "./../../components/projects-vids-page/Projects-vids-page";
 
 export default function () {
   const location = useLocation();
@@ -20,6 +21,7 @@ export default function () {
           <LandingPage />
           <AboutPage />
           <ProjectsDrawsPage />
+          <ProjectsVidsPage />
         </>
       )}
     </article>
