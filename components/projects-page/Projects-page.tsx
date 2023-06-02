@@ -10,9 +10,11 @@ export default function ProjectsPage() {
         <div className="projects-page-copy">
           <h2>Proyectos de Ilustración 👺</h2>
           <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
-          <div className="projects-page-CTA">
-            <CompButton>Sigueme en tuich</CompButton>
-          </div>
+          <CardDisplay header="Dibujo 1">
+            <div className="projects-page-CTA">
+              <CompButton>Sigueme en tuich</CompButton>
+            </div>
+          </CardDisplay>
         </div>
       </div>
     </section>
