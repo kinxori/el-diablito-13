@@ -1,0 +1,52 @@
+.projects-vids-root {
+  width: 80%;
+  height: min-content;
+  color: var(--main-color);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+  margin-top: 25%;
+}
+
+.projects-vids-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-vids-copy {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20%;
+  gap: 15px;
+}
+
+.projects-vids-copy h2 {
+  font-size: 34px;
+  display: flex;
+  margin-right: auto;
+}
+
+.projects-vids-copy p {
+  font-size: 16px;
+  display: flex;
+  margin-right: auto;
+}
+
+.card-display-vid-content {
+  width: 100%;
+  object-fit: contain;
+  margin: 20% 0;
+}
+
+.projects-vids-CTA {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
