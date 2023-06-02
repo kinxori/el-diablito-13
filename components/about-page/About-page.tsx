@@ -2,7 +2,7 @@ import CompButton from "../custom-buttons/CompButton";
 import aboutMainImg from "./../../src/assets/Recurso 2@3x.png";
 import "./🎨about-page.css";
 
-export default function aboutPage() {
+export default function AboutPage() {
   return (
     <section id="about-page-id" className="about-page-root">
       <div className="about-page-content">
@@ -19,7 +19,6 @@ export default function aboutPage() {
           </p>
           <div className="about-page-CTA">
             <CompButton>Sigueme en tuich</CompButton>
-            <CompButton variant="secButton">Sigueme en instagram</CompButton>
           </div>
         </div>
       </div>
