@@ -40,9 +40,10 @@
 }
 
 .card-display-vid-content {
-  width: 100%;
+  height: 50%;
   object-fit: contain;
-  margin: 20% 0;
+  display: flex;
+  justify-content: center;
 }
 
 .projects-vids-CTA {
