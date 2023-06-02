@@ -4,7 +4,7 @@ import CompButton from "../custom-buttons/CompButton";
 
 export default function LandingPage() {
   return (
-    <section className="landing-page-root">
+    <section id="landing-page-id" className="landing-page-root">
       <div className="landing-page-content">
         <img src={landingPageImg} alt="landing page el diablito trece"></img>
         <div className="landing-page-copy">
