@@ -21,6 +21,16 @@ export default function ProjectsPage() {
             <CompButton>Visitar</CompButton>
           </div>
         </CardDisplay>
+        <CardDisplay header="Dibujo 1">
+          <img
+            src={projectsMainImg}
+            alt="dibujo 1 - tal"
+            className="card-display-img-content"
+          ></img>
+          <div className="projects-page-CTA">
+            <CompButton>Visitar</CompButton>
+          </div>
+        </CardDisplay>
       </div>
     </section>
   );
