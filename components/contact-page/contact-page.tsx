@@ -6,10 +6,18 @@ export default function ContactPage() {
     <section id="contact-page-id" className="contact-page-root">
       <div className="contact-page-content">
         <div className="contact-page-copy">
-          <h2>Que tranza loc@, bienvenid@ al infierno 🔥 </h2>
           <div className="contact-page-CTA">
-            <CompButton>Galería de ilustración</CompButton>
-            <CompButton variant="secButton">Galería de animación</CompButton>
+            <h2>Sigueme en Instagram 🔥</h2>
+            <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
+            <CompButton className="contact-page-CTA-button"> Ir a Instagram</CompButton>
+          </div>
+          <div className="contact-page-CTA">
+            <h2>Sigueme en Twitch.tv 🔥</h2>
+            <p>
+              Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
+              clavado a mis livestreams
+            </p>
+            <CompButton className="contact-page-CTA-button"> Ir a Twitch</CompButton>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 0 auto;
+  margin-bottom: 25%;
 }
 
 .landing-page-content {
@@ -39,8 +40,8 @@
 .landing-page-CTA {
   width: 100%;
   height: min-content;
-  margin-top: 10%;
   gap: 10px;
+  margin-top: 10%;
   align-items: flex-end;
   display: flex;
   flex-direction: column;
