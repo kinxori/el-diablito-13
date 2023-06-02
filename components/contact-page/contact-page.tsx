@@ -7,12 +7,17 @@ export default function ContactPage() {
       <div className="contact-page-content">
         <div className="contact-page-copy">
           <div className="contact-page-CTA">
-            <h2>Sigueme en Instagram 🔥</h2>
+            <h2>
+              Sigueme en Instagram <i className="fa-brands fa-instagram"></i>
+            </h2>
             <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
             <CompButton className="contact-page-CTA-button"> Ir a Instagram</CompButton>
           </div>
           <div className="contact-page-CTA">
-            <h2>Sigueme en Twitch.tv 🔥</h2>
+            <h2>
+              Sigueme en Twitch.tv <i className="fa-brands fa-twitch"></i>
+            </h2>
+
             <p>
               Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
               clavado a mis livestreams
@@ -20,6 +25,7 @@ export default function ContactPage() {
             <CompButton className="contact-page-CTA-button"> Ir a Twitch</CompButton>
           </div>
         </div>
+        <h1>here goes mail component</h1>
       </div>
     </section>
   );

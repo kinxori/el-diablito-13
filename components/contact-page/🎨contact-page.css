@@ -35,16 +35,15 @@
   width: 100%;
   height: min-content;
   gap: 15px;
-
-  align-items: flex-end;
   display: flex;
   flex-direction: column;
 }
 
-.contact-page-CTA h2 {
+.contact-page-CTA h2,
+i {
   font-size: 34px;
-  display: flex;
-  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
 }
 
 .contact-page-CTA p {
@@ -55,4 +54,6 @@
 
 .contact-page-CTA-button {
   margin: 10% 0;
+  display: flex;
+  margin-left: auto;
 }
