@@ -6,6 +6,7 @@ import LandingPage from "./../../components/landing-page/Landing-page";
 import AboutPage from "./../../components/about-page/About-page";
 import ProjectsDrawsPage from "./../../components/projects-draws-page/Projects-draws-page";
 import ProjectsVidsPage from "./../../components/projects-vids-page/Projects-vids-page";
+import ContactPage from "./../../components/contact-page/contact-page";
 
 export default function () {
   const location = useLocation();
@@ -22,6 +23,7 @@ export default function () {
           <AboutPage />
           <ProjectsDrawsPage />
           <ProjectsVidsPage />
+          <ContactPage />
         </>
       )}
     </article>
