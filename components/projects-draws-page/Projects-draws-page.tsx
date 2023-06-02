@@ -1,5 +1,5 @@
 import CompButton from "../custom-buttons/CompButton";
-import projectsMainImg from "./../../src/assets/Recurso 2@3x.png";
+import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
 
