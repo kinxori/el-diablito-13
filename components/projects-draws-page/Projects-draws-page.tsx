@@ -1,9 +1,9 @@
 import CompButton from "../custom-buttons/CompButton";
 import projectsMainImg from "./../../src/assets/Recurso 2@3x.png";
-import CardDisplay from "./../card-display/card-display";
-import "./🎨projects-page.css";
+import CardDisplay from "../card-display/card-display";
+import "./🎨projects-draws-page.css";
 
-export default function ProjectsPage() {
+export default function ProjectsDrawsPage() {
   return (
     <section id="projects-page-id" className="projects-page-root">
       <div className="projects-page-content">
@@ -21,7 +21,27 @@ export default function ProjectsPage() {
             <CompButton>Visitar</CompButton>
           </div>
         </CardDisplay>
-        <CardDisplay header="Dibujo 1">
+        <CardDisplay header="Dibujo 2">
+          <img
+            src={projectsMainImg}
+            alt="dibujo 1 - tal"
+            className="card-display-img-content"
+          ></img>
+          <div className="projects-page-CTA">
+            <CompButton>Visitar</CompButton>
+          </div>
+        </CardDisplay>
+        <CardDisplay header="Dibujo 3">
+          <img
+            src={projectsMainImg}
+            alt="dibujo 1 - tal"
+            className="card-display-img-content"
+          ></img>
+          <div className="projects-page-CTA">
+            <CompButton>Visitar</CompButton>
+          </div>
+        </CardDisplay>
+        <CardDisplay header="Dibujo 4">
           <img
             src={projectsMainImg}
             alt="dibujo 1 - tal"
