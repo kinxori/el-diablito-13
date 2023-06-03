@@ -1,4 +1,4 @@
-import CompButton from "../custom-buttons/CompButton";
+import CompButton from "../custom-buttons/LinkButton";
 import aboutMainImg from "./../../src/assets/Recurso 2@3x.png";
 import "./🎨about-page.css";
 

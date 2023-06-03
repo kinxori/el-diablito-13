@@ -1,6 +1,6 @@
 import "./🎨landing-page.css";
 import landingPageImg from "./../../src/assets/06_resized.png";
-import CompButton from "../custom-buttons/CompButton";
+import LinkButton from "../custom-buttons/LinkButton";
 
 export default function LandingPage() {
   return (
@@ -10,8 +10,8 @@ export default function LandingPage() {
         <div className="landing-page-copy">
           <h2>Que tranza loc@, bienvenid@ al infierno 🔥 </h2>
           <div className="landing-page-CTA">
-            <CompButton>Galería de ilustración</CompButton>
-            <CompButton variant="secButton">Galería de animación</CompButton>
+            <LinkButton>Galería de ilustración</LinkButton>
+            <LinkButton variant="secButton">Galería de animación</LinkButton>
           </div>
         </div>
       </div>

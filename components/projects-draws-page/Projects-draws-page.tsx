@@ -1,4 +1,4 @@
-import CompButton from "../custom-buttons/CompButton";
+import CompButton from "../custom-buttons/LinkButton";
 import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";

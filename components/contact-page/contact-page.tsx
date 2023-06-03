@@ -1,5 +1,5 @@
 import "./🎨contact-page.css";
-import CompButton from "../custom-buttons/CompButton";
+import CompButton from "../custom-buttons/LinkButton";
 import EmailForm from "../email-form/email-form";
 import { useRef, useState } from "react";
 
