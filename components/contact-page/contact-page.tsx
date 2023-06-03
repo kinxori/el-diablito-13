@@ -42,8 +42,12 @@ export default function ContactPage() {
             <h2>
               Mándame un correo <i className="fa-regular fa-envelope"></i>
             </h2>
-            <p>Si quieres algun tipo de comision o te interesa colaborar, mandamé un correo!</p>
-            <h3 ref={textToClipBoard}> eldiablito13@gmail.com </h3>
+            <p>
+              Mi correo es: &nbsp;
+              <span ref={textToClipBoard} className="contact-page-email-text">
+                eldiablito13@gmail.com
+              </span>
+            </p>
             <CompButton className="contact-page-CTA-button" onClick={handleClipboardState}>
               {clipboardIsCopy ? (
                 <span className="contact-page-copy-email-button">
