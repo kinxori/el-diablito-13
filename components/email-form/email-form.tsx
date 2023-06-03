@@ -6,7 +6,7 @@ export default function EmailForm() {
   const [emailInput, setEmailInput] = useState("");
   const [subjectInput, setSubjectInput] = useState("");
   const [messageInput, setMessageInput] = useState("");
-  const [popUp, setPopUp] = useState("");
+  const [isPopUp, setIsPopUp] = useState(true);
 
   const handleSubmit = async (event: any) => {
     // firebase function
@@ -29,14 +29,13 @@ export default function EmailForm() {
       }
     );
 
-    setPopUp("isShown");
+    setIsPopUp(true);
     setTimeout(() => {
-      setPopUp("");
+      setIsPopUp(false);
     }, 50000);
     setEmailInput("");
     setSubjectInput("");
     setMessageInput("");
-    setPopUp("");
   };
 
   return (
@@ -79,21 +78,30 @@ export default function EmailForm() {
         <button type="submit" className="mainButton email-form-submit-button">
           Submit
         </button>
-        {popUp === "isShown" && (
-          <div className="email-form-pop-up">
-            <div className="email-form-pop-up-body">
-              <h2>Email sent! 👺</h2>
-              <CompButton
-                variant="mainButton"
-                onClick={() => {
-                  setPopUp("");
-                }}
-              >
-                Ok
-              </CompButton>
+        {isPopUp && (
+          <>
+            <div className="a">
+              <div className="email-form-pop-up-body">
+                <h2>Correo enviado! 👺</h2>
+                <CompButton
+                  variant="mainButton"
+                  className="email-form-pop-up-button"
+                  onClick={() => {
+                    setIsPopUp(false);
+                  }}
+                >
+                  Ok
+                </CompButton>
+              </div>
             </div>
-            <div className="email-form-pop-up-background"></div>
-          </div>
+
+            <div
+              className="email-form-pop-up-background"
+              onClick={() => {
+                setIsPopUp(false);
+              }}
+            ></div>
+          </>
         )}
       </form>
     </section>
