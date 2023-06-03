@@ -5,9 +5,9 @@ import "./🎨projects-draws-page.css";
 
 export default function ProjectsDrawsPage() {
   return (
-    <section id="projects-draws-id" className="projects-draws-root">
-      <div className="projects-draws-content">
-        <div className="projects-draws-copy">
+    <section id="projects-draws-page-id" className="projects-draws-page-root">
+      <div className="projects-draws-page-content">
+        <div className="projects-draws-page-copy">
           <h2>Proyectos de Ilustración 👺</h2>
           <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
         </div>
@@ -17,7 +17,7 @@ export default function ProjectsDrawsPage() {
             alt="dibujo 1 - tal"
             className="card-display-img-content"
           ></img>
-          <div className="projects-draws-CTA">
+          <div className="projects-draws-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
@@ -27,7 +27,7 @@ export default function ProjectsDrawsPage() {
             alt="dibujo 1 - tal"
             className="card-display-img-content"
           ></img>
-          <div className="projects-draws-CTA">
+          <div className="projects-draws-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
@@ -37,7 +37,7 @@ export default function ProjectsDrawsPage() {
             alt="dibujo 1 - tal"
             className="card-display-img-content"
           ></img>
-          <div className="projects-draws-CTA">
+          <div className="projects-draws-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
@@ -47,7 +47,7 @@ export default function ProjectsDrawsPage() {
             alt="dibujo 1 - tal"
             className="card-display-img-content"
           ></img>
-          <div className="projects-draws-CTA">
+          <div className="projects-draws-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>

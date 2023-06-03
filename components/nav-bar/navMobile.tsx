@@ -25,22 +25,52 @@ export default function NavMobile() {
             <img src={slideMenuPFP} alt="el diablito trece foto de perfil"></img>
           </div>
           <div className="nav-mobile-slide-copy">
-            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+            <AnchorButton
+              href="#landing-page-id"
+              variant="ghostButton"
+              className="nav-mobile-slide-anchor"
+              onClick={() => setClicked(false)}
+            >
               <h3>
                 Inicio <i className="fa-solid fa-house"></i>
               </h3>
             </AnchorButton>
-            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+            <AnchorButton
+              href="#about-page-id"
+              variant="ghostButton"
+              className="nav-mobile-slide-anchor"
+              onClick={() => setClicked(false)}
+            >
               <h3>
                 Acerca <i className="fa-solid fa-user"></i>
               </h3>
             </AnchorButton>
-            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+            <AnchorButton
+              href="#projects-draws-page-id"
+              variant="ghostButton"
+              className="nav-mobile-slide-anchor"
+              onClick={() => setClicked(false)}
+            >
               <h3>
-                Proyectos <i className="fa-solid fa-pencil"></i>
+                Ilustración <i className="fa-solid fa-pencil"></i>
               </h3>
             </AnchorButton>
-            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+            <AnchorButton
+              href="#projects-vids-page-id"
+              variant="ghostButton"
+              className="nav-mobile-slide-anchor"
+              onClick={() => setClicked(false)}
+            >
+              <h3>
+                Animación <i className="fa-solid fa-film"></i>
+              </h3>
+            </AnchorButton>
+            <AnchorButton
+              href="#contact-page-id"
+              variant="ghostButton"
+              className="nav-mobile-slide-anchor"
+              onClick={() => setClicked(false)}
+            >
               <h3>
                 Contacto <i className="fa-solid fa-at"></i>
               </h3>

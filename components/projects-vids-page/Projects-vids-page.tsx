@@ -5,33 +5,33 @@ import "./🎨projects-vids-page.css";
 
 export default function ProjectsVidsPage() {
   return (
-    <section id="projects-vids-id" className="projects-vids-root">
-      <div className="projects-vids-content">
-        <div className="projects-vids-copy">
+    <section id="projects-vids-page-id" className="projects-vids-page-root">
+      <div className="projects-vids-page-content">
+        <div className="projects-vids-page-copy">
           <h2>Proyectos de Animación 👺</h2>
           <p>Tambien soy animador, estos son unos de mis trabajos 👺</p>
         </div>
         <CardDisplay header="video 1">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-CTA">
+          <div className="projects-vids-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="video 2">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-CTA">
+          <div className="projects-vids-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="video 3">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-CTA">
+          <div className="projects-vids-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="video 4">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-CTA">
+          <div className="projects-vids-page-CTA">
             <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>

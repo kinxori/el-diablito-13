@@ -1,4 +1,4 @@
-.projects-draws-root {
+.projects-draws-page-root {
   width: 80%;
   height: min-content;
   color: var(--main-color);
@@ -10,14 +10,14 @@
   margin-bottom: 25%;
 }
 
-.projects-draws-content {
+.projects-draws-page-content {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.projects-draws-copy {
+.projects-draws-page-copy {
   width: 100%;
   height: 100%;
   display: flex;
@@ -27,13 +27,13 @@
   gap: 15px;
 }
 
-.projects-draws-copy h2 {
+.projects-draws-page-copy h2 {
   font-size: 34px;
   display: flex;
   margin-right: auto;
 }
 
-.projects-draws-copy p {
+.projects-draws-page-copy p {
   font-size: 16px;
   display: flex;
   margin-right: auto;
@@ -44,7 +44,7 @@
   object-fit: contain;
 }
 
-.projects-draws-CTA {
+.projects-draws-page-CTA {
   width: 100%;
   display: flex;
   justify-content: center;
