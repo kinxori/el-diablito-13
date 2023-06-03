@@ -36,9 +36,6 @@ export default function EmailForm() {
     setEmailInput("");
     setSubjectInput("");
     setMessageInput("");
-  };
-
-  const handlePopUp = () => {
     setPopUp("");
   };
 
@@ -47,56 +44,55 @@ export default function EmailForm() {
       <form onSubmit={handleSubmit} className="email-form-body">
         <div className="email-form-email-entry">
           <h3>Your email 📫: </h3>
-          <label>
-            <input
-              type="email"
-              value={emailInput}
-              name="email"
-              onChange={(event) => setEmailInput(event.target.value)}
-              className="email-input-box"
-              required
-              placeholder="example@email.com"
-            />
-          </label>
+          <input
+            type="email"
+            value={emailInput}
+            name="email"
+            onChange={(event) => setEmailInput(event.target.value)}
+            className="email-input-box"
+            required
+            placeholder="example@email.com"
+          />
         </div>
         <div className="email-form-subject-entry">
           <h3>Subject 🖍: </h3>
-          <label>
-            <input
-              value={subjectInput}
-              name="subject"
-              onChange={(event) => setSubjectInput(event.target.value)}
-              className="email-input-box"
-              required
-              placeholder="Place your subject here"
-            />
-          </label>
+          <input
+            value={subjectInput}
+            name="subject"
+            onChange={(event) => setSubjectInput(event.target.value)}
+            className="email-input-box"
+            required
+            placeholder="Place your subject here"
+          />
         </div>
         <div className="email-form-text-entry">
           <h3>Your message 💬:</h3>
-          <label>
-            <textarea
-              required
-              value={messageInput}
-              name="message"
-              onChange={(event) => setMessageInput(event.target.value)}
-              className="message-input-box"
-              placeholder="Enter your message here"
-            />
-          </label>
+          <textarea
+            required
+            value={messageInput}
+            name="message"
+            onChange={(event) => setMessageInput(event.target.value)}
+            className="message-input-box"
+            placeholder="Enter your message here"
+          />
         </div>
-        <button type="submit" className="mainButton submit-button-CTA">
+        <button type="submit" className="mainButton email-form-submit-button">
           Submit
         </button>
         {popUp === "isShown" && (
-          <div className="email-email-form-send-pop-up">
-            <div className="email-pop-up-body">
+          <div className="email-form-pop-up">
+            <div className="email-form-pop-up-body">
               <h2>Email sent! 👺</h2>
-              <CompButton variant="mainButton" onClick={handlePopUp}>
+              <CompButton
+                variant="mainButton"
+                onClick={() => {
+                  setPopUp("");
+                }}
+              >
                 Ok
               </CompButton>
             </div>
-            <div className="email-pop-up-background"></div>
+            <div className="email-form-pop-up-background"></div>
           </div>
         )}
       </form>
