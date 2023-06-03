@@ -7,6 +7,7 @@ import AboutPage from "./../../components/about-page/About-page";
 import ProjectsDrawsPage from "./../../components/projects-draws-page/Projects-draws-page";
 import ProjectsVidsPage from "./../../components/projects-vids-page/Projects-vids-page";
 import ContactPage from "./../../components/contact-page/contact-page";
+import DisclaimerComp from "./../../components/disclaimer-component/disclaimer-comp";
 
 export default function () {
   const location = useLocation();
@@ -24,6 +25,7 @@ export default function () {
           <ProjectsDrawsPage />
           <ProjectsVidsPage />
           <ContactPage />
+          <DisclaimerComp />
         </>
       )}
     </article>

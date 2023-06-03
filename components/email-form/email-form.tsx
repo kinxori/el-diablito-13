@@ -9,7 +9,7 @@ export default function EmailForm() {
   const [isPopUp, setIsPopUp] = useState(false);
 
   const handleSubmit = async (event: any) => {
-    // firebase function
+    // firebase function info here
     event.preventDefault();
     const { target } = event;
     const form = {
@@ -19,13 +19,13 @@ export default function EmailForm() {
     };
 
     const result = await fetch(
-      "https://us-central1-myportfolio-70cb1.cloudfunctions.net/email-formFunction",
+      "https://us-central1-myportfolio-70cb1.cloudfunctions.net/email-formFunction", // change this url
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ...form, secret: "homelo" }),
+        body: JSON.stringify({ ...form, secret: "homelo chino" }),
       }
     );
 
