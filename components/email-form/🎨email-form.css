@@ -28,6 +28,7 @@
   border-radius: 2px;
   padding-left: 10px;
   font: var(--main-font);
+  box-sizing: border-box;
 }
 
 .email-form-subject-entry {
@@ -47,6 +48,7 @@
   border: 1px solid var(--sec-color);
   border-radius: 2px;
   padding-left: 10px;
+  box-sizing: border-box;
   font: var(--main-font);
 }
 
@@ -69,6 +71,7 @@
   border-radius: 2px;
   padding-left: 10px;
   padding-top: 10px;
+  box-sizing: border-box;
   font: var(--main-font);
 }
 
