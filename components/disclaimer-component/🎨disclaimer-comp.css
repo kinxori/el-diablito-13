@@ -1,0 +1,27 @@
+.disclaimer-comp-root {
+  width: 100%;
+  height: min-content;
+  position: relative;
+  background-color: var(--invert-color);
+}
+
+.disclaimer-comp-copy {
+  width: 100%;
+  gap: 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0;
+}
+
+.disclaimer-comp-copy h5 {
+  color: var(--main-color);
+  opacity: 0.4;
+}
+
+.disclaimer-comp-copy p {
+  color: var(--main-color);
+  font-size: 8px;
+  opacity: 0.4;
+  padding: 0 20px;
+}
