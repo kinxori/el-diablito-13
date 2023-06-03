@@ -1,4 +1,4 @@
-import CompButton from "../custom-buttons/LinkButton";
+import LinkButton from "../custom-buttons/LinkButton";
 import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
@@ -18,7 +18,7 @@ export default function ProjectsDrawsPage() {
             className="card-display-img-content"
           ></img>
           <div className="projects-draws-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="Dibujo 2">
@@ -28,7 +28,7 @@ export default function ProjectsDrawsPage() {
             className="card-display-img-content"
           ></img>
           <div className="projects-draws-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="Dibujo 3">
@@ -38,7 +38,7 @@ export default function ProjectsDrawsPage() {
             className="card-display-img-content"
           ></img>
           <div className="projects-draws-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="Dibujo 4">
@@ -48,7 +48,7 @@ export default function ProjectsDrawsPage() {
             className="card-display-img-content"
           ></img>
           <div className="projects-draws-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
       </div>

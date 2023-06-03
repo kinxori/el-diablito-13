@@ -1,4 +1,4 @@
-import CompButton from "../custom-buttons/LinkButton";
+import LinkButton from "../custom-buttons/LinkButton";
 import projectsVideo1 from "./../../src/assets/Ilustracion_sin_título.mp4"; //this has to be a video
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-vids-page.css";
@@ -14,25 +14,25 @@ export default function ProjectsVidsPage() {
         <CardDisplay header="video 1">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
           <div className="projects-vids-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="video 2">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
           <div className="projects-vids-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="video 3">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
           <div className="projects-vids-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
         <CardDisplay header="video 4">
           <video controls src={projectsVideo1} className="card-display-vid-content"></video>
           <div className="projects-vids-CTA">
-            <CompButton>Visitar</CompButton>
+            <LinkButton>Visitar</LinkButton>
           </div>
         </CardDisplay>
       </div>

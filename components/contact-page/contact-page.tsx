@@ -1,5 +1,5 @@
 import "./🎨contact-page.css";
-import CompButton from "../custom-buttons/LinkButton";
+import LinkButton from "../custom-buttons/LinkButton";
 import EmailForm from "../email-form/email-form";
 import { useRef, useState } from "react";
 
@@ -25,7 +25,7 @@ export default function ContactPage() {
               Sigueme en Instagram <i className="fa-brands fa-instagram"></i>
             </h2>
             <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
-            <CompButton className="contact-page-CTA-button"> Ir a Instagram</CompButton>
+            <LinkButton className="contact-page-CTA-button"> Ir a Instagram</LinkButton>
           </div>
           <div className="contact-page-CTA">
             <h2>
@@ -36,7 +36,7 @@ export default function ContactPage() {
               Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
               clavado a mis livestreams
             </p>
-            <CompButton className="contact-page-CTA-button"> Ir a Twitch</CompButton>
+            <LinkButton className="contact-page-CTA-button"> Ir a Twitch</LinkButton>
           </div>
           <div className="contact-page-CTA">
             <h2>
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 eldiablito13@gmail.com
               </span>
             </p>
-            <CompButton className="contact-page-CTA-button" onClick={handleClipboardState}>
+            <LinkButton className="contact-page-CTA-button" onClick={handleClipboardState}>
               {clipboardIsCopy ? (
                 <span className="contact-page-copy-email-button">
                   Copied <i className="fa-solid fa-check"></i>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                   Copy <i className="fa-regular fa-clipboard"></i>
                 </span>
               )}
-            </CompButton>
+            </LinkButton>
           </div>
           <div className="contact-page-CTA">
             <h2>

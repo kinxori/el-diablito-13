@@ -1,4 +1,4 @@
-import CompButton from "../custom-buttons/LinkButton";
+import LinkButton from "../custom-buttons/LinkButton";
 import aboutMainImg from "./../../src/assets/Recurso 2@3x.png";
 import "./🎨about-page.css";
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
             veniam obcaecati dolore quasi! 👺
           </p>
           <div className="about-page-CTA">
-            <CompButton>Sigueme en tuich</CompButton>
+            <LinkButton>Sigueme en tuich</LinkButton>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CompButton from "../custom-buttons/LinkButton";
+import LinkButton from "../custom-buttons/LinkButton";
 import "./🎨email-form.css";
 
 export default function EmailForm() {
@@ -83,7 +83,7 @@ export default function EmailForm() {
             <div className="a">
               <div className="email-form-pop-up-body">
                 <h2>Correo enviado! 👺</h2>
-                <CompButton
+                <LinkButton
                   variant="mainButton"
                   className="email-form-pop-up-button"
                   onClick={() => {
@@ -91,7 +91,7 @@ export default function EmailForm() {
                   }}
                 >
                   Ok
-                </CompButton>
+                </LinkButton>
               </div>
             </div>
 
