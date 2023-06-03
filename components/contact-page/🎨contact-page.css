@@ -57,3 +57,10 @@ i {
   display: flex;
   margin-left: auto;
 }
+
+.contact-page-copy-email-button i {
+  width: min-content;
+  height: min-content;
+  font-size: inherit;
+  color: inherit;
+}

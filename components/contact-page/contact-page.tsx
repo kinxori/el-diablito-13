@@ -43,18 +43,26 @@ export default function ContactPage() {
               Mándame un correo <i className="fa-regular fa-envelope"></i>
             </h2>
             <p>Si quieres algun tipo de comision o te interesa colaborar, mandamé un correo!</p>
-            <p ref={textToClipBoard}> gustavoq26@gmail.com </p>
-
+            <h3 ref={textToClipBoard}> eldiablito13@gmail.com </h3>
             <CompButton className="contact-page-CTA-button" onClick={handleClipboardState}>
               {clipboardIsCopy ? (
-                <i className="fa-solid fa-check"></i>
+                <span className="contact-page-copy-email-button">
+                  Copied <i className="fa-solid fa-check"></i>
+                </span>
               ) : (
-                <i className="fa-regular fa-clipboard"></i>
+                <span className="contact-page-copy-email-button">
+                  Copy <i className="fa-regular fa-clipboard"></i>
+                </span>
               )}
             </CompButton>
           </div>
+          <div className="contact-page-CTA">
+            <h2>
+              Llena el siguiente formulario <i className="fa-solid fa-pencil"></i>
+            </h2>
+            <EmailForm />
+          </div>
         </div>
-        <EmailForm />
       </div>
     </section>
   );
