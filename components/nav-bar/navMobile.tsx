@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import logoNav from "./../../src/assets/BK_f_white.png";
 import slideMenuPFP from "./../../src/assets/3333.png";
-import LinkButton from "../custom-buttons/LinkButton";
+import AnchorButton from "../custom-buttons/AnchorButton";
 
 export default function NavMobile() {
   const [isClicked, setClicked] = useState(false);
@@ -25,22 +25,26 @@ export default function NavMobile() {
             <img src={slideMenuPFP} alt="el diablito trece foto de perfil"></img>
           </div>
           <div className="nav-mobile-slide-copy">
-            <a className="nav-mobile-slide-anchor">
-              <h3>Inicio</h3>
-              <i className="fa-solid fa-house"></i>
-            </a>
-            <a className="nav-mobile-slide-anchor">
-              <h3>Acerca</h3>
-              <i className="fa-solid fa-user"></i>
-            </a>
-            <a className="nav-mobile-slide-anchor">
-              <h3>Proyectos</h3>
-              <i className="fa-solid fa-pencil"></i>
-            </a>
-            <a className="nav-mobile-slide-anchor">
-              <h3>Contacto</h3>
-              <i className="fa-solid fa-at"></i>
-            </a>
+            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+              <h3>
+                Inicio <i className="fa-solid fa-house"></i>
+              </h3>
+            </AnchorButton>
+            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+              <h3>
+                Acerca <i className="fa-solid fa-user"></i>
+              </h3>
+            </AnchorButton>
+            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+              <h3>
+                Proyectos <i className="fa-solid fa-pencil"></i>
+              </h3>
+            </AnchorButton>
+            <AnchorButton variant="ghostButton" className="nav-mobile-slide-anchor">
+              <h3>
+                Contacto <i className="fa-solid fa-at"></i>
+              </h3>
+            </AnchorButton>
           </div>
           <hr className="nav-mobile-slide-separator"></hr>
           <div className="nav-mobile-slide-social-media">
