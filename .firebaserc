@@ -1,5 +1,8 @@
 {
   "projects": {
+    "diablito-project": "el-diablito-13-b8034",
     "default": "el-diablito-13-b8034"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
