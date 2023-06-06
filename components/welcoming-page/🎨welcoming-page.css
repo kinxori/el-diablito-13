@@ -22,7 +22,7 @@
   font-size: 40px;
   rotate: -10deg;
   animation: welcomingScaleAnimation 2s ease-in-out infinite,
-    welcomingOpacityAnimation 0.5s ease-in 1s backwards;
+    welcomingOpacityAnimation 0.5s ease-in 0.5 backwards;
 }
 .welcoming-page-bg-img {
   height: 100vh;
