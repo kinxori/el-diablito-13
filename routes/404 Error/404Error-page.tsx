@@ -11,7 +11,9 @@ export default function Error404() {
       <img src={error404pageIMG} alt="error page el diablito 13"></img>
       <h2>Oops! Error 404 👺</h2>
       <i>Status: {error.statusText || error.message}</i>
-      <LinkButton className="error-404-page-CTA">Go Home</LinkButton>
+      <LinkButton to="/" className="error-404-page-CTA">
+        Go Home
+      </LinkButton>
     </section>
   );
 }
