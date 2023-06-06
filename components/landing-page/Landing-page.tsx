@@ -1,6 +1,5 @@
 import "./🎨landing-page.css";
 import landingPageImg from "./../../src/assets/06_resized.png";
-import LinkButton from "../custom-buttons/LinkButton";
 import AnchorButton from "../custom-buttons/AnchorButton";
 
 export default function LandingPage() {
