@@ -25,7 +25,14 @@ export default function ContactPage() {
               Sigueme en Instagram <i className="fa-brands fa-instagram"></i>
             </h2>
             <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
-            <LinkButton className="contact-page-CTA-button"> Ir a Instagram</LinkButton>
+            <LinkButton
+              to="https://www.instagram.com/eldiablitotrece/"
+              target="_blank"
+              className="contact-page-CTA-button"
+            >
+              {" "}
+              Ir a Instagram
+            </LinkButton>
           </div>
           <div className="contact-page-CTA">
             <h2>
@@ -36,7 +43,13 @@ export default function ContactPage() {
               Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
               clavado a mis livestreams
             </p>
-            <LinkButton className="contact-page-CTA-button"> Ir a Twitch</LinkButton>
+            <LinkButton
+              to="https://www.twitch.tv/eldiablitotrece"
+              target="_blank"
+              className="contact-page-CTA-button"
+            >
+              Ir a Twitch
+            </LinkButton>
           </div>
           <div className="contact-page-CTA">
             <h2>
