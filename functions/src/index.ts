@@ -1,13 +1,15 @@
 const functions = require("firebase-functions");
 const nodemailer = require("nodemailer");
 const dotenv = require("dotenv");
-dotenv.config();
+dotenv.config({
+  path: "./../.env",
+});
 
 const transport = nodemailer.createTransport({
   service: "Gmail",
   auth: {
-    user: process.env.VITE_APP_EMAIL,
-    pass: process.env.VITE_APP_PASS,
+    user: process.env.APP_EMAIL,
+    pass: process.env.APP_PASS,
   },
 });
 
