@@ -41,7 +41,7 @@ export default function EmailForm() {
     <section className="email-form-root">
       <form onSubmit={handleSubmit} className="email-form-body">
         <div className="email-form-email-entry">
-          <h3>Your email 📫: </h3>
+          <h3>Tu correo: </h3>
           <input
             type="email"
             value={emailInput}
@@ -49,29 +49,29 @@ export default function EmailForm() {
             onChange={(event) => setEmailInput(event.target.value)}
             className="email-input-box"
             required
-            placeholder="example@email.com"
+            placeholder="ejemplo@email.com"
           />
         </div>
         <div className="email-form-subject-entry">
-          <h3>Subject 🖍: </h3>
+          <h3>Asunto: </h3>
           <input
             value={subjectInput}
             name="subject"
             onChange={(event) => setSubjectInput(event.target.value)}
             className="email-input-box"
             required
-            placeholder="Place your subject here"
+            placeholder="Ingresa el asunto"
           />
         </div>
         <div className="email-form-text-entry">
-          <h3>Your message 💬:</h3>
+          <h3>Tu mensaje:</h3>
           <textarea
             required
             value={messageInput}
             name="message"
             onChange={(event) => setMessageInput(event.target.value)}
             className="message-input-box"
-            placeholder="Enter your message here"
+            placeholder="Ingresa tu mensaje aquí"
           />
         </div>
         <button type="submit" className="mainButton email-form-submit-button">
