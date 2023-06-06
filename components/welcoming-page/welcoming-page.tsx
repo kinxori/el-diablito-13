@@ -11,11 +11,11 @@ export default function WelcomingPage({ onClick }: any) {
       <div className="welcoming-page-copy">
         <h1 onClick={onClick}>🔥 ¡Clickeame! 🔥</h1>
       </div>
-      <img
+      {/* <img
         className="welcoming-page-bg-img"
         src={welcomingPageImgBG}
         alt="welcoming page background el diablito 13"
-      ></img>
+      ></img> */}
     </section>
   );
 }
