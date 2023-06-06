@@ -3,6 +3,7 @@
   height: min-content;
   position: relative;
   background-color: var(--invert-color);
+  margin-top: 25%;
 }
 
 .disclaimer-comp-copy {
