@@ -8,15 +8,17 @@ import ProjectsDrawsPage from "./../../components/projects-draws-page/Projects-d
 import ProjectsVidsPage from "./../../components/projects-vids-page/Projects-vids-page";
 import ContactPage from "./../../components/contact-page/contact-page";
 import DisclaimerComp from "./../../components/disclaimer-component/disclaimer-comp";
+import WelcomingPage from "./../../components/welcoming-page/welcoming-page";
 
 export default function () {
   const location = useLocation();
 
   return (
     <article id="home-root">
-      <img src={backgroundImg} id="home-bg-img"></img>
-      <NavBar />
-      {location.pathname !== "/" ? (
+      {/* <img src={backgroundImg} id="home-bg-img"></img>
+      <NavBar /> */}
+      <WelcomingPage />
+      {/* {location.pathname !== "/" ? (
         <Outlet />
       ) : (
         <>
@@ -27,7 +29,7 @@ export default function () {
           <ContactPage />
           <DisclaimerComp />
         </>
-      )}
+      )} */}
     </article>
   );
 }
