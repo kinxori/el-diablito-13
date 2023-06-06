@@ -1,19 +1,42 @@
-/**
- * Import function triggers from their respective submodules:
- *
- * import {onCall} from "firebase-functions/v2/https";
- * import {onDocumentWritten} from "firebase-functions/v2/firestore";
- *
- * See a full list of supported triggers at https://firebase.google.com/docs/functions
- */
+const functions = require("firebase-functions");
+const nodemailer = require("nodemailer");
+const dotenv = require("dotenv");
+dotenv.config();
 
-import {onRequest} from "firebase-functions/v2/https";
-import * as logger from "firebase-functions/logger";
+const transport = nodemailer.createTransport({
+  service: "Gmail",
+  auth: {
+    user: process.env.REACT_APP_MAIL,
+    pass: process.env.REACT_APP_PASS,
+  },
+});
 
-// Start writing functions
-// https://firebase.google.com/docs/functions/typescript
+const sendContactForm = (form: any) => {
+  return transport
+    .sendMail({
+      subject: `${form.subject}`,
+      bcc: "gustavoq26@gmail.com",
+      html: `<h3>This person has sent you an email, reply ASAP! 😵</h3>
+        <p> From: ${form.email} </p>
+        <p> Message: ${form.message} </p>
+        `,
+    })
+    .then((r: any) => {
+      console.log("Sender Function Working 🤝", r.accepted);
+      console.log("Sender Function Rejected👺", r.rejected);
+    })
+    .catch((e: any) => console.log("If you see this, sender function is not working 🥲", e));
+};
 
-// export const helloWorld = onRequest((request, response) => {
-//   logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+exports.emailSenderFunction = functions.https.onRequest((request: any, response: any) => {
+  response.set("Access-Control-Allow-Origin", "*");
+  response.set("Access-Control-Allow-Methods", "POST");
+  response.set("Access-Control-Allow-Headers", "Content-Type");
+
+  if (request.method === "OPTIONS") {
+    response.status(204).send("");
+  } else {
+    sendContactForm(request.body);
+    return response.json({ message: "Email sent! 🛐" });
+  }
+});
