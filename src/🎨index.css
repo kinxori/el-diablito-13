@@ -1,5 +1,6 @@
 :root {
-  --main-font: Helvetica, Arial, sans-serif;
+  --main-font: "Roboto Condensed", Arial, sans-serif;
+  --sec-font: "mukta", Arial, sans-serif;
   --main-color: white;
   --sec-color: hsla(3deg, 58%, 55%, 1);
   --ter-color: orange;
@@ -14,6 +15,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 40px;
+}
+
+p {
+  line-height: 20px;
+  text-align: justify;
 }
 
 a {
