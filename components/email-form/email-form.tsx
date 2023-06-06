@@ -24,7 +24,7 @@ export default function EmailForm() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ ...form, secret: "homelo chino" }),
+        body: JSON.stringify({ ...form }),
       }
     );
 

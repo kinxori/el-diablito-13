@@ -6,10 +6,19 @@ dotenv.config();
 const transport = nodemailer.createTransport({
   service: "Gmail",
   auth: {
-    user: process.env.REACT_APP_MAIL,
-    pass: process.env.REACT_APP_PASS,
+    user: process.env.VITE_APP_EMAIL,
+    pass: process.env.VITE_APP_PASS,
   },
 });
+
+transport
+  .verify()
+  .then(() => {
+    console.log("SMTP server connection successful 🚀");
+  })
+  .catch((error: any) => {
+    console.error("SMTP server connection error 🥺:", error);
+  });
 
 const sendContactForm = (form: any) => {
   return transport
