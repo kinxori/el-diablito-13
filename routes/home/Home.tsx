@@ -10,6 +10,33 @@ import ContactPage from "./../../components/contact-page/contact-page";
 import DisclaimerComp from "./../../components/disclaimer-component/disclaimer-comp";
 import WelcomingPage from "./../../components/welcoming-page/welcoming-page";
 
+import React, { useState, useEffect } from "react";
+
+const Loader = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2 seconds
+  }, []);
+
+  return (
+    <div className="loader">
+      <div className="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  );
+};
+
 export default function () {
   const location = useLocation();
 
