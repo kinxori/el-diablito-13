@@ -5,7 +5,7 @@
   z-index: 2100;
   top: 0;
   left: 0;
-  background-color: var(--invert-color);
+  /* background-color: var(--invert-color); */
 }
 
 .welcoming-page-copy {

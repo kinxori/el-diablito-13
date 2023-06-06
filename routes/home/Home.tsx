@@ -1,7 +1,6 @@
 import { useState, useEffect, lazy, Suspense } from "react";
 import "./🎨home.css";
 import backgroundImg from "./../../src/assets/BK.png";
-import WelcomingPage from "./../../components/welcoming-page/welcoming-page";
 
 const NavBar = lazy(() => import("./../../components/nav-bar/NavBar"));
 const LandingPage = lazy(() => import("./../../components/landing-page/Landing-page"));
@@ -16,6 +15,7 @@ const ContactPage = lazy(() => import("./../../components/contact-page/contact-p
 const DisclaimerComp = lazy(
   () => import("./../../components/disclaimer-component/disclaimer-comp")
 );
+const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welcoming-page"));
 
 export default function () {
   const [isLoading, setIsLoading] = useState(false);
@@ -24,14 +24,30 @@ export default function () {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(true);
-    }, 2000);
+    }, 100000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <article id="home-root">
-      {isClicked && <WelcomingPage onClick={() => setIsClicked(false)} />}
+      <Suspense
+        fallback={
+          <div
+            style={{
+              width: "100vw",
+              height: "100vw",
+              background: "black",
+              position: "fixed",
+              zIndex: "5000",
+              top: "0",
+              left: "0",
+            }}
+          ></div>
+        }
+      >
+        {isClicked && <WelcomingPage onClick={() => setIsClicked(false)} />}
+      </Suspense>
       <Suspense>
         {isLoading && (
           <>
