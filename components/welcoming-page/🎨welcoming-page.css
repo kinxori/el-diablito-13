@@ -1,0 +1,36 @@
+.welcoming-page-root {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.welcoming-page-copy {
+  width: 100%;
+  height: 100%;
+  z-index: 1100;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcoming-page-copy h1 {
+  color: var(--main-color);
+  font-size: 40px;
+  rotate: -10deg;
+  animation: welcomingTitleAnimation;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+.welcoming-page-bg-img {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
