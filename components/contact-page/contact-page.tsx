@@ -51,11 +51,11 @@ export default function ContactPage() {
             <LinkButton className="contact-page-CTA-button" onClick={handleClipboardState}>
               {clipboardIsCopy ? (
                 <span className="contact-page-copy-email-button">
-                  Copied <i className="fa-solid fa-check"></i>
+                  Copiado &nbsp; <i className="fa-solid fa-check"></i>
                 </span>
               ) : (
                 <span className="contact-page-copy-email-button">
-                  Copy <i className="fa-regular fa-clipboard"></i>
+                  Copiar &nbsp; <i className="fa-regular fa-clipboard"></i>
                 </span>
               )}
             </LinkButton>
