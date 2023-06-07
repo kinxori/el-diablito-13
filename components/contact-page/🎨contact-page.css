@@ -24,7 +24,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
 }
 
 .contact-page-copy h2 {
@@ -41,6 +40,7 @@
 
 .contact-page-copy p {
   font-size: 16px;
+  padding-top: 15px;
   display: flex;
   margin-right: auto;
   line-height: 20px;
@@ -65,4 +65,30 @@
   height: min-content;
   font-size: inherit;
   color: inherit;
+}
+
+/* ------------------------------------------------------------ TABLET QUERY --------------*/
+
+@media (min-width: 601px) {
+  .contact-page-content {
+    gap: 45px;
+  }
+
+  .contact-page-copy h2 {
+    font-size: 60px;
+  }
+
+  .contact-page-copy i {
+    font-size: 40px;
+  }
+
+  .contact-page-copy p {
+    font-size: 26px;
+    padding-top: 30px;
+    line-height: 30px;
+  }
+
+  .contact-page-copy-email-button i {
+    font-size: inherit;
+  }
 }
