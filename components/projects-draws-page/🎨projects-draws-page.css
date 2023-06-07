@@ -1,7 +1,6 @@
 .projects-draws-page-root {
   width: 80%;
   height: min-content;
-  color: var(--main-color);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -24,7 +23,6 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 20%;
-  gap: 15px;
 }
 
 .projects-draws-page-copy h2 {
@@ -36,12 +34,13 @@
 }
 
 .projects-draws-page-copy p {
-  font-size: 16px;
-  display: flex;
   margin-right: auto;
-  line-height: 20px;
+  display: flex;
   font-family: var(--sec-font);
   color: var(--main-color);
+  font-size: 16px;
+  padding-top: 15px;
+  line-height: 20px;
 }
 
 .card-display-img-content {
@@ -53,4 +52,26 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+/* ------------------------------------------------------------ TABLET QUERY --------------*/
+
+@media (min-width: 601px) {
+  .projects-draws-page-copy {
+    margin-bottom: 10%;
+  }
+
+  .projects-draws-page-copy h2 {
+    font-size: 60px;
+  }
+
+  .projects-draws-page-copy p {
+    font-size: 26px;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+
+  .card-display-img-content {
+    height: 50%;
+  }
 }

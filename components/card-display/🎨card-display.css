@@ -35,3 +35,27 @@
   flex-direction: column;
   justify-content: center;
 }
+
+/* ------------------------------------------------------------ TABLET QUERY --------------*/
+
+@media (min-width: 601px) {
+  .card-root {
+    height: 500px;
+    border: 2px solid var(--sec-color);
+    margin: 5% 0;
+  }
+
+  .card-title {
+    height: 80px;
+  }
+
+  .card-title h3 {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+
+  .card-body {
+    height: 420px;
+    gap: 35px;
+  }
+}
