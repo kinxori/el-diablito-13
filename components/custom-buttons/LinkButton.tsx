@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./🎨LinkButton.css";
+import "./🎨customButton.css";
 
 export default function LinkButton({
   children,
