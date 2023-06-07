@@ -18,7 +18,7 @@ export default function AboutPage() {
             veniam obcaecati dolore quasi! 👺
           </p>
           <div className="about-page-CTA">
-            <LinkButton>Sigueme en tuich</LinkButton>
+            <LinkButton>Sigueme en Instagram!</LinkButton>
           </div>
         </div>
       </div>

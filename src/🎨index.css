@@ -17,17 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 40px;
-}
-
 p {
-  line-height: 20px;
   text-align: justify;
 }
 

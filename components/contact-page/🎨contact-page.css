@@ -13,40 +13,31 @@
 .contact-page-content {
   width: 100%;
   height: 100%;
+  gap: 25px;
   display: flex;
   flex-direction: column;
-}
-
-.contact-page-content img {
-  height: 400px;
-  object-fit: cover;
 }
 
 .contact-page-copy {
   width: 100%;
-  height: 100%;
+  height: min-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
-}
-
-.contact-page-CTA {
-  width: 100%;
-  height: min-content;
   gap: 15px;
-  display: flex;
-  flex-direction: column;
 }
 
-.contact-page-CTA h2,
-i {
-  font-size: 34px;
-  margin-left: auto;
+.contact-page-copy h2 {
+  font-size: 38px;
+  margin-right: auto;
   text-align: left;
 }
 
-.contact-page-CTA p {
+.contact-page-copy i {
+  font-size: 30px;
+}
+
+.contact-page-copy p {
   font-size: 16px;
   display: flex;
   margin-right: auto;

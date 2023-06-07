@@ -20,65 +20,62 @@ export default function ContactPage() {
     <section id="contact-page-id" className="contact-page-root">
       <div className="contact-page-content">
         <div className="contact-page-copy">
-          <div className="contact-page-CTA">
-            <h2>
-              Sigueme en Instagram <i className="fa-brands fa-instagram"></i>
-            </h2>
-            <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
-            <LinkButton
-              to="https://www.instagram.com/eldiablitotrece/"
-              target="_blank"
-              className="contact-page-CTA-button"
-            >
-              {" "}
-              Ir a Instagram
-            </LinkButton>
-          </div>
-          <div className="contact-page-CTA">
-            <h2>
-              Sigueme en Twitch.tv <i className="fa-brands fa-twitch"></i>
-            </h2>
+          <h2>
+            Sígueme en Instagram <i className="fa-brands fa-instagram"></i>
+          </h2>
+          <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
+          <LinkButton
+            to="https://www.instagram.com/eldiablitotrece/"
+            target="_blank"
+            className="contact-page-CTA-button"
+          >
+            Ir a Instagram
+          </LinkButton>
+        </div>
+        <div className="contact-page-copy">
+          <h2>
+            Sígueme en Twitch.tv <i className="fa-brands fa-twitch"></i>
+          </h2>
 
-            <p>
-              Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
-              clavado a mis livestreams
-            </p>
-            <LinkButton
-              to="https://www.twitch.tv/eldiablitotrece"
-              target="_blank"
-              className="contact-page-CTA-button"
-            >
-              Ir a Twitch
-            </LinkButton>
-          </div>
-          <div className="contact-page-CTA">
-            <h2>
-              Mándame un correo <i className="fa-regular fa-envelope"></i>
-            </h2>
-            <p>
-              Mi correo es: &nbsp;
-              <span ref={textToClipBoard} className="contact-page-email-text">
-                eldiablito13@gmail.com
+          <p>
+            Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
+            clavado a mis livestreams
+          </p>
+          <LinkButton
+            to="https://www.twitch.tv/eldiablitotrece"
+            target="_blank"
+            className="contact-page-CTA-button"
+          >
+            Ir a Twitch
+          </LinkButton>
+        </div>
+        <div className="contact-page-copy">
+          <h2>
+            Mánda un correo <i className="fa-regular fa-envelope"></i>
+          </h2>
+          <p>
+            Mi correo es: &nbsp;
+            <span ref={textToClipBoard} className="contact-page-email-text">
+              eldiablito13@gmail.com
+            </span>
+          </p>
+          <LinkButton className="contact-page-CTA-button" onClick={handleClipboardState}>
+            {clipboardIsCopy ? (
+              <span className="contact-page-copy-email-button">
+                Copiado &nbsp; <i className="fa-solid fa-check"></i>
               </span>
-            </p>
-            <LinkButton className="contact-page-CTA-button" onClick={handleClipboardState}>
-              {clipboardIsCopy ? (
-                <span className="contact-page-copy-email-button">
-                  Copiado &nbsp; <i className="fa-solid fa-check"></i>
-                </span>
-              ) : (
-                <span className="contact-page-copy-email-button">
-                  Copiar &nbsp; <i className="fa-regular fa-clipboard"></i>
-                </span>
-              )}
-            </LinkButton>
-          </div>
-          <div className="contact-page-CTA">
-            <h2>
-              Llena el siguiente formulario <i className="fa-solid fa-pencil"></i>
-            </h2>
-            <EmailForm />
-          </div>
+            ) : (
+              <span className="contact-page-copy-email-button">
+                Copiar &nbsp; <i className="fa-regular fa-clipboard"></i>
+              </span>
+            )}
+          </LinkButton>
+        </div>
+        <div className="contact-page-copy">
+          <h2>
+            Llena el siguiente formulario <i className="fa-solid fa-pencil"></i>
+          </h2>
+          <EmailForm />
         </div>
       </div>
     </section>

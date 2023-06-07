@@ -75,7 +75,7 @@ export default function EmailForm() {
           />
         </div>
         <button type="submit" className="mainButton email-form-submit-button">
-          Submit
+          Enviar
         </button>
         {isPopUp && (
           <>
