@@ -40,7 +40,7 @@ export default function EmailForm() {
   return (
     <section className="email-form-root">
       <form onSubmit={handleSubmit} className="email-form-body">
-        <div className="email-form-email-entry">
+        <div className="email-form-entry">
           <h3>Tu correo: </h3>
           <input
             type="email"
@@ -52,7 +52,7 @@ export default function EmailForm() {
             placeholder="ejemplo@email.com"
           />
         </div>
-        <div className="email-form-subject-entry">
+        <div className="email-form-entry">
           <h3>Asunto: </h3>
           <input
             value={subjectInput}
@@ -63,7 +63,7 @@ export default function EmailForm() {
             placeholder="Ingresa el asunto"
           />
         </div>
-        <div className="email-form-text-entry">
+        <div className="email-form-entry">
           <h3>Mensaje:</h3>
           <textarea
             required
@@ -79,7 +79,7 @@ export default function EmailForm() {
         </button>
         {isPopUp && (
           <>
-            <div className="a">
+            <div className="email-form-pop-up-root">
               <div className="email-form-pop-up-body">
                 <h2>Correo enviado! 👺</h2>
                 <LinkButton
