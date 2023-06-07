@@ -13,3 +13,12 @@
   position: fixed;
   object-fit: fill;
 }
+
+/* ------------------------------------------------------------ TABLET QUERY --------------*/
+
+@media (min-width: 601px) {
+  #home-root {
+    height: 100vh;
+    margin-top: 80px;
+  }
+}

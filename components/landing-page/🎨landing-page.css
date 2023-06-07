@@ -1,7 +1,6 @@
 .landing-page-root {
   width: 80%;
   height: min-content;
-  color: var(--main-color);
   position: relative;
   display: flex;
   flex-direction: column;
