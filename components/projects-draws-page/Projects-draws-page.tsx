@@ -11,46 +11,48 @@ export default function ProjectsDrawsPage() {
           <h2>Proyectos de Ilustración 👺</h2>
           <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
         </div>
-        <CardDisplay header="Dibujo 1">
-          <img
-            src={projectsMainImg}
-            alt="dibujo 1 - tal"
-            className="card-display-img-content"
-          ></img>
-          <div className="projects-draws-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
-        <CardDisplay header="Dibujo 2">
-          <img
-            src={projectsMainImg}
-            alt="dibujo 1 - tal"
-            className="card-display-img-content"
-          ></img>
-          <div className="projects-draws-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
-        <CardDisplay header="Dibujo 3">
-          <img
-            src={projectsMainImg}
-            alt="dibujo 1 - tal"
-            className="card-display-img-content"
-          ></img>
-          <div className="projects-draws-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
-        <CardDisplay header="Dibujo 4">
-          <img
-            src={projectsMainImg}
-            alt="dibujo 1 - tal"
-            className="card-display-img-content"
-          ></img>
-          <div className="projects-draws-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
+        <div className="projects-draws-page-cards">
+          <CardDisplay header="Dibujo 1">
+            <img
+              src={projectsMainImg}
+              alt="dibujo 1 - tal"
+              className="card-display-img-content"
+            ></img>
+            <div className="projects-draws-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+          <CardDisplay header="Dibujo 2">
+            <img
+              src={projectsMainImg}
+              alt="dibujo 1 - tal"
+              className="card-display-img-content"
+            ></img>
+            <div className="projects-draws-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+          <CardDisplay header="Dibujo 3">
+            <img
+              src={projectsMainImg}
+              alt="dibujo 1 - tal"
+              className="card-display-img-content"
+            ></img>
+            <div className="projects-draws-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+          <CardDisplay header="Dibujo 4">
+            <img
+              src={projectsMainImg}
+              alt="dibujo 1 - tal"
+              className="card-display-img-content"
+            ></img>
+            <div className="projects-draws-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+        </div>
       </div>
     </section>
   );

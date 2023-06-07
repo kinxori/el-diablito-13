@@ -44,6 +44,14 @@
   color: var(--main-color);
 }
 
+.projects-vids-page-cards {
+  height: min-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .card-display-vid-content {
   height: 50%;
   object-fit: contain;
@@ -61,7 +69,7 @@
 
 @media (min-width: 601px) {
   .projects-vids-page-copy {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
   }
 
   .projects-vids-page-copy h2 {
@@ -73,6 +81,10 @@
 
     line-height: 30px;
     padding-top: 30px;
+  }
+
+  .projects-vids-page-cards {
+    gap: 40px;
   }
 
   .card-display-vid-content {

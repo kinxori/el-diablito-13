@@ -11,30 +11,32 @@ export default function ProjectsVidsPage() {
           <h2>Proyectos de Animación 👺</h2>
           <p>Tambien soy animador, estos son unos de mis trabajos 👺</p>
         </div>
-        <CardDisplay header="video 1">
-          <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
-        <CardDisplay header="video 2">
-          <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
-        <CardDisplay header="video 3">
-          <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
-        <CardDisplay header="video 4">
-          <video controls src={projectsVideo1} className="card-display-vid-content"></video>
-          <div className="projects-vids-page-CTA">
-            <LinkButton>Visitar</LinkButton>
-          </div>
-        </CardDisplay>
+        <div className="projects-vids-page-cards">
+          <CardDisplay header="video 1">
+            <video controls src={projectsVideo1} className="card-display-vid-content"></video>
+            <div className="projects-vids-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+          <CardDisplay header="video 2">
+            <video controls src={projectsVideo1} className="card-display-vid-content"></video>
+            <div className="projects-vids-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+          <CardDisplay header="video 3">
+            <video controls src={projectsVideo1} className="card-display-vid-content"></video>
+            <div className="projects-vids-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+          <CardDisplay header="video 4">
+            <video controls src={projectsVideo1} className="card-display-vid-content"></video>
+            <div className="projects-vids-page-CTA">
+              <LinkButton>Visitar</LinkButton>
+            </div>
+          </CardDisplay>
+        </div>
       </div>
     </section>
   );
