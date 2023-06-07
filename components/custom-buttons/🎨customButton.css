@@ -57,3 +57,33 @@
   opacity: 0.9;
   scale: 0.95;
 }
+
+/* ------------------------------------------------------------ TABLET QUERY --------------*/
+
+@media (min-width: 601px) {
+  .mainButton {
+    border: 2px solid var(--invert-color);
+    padding: 14px 24px;
+    border-radius: 2px;
+    font-size: 26px;
+  }
+
+  .secButton {
+    border: 2px solid var(--sec-color);
+    padding: 14px 24px;
+    border-radius: 2px;
+    font-size: 26px;
+  }
+
+  .ghostButton {
+    border: 2px solid transparent;
+    padding: 14px 24px;
+    font-size: 26px;
+  }
+
+  .linkButton {
+    border: 2px solid transparent;
+    padding: 14px 24px;
+    font-size: 26px;
+  }
+}

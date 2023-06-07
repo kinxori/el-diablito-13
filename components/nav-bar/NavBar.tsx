@@ -6,12 +6,12 @@ export default function NavBar() {
   const [navComponent, setNavComponent] = useState(<NavMobile />);
 
   useEffect(() => {
+    //I am deleting tablet component and use mobile with media queries
     const handleRezise = () => {
       const screenWidth = window.innerWidth;
-      if (screenWidth <= 600) {
+
+      if (screenWidth <= 1180) {
         setNavComponent(<NavMobile />);
-      } else if (screenWidth <= 1180) {
-        setNavComponent(<div>tablet</div>);
       } else {
         setNavComponent(<div>desktop</div>);
       }
