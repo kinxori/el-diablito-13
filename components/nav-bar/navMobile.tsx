@@ -3,6 +3,7 @@ import { useState } from "react";
 import logoNav from "./../../src/assets/BK_f_white.png";
 import slideMenuPFP from "./../../src/assets/3333.png";
 import AnchorButton from "../custom-buttons/AnchorButton";
+import "./🎨navBar.css";
 
 export default function NavMobile() {
   const [isClicked, setClicked] = useState(false);

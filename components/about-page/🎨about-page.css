@@ -36,10 +36,13 @@
   font-size: 38px;
   display: flex;
   margin-right: auto;
+  line-height: 40px;
 }
 
 .about-page-copy p {
   font-size: 16px;
+  line-height: 20px;
+  font-family: var(--sec-font);
   display: flex;
   margin-right: auto;
 }

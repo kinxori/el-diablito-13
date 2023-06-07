@@ -108,21 +108,20 @@
 
 .nav-mobile-slide-anchor {
   width: 100%;
-  height: min-content;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .nav-mobile-slide-anchor h3 {
-  font-size: 20px;
+  font-size: 24px;
+  font-family: var(--main-font);
   color: var(--main-color);
 }
 
 .nav-mobile-slide-anchor i {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--main-color);
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .nav-mobile-slide-separator {
