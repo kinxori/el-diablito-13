@@ -27,8 +27,9 @@
   border: 1px solid var(--sec-color);
   border-radius: 2px;
   padding-left: 10px;
-  font: var(--main-font);
   box-sizing: border-box;
+  font: var(--sec-font);
+  font-family: var(--sec-font);
 }
 
 .email-form-subject-entry {
@@ -49,7 +50,8 @@
   border-radius: 2px;
   padding-left: 10px;
   box-sizing: border-box;
-  font: var(--main-font);
+  font: var(--sec-font);
+  font-family: var(--sec-font);
 }
 
 .email-form-text-entry {
@@ -72,7 +74,8 @@
   padding-left: 10px;
   padding-top: 10px;
   box-sizing: border-box;
-  font: var(--main-font);
+  line-height: 20px;
+  font-family: var(--sec-font);
 }
 
 .email-form-submit-button {

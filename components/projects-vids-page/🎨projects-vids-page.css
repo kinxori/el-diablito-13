@@ -31,12 +31,17 @@
   font-size: 38px;
   display: flex;
   margin-right: auto;
+  line-height: var(--line-heigth);
+  color: var(--main-color);
 }
 
 .projects-vids-page-copy p {
   font-size: 16px;
   display: flex;
   margin-right: auto;
+  line-height: 20px;
+  font-family: var(--sec-font);
+  color: var(--main-color);
 }
 
 .card-display-vid-content {

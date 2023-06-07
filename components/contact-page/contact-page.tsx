@@ -21,7 +21,7 @@ export default function ContactPage() {
       <div className="contact-page-content">
         <div className="contact-page-copy">
           <h2>
-            Sígueme en Instagram <i className="fa-brands fa-instagram"></i>
+            Instagram <i className="fa-brands fa-instagram"></i>
           </h2>
           <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
           <LinkButton
@@ -34,7 +34,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-page-copy">
           <h2>
-            Sígueme en Twitch.tv <i className="fa-brands fa-twitch"></i>
+            Twitch.tv <i className="fa-brands fa-twitch"></i>
           </h2>
 
           <p>
@@ -51,7 +51,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-page-copy">
           <h2>
-            Mánda un correo <i className="fa-regular fa-envelope"></i>
+            Correo <i className="fa-regular fa-envelope"></i>
           </h2>
           <p>
             Mi correo es: &nbsp;
@@ -73,7 +73,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-page-copy">
           <h2>
-            Llena el siguiente formulario <i className="fa-solid fa-pencil"></i>
+            Mánda un correo <i className="fa-solid fa-pencil"></i>
           </h2>
           <EmailForm />
         </div>

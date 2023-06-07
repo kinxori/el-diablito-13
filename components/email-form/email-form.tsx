@@ -64,7 +64,7 @@ export default function EmailForm() {
           />
         </div>
         <div className="email-form-text-entry">
-          <h3>Tu mensaje:</h3>
+          <h3>Mensaje:</h3>
           <textarea
             required
             value={messageInput}

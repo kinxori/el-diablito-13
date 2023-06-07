@@ -16,15 +16,16 @@
 
 .disclaimer-comp-copy h5 {
   color: var(--main-color);
-  opacity: 0.4;
+  opacity: 0.3;
   text-align: center;
 }
 
 .disclaimer-comp-copy p {
   text-align: center;
-  line-height: 10px;
-  color: var(--main-color);
   font-size: 8px;
-  opacity: 0.4;
+  opacity: 0.3;
   padding: 0 20px;
+  color: var(--main-color);
+  line-height: 10px;
+  font-family: var(--sec-font);
 }

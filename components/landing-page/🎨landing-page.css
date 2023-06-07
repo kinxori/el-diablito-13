@@ -32,9 +32,9 @@
 
 .landing-page-copy h2 {
   font-size: 38px;
-
-  display: flex;
-  margin-right: auto;
+  text-align: left;
+  line-height: var(--line-heigth);
+  color: var(--main-color);
 }
 
 .landing-page-CTA {

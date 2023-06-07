@@ -5,6 +5,7 @@
   --sec-color: hsla(3deg, 58%, 55%, 1);
   --ter-color: orange;
   --invert-color: black;
+  --line-heigth: 40px;
 
   overflow: hidden;
   color: var(--main-color-text);
