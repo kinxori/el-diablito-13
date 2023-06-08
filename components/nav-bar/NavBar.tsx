@@ -13,7 +13,7 @@ export default function NavBar() {
       if (screenWidth <= 1180) {
         setNavComponent(<NavMobile />);
       } else {
-        setNavComponent(<div>desktop</div>);
+        setNavComponent(<div style={{ backgroundColor: "red", color: "white" }}>desktop</div>);
       }
     };
     window.addEventListener("resize", handleRezise);

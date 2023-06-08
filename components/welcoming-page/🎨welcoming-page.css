@@ -41,3 +41,12 @@
     rotate: -10deg;
   }
 }
+
+/* ------------------------------------------------------------ DESKTOP QUERY --------------*/
+
+@media (min-width: 1181px) {
+  .welcoming-page-copy h1 {
+    font-size: 100px;
+    rotate: -10deg;
+  }
+}
