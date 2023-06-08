@@ -8,7 +8,7 @@ export default function WelcomingPage({ onClick }: any) {
   return (
     <section className="welcoming-page-root">
       <div className="welcoming-page-copy">
-        <h1 onClick={onClick}>🔥 Clickeame! 🔥</h1>
+        <h1 onClick={onClick}>🔥 Clickeame!🔥</h1>
       </div>
       <img
         className="welcoming-page-bg-img"
