@@ -30,7 +30,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 1 - tal"
                 className={
-                  isFullScreen === "1" ? "card-display-asset-open" : "card-display-asset-close"
+                  isFullScreen === "1" ? "projects-draws-asset-open" : "projects-draws-asset-close"
                 }
               ></img>
               {isFullScreen === "1" && <div className="projects-draws-asset-bg-blank"></div>}
@@ -50,7 +50,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 2 - tal"
                 className={
-                  isFullScreen === "2" ? "card-display-asset-open" : "card-display-asset-close"
+                  isFullScreen === "2" ? "projects-draws-asset-open" : "projects-draws-asset-close"
                 }
               ></img>
               {isFullScreen === "2" && <div className="projects-draws-asset-bg-blank"></div>}
@@ -70,7 +70,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 3 - tal"
                 className={
-                  isFullScreen === "3" ? "card-display-asset-open" : "card-display-asset-close"
+                  isFullScreen === "3" ? "projects-draws-asset-open" : "projects-draws-asset-close"
                 }
               ></img>
               {isFullScreen === "3" && <div className="projects-draws-asset-bg-blank"></div>}
