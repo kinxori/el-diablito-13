@@ -6,7 +6,6 @@ import { useState } from "react";
 
 export default function ProjectsDrawsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
-  const [isLoadingVideo, setIsLoadingVideo] = useState(false);
 
   const handleFullScreen = (id: string) => {
     setIsFullScreen((currenValue) => (currenValue !== id ? id : ""));
@@ -22,9 +21,6 @@ export default function ProjectsDrawsPage() {
         <div className="projects-draws-page-cards">
           <CardDisplay header="Dibujo 1">
             <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("1")}>
-              {isLoadingVideo && (
-                <div className="projects-draws-asset-loader">Loading video...</div>
-              )}
               {isFullScreen === "1" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
@@ -45,9 +41,6 @@ export default function ProjectsDrawsPage() {
           </CardDisplay>
           <CardDisplay header="Dibujo 2">
             <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("2")}>
-              {isLoadingVideo && (
-                <div className="projects-draws-asset-loader">Loading video...</div>
-              )}
               {isFullScreen === "2" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
@@ -68,9 +61,6 @@ export default function ProjectsDrawsPage() {
           </CardDisplay>
           <CardDisplay header="Dibujo 3">
             <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("3")}>
-              {isLoadingVideo && (
-                <div className="projects-draws-asset-loader">Loading video...</div>
-              )}
               {isFullScreen === "3" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
@@ -91,9 +81,6 @@ export default function ProjectsDrawsPage() {
           </CardDisplay>
           <CardDisplay header="Dibujo 4">
             <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("4")}>
-              {isLoadingVideo && (
-                <div className="projects-draws-asset-loader">Loading video...</div>
-              )}
               {isFullScreen === "4" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close

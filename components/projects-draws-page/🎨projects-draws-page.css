@@ -72,14 +72,6 @@
   cursor: pointer;
 }
 
-.projects-draws-asset-loader {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .projects-draws-asset-close {
   width: 100%;
   object-fit: contain;
