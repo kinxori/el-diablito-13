@@ -39,7 +39,6 @@
   .welcoming-page-copy h1 {
     font-size: 50px;
     rotate: -10deg;
-    color: red;
   }
 }
 
@@ -49,7 +48,6 @@
   .welcoming-page-copy h1 {
     font-size: 100px;
     rotate: -10deg;
-    color: blue;
   }
   .welcoming-page-copy h1:hover {
     cursor: pointer;
