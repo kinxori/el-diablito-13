@@ -33,6 +33,11 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
+  .disclaimer-comp-root {
+    margin-top: 30%;
+    bottom: 10%;
+  }
+
   .disclaimer-comp-copy {
     gap: 8px;
     padding: 20px 0;

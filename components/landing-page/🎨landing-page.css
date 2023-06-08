@@ -49,10 +49,6 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
-  .landing-page-root {
-    margin-top: 10%;
-  }
-
   .landing-page-content {
     margin-top: 10%;
   }
