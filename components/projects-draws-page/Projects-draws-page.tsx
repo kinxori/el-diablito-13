@@ -103,9 +103,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 4 - tal"
                 className={
-                  isFullScreen === "4"
-                    ? "projects-draws-asset-asset-open"
-                    : "projects-draws-asset-asset-close"
+                  isFullScreen === "4" ? "projects-draws-asset-open" : "projects-draws-asset-close"
                 }
               ></img>
               {isFullScreen === "4" && <div className="projects-draws-asset-bg-blank"></div>}
