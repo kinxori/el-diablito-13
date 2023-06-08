@@ -107,7 +107,7 @@
 .projects-vids-asset-close-button {
   position: fixed;
   right: 0%;
-  top: 20%;
+  top: 0%;
   z-index: 2100;
 }
 
