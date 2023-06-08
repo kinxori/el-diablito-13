@@ -14,7 +14,7 @@ export default function ProjectsDrawsPage() {
 
   return (
     <section id="projects-draws-page-id" className="projects-draws-page-root">
-      <div className="projects-draws-page-content">
+      <div className="projects-draws-page-asset">
         <div className="projects-draws-page-copy">
           <h2>Proyectos de Ilustración 👺</h2>
           <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
@@ -34,9 +34,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 1 - tal"
                 className={
-                  isFullScreen === "1"
-                    ? "card-display-img-content-open"
-                    : "card-display-img-content-close"
+                  isFullScreen === "1" ? "card-display-asset-open" : "card-display-asset-close"
                 }
               ></img>
               {isFullScreen === "1" && <div className="projects-draws-asset-bg-blank"></div>}
@@ -59,9 +57,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 2 - tal"
                 className={
-                  isFullScreen === "2"
-                    ? "card-display-img-content-open"
-                    : "card-display-img-content-close"
+                  isFullScreen === "2" ? "card-display-asset-open" : "card-display-asset-close"
                 }
               ></img>
               {isFullScreen === "2" && <div className="projects-draws-asset-bg-blank"></div>}
@@ -84,9 +80,7 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 3 - tal"
                 className={
-                  isFullScreen === "3"
-                    ? "card-display-img-content-open"
-                    : "card-display-img-content-close"
+                  isFullScreen === "3" ? "card-display-asset-open" : "card-display-asset-close"
                 }
               ></img>
               {isFullScreen === "3" && <div className="projects-draws-asset-bg-blank"></div>}
@@ -110,8 +104,8 @@ export default function ProjectsDrawsPage() {
                 alt="dibujo 4 - tal"
                 className={
                   isFullScreen === "4"
-                    ? "card-display-img-content-open"
-                    : "card-display-img-content-close"
+                    ? "projects-draws-asset-asset-open"
+                    : "projects-draws-asset-asset-close"
                 }
               ></img>
               {isFullScreen === "4" && <div className="projects-draws-asset-bg-blank"></div>}

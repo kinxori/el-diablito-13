@@ -80,7 +80,7 @@
   align-items: center;
 }
 
-.card-display-img-content-close {
+.projects-draws-asset-asset-close {
   width: 100%;
   object-fit: contain;
   position: relative;
@@ -88,7 +88,7 @@
   transform: translateY(-50%);
 }
 
-.card-display-img-content-open {
+.projects-draws-asset-asset-open {
   width: 100vw;
   object-fit: contain;
   position: fixed;
