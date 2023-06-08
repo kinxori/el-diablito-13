@@ -2,8 +2,16 @@ import LinkButton from "../custom-buttons/LinkButton";
 import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
+import { useState } from "react";
 
 export default function ProjectsDrawsPage() {
+  const [isFullScreen, setIsFullScreen] = useState("");
+  const [isLoadingVideo, setIsLoadingVideo] = useState(false);
+
+  const handleFullScreen = (id: any) => {
+    setIsFullScreen((currenValue) => (currenValue !== id ? id : ""));
+  };
+
   return (
     <section id="projects-draws-page-id" className="projects-draws-page-root">
       <div className="projects-draws-page-content">
@@ -13,11 +21,27 @@ export default function ProjectsDrawsPage() {
         </div>
         <div className="projects-draws-page-cards">
           <CardDisplay header="Dibujo 1">
-            <img
-              src={projectsMainImg}
-              alt="dibujo 1 - tal"
-              className="card-display-img-content"
-            ></img>
+            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("1")}>
+              {isLoadingVideo && (
+                <div className="projects-draws-asset-loader">Loading video...</div>
+              )}
+              {isFullScreen && (
+                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
+                  Close
+                </LinkButton>
+              )}
+              <img
+                src={projectsMainImg}
+                alt="dibujo 1 - tal"
+                className={
+                  isFullScreen === "1"
+                    ? "card-display-img-content-open"
+                    : "card-display-img-content-close"
+                }
+                onLoadedData={() => setIsLoadingVideo(true)}
+              ></img>
+              <div className="draws-asset-bg-blank"></div>
+            </div>
             <div className="projects-draws-page-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>

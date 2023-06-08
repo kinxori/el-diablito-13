@@ -52,7 +52,7 @@
 }
 
 .card-display-img-content {
-  height: 50%;
+  height: 60%;
   object-fit: contain;
 }
 
@@ -60,6 +60,63 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+/* ------------------ FULL SCREEN IMG -------------------- */
+
+.projects-draws-fullscreen-asset {
+  width: 100%;
+  height: 70%;
+  background-color: aqua;
+}
+.projects-draws-fullscreen-asset:hover {
+  cursor: pointer;
+}
+.projects-draws-asset-close-button {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  right: 0;
+  top: -40px;
+  margin-left: auto;
+  position: absolute;
+}
+.projects-full-screen-loader {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-display-img-content-close {
+}
+
+.projects-full-screen-img-open div {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+/* ------- full screen img FullScreen closed  ------ */
+
+.projects-full-screen-img-close {
+  display: default;
+}
+.projects-full-screen-img-close:hover {
+  cursor: pointer;
+}
+.projects-full-screen-img-close span {
+  display: none;
+}
+
+.projects-full-screen-img-close div {
+  display: none;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
