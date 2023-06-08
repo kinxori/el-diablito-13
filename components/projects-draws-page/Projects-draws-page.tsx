@@ -8,7 +8,7 @@ export default function ProjectsDrawsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
   const [isLoadingVideo, setIsLoadingVideo] = useState(false);
 
-  const handleFullScreen = (id: any) => {
+  const handleFullScreen = (id: string) => {
     setIsFullScreen((currenValue) => (currenValue !== id ? id : ""));
   };
 
@@ -25,7 +25,7 @@ export default function ProjectsDrawsPage() {
               {isLoadingVideo && (
                 <div className="projects-draws-asset-loader">Loading video...</div>
               )}
-              {isFullScreen && (
+              {isFullScreen === "1" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
                 </LinkButton>
@@ -38,40 +38,85 @@ export default function ProjectsDrawsPage() {
                     ? "card-display-img-content-open"
                     : "card-display-img-content-close"
                 }
-                onLoadedData={() => setIsLoadingVideo(true)}
               ></img>
-              <div className="draws-asset-bg-blank"></div>
+              {isFullScreen === "1" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
             <div className="projects-draws-page-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 2">
-            <img
-              src={projectsMainImg}
-              alt="dibujo 1 - tal"
-              className="card-display-img-content"
-            ></img>
+            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("2")}>
+              {isLoadingVideo && (
+                <div className="projects-draws-asset-loader">Loading video...</div>
+              )}
+              {isFullScreen === "2" && (
+                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
+                  Close
+                </LinkButton>
+              )}
+              <img
+                src={projectsMainImg}
+                alt="dibujo 2 - tal"
+                className={
+                  isFullScreen === "2"
+                    ? "card-display-img-content-open"
+                    : "card-display-img-content-close"
+                }
+              ></img>
+              {isFullScreen === "2" && <div className="projects-draws-asset-bg-blank"></div>}
+            </div>
             <div className="projects-draws-page-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 3">
-            <img
-              src={projectsMainImg}
-              alt="dibujo 1 - tal"
-              className="card-display-img-content"
-            ></img>
+            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("3")}>
+              {isLoadingVideo && (
+                <div className="projects-draws-asset-loader">Loading video...</div>
+              )}
+              {isFullScreen === "3" && (
+                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
+                  Close
+                </LinkButton>
+              )}
+              <img
+                src={projectsMainImg}
+                alt="dibujo 3 - tal"
+                className={
+                  isFullScreen === "3"
+                    ? "card-display-img-content-open"
+                    : "card-display-img-content-close"
+                }
+              ></img>
+              {isFullScreen === "3" && <div className="projects-draws-asset-bg-blank"></div>}
+            </div>
             <div className="projects-draws-page-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 4">
-            <img
-              src={projectsMainImg}
-              alt="dibujo 1 - tal"
-              className="card-display-img-content"
-            ></img>
+            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("4")}>
+              {isLoadingVideo && (
+                <div className="projects-draws-asset-loader">Loading video...</div>
+              )}
+              {isFullScreen === "4" && (
+                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
+                  Close
+                </LinkButton>
+              )}
+              <img
+                src={projectsMainImg}
+                alt="dibujo 4 - tal"
+                className={
+                  isFullScreen === "4"
+                    ? "card-display-img-content-open"
+                    : "card-display-img-content-close"
+                }
+              ></img>
+              {isFullScreen === "4" && <div className="projects-draws-asset-bg-blank"></div>}
+            </div>
+
             <div className="projects-draws-page-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
