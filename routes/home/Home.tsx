@@ -18,8 +18,8 @@ const DisclaimerComp = lazy(
 const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welcoming-page"));
 
 export default function () {
-  const [isLoading, setIsLoading] = useState(false); //invert these two values for correct display!!
-  const [isClicked, setIsClicked] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isClicked, setIsClicked] = useState(true); //invert this values for correct display!!
 
   useEffect(() => {
     const timer = setTimeout(() => {

@@ -49,4 +49,7 @@
     font-size: 100px;
     rotate: -10deg;
   }
+  .welcoming-page-copy h1:hover {
+    cursor: pointer;
+  }
 }
