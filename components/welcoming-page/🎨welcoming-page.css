@@ -19,7 +19,7 @@
 
 .welcoming-page-copy h1 {
   color: var(--main-color);
-  font-size: 40px;
+  font-size: 30px;
   rotate: -10deg;
   animation: welcomingScaleAnimation 2s ease-in-out infinite,
     welcomingOpacityAnimation 0.8s ease-in 0.3s backwards;
@@ -31,4 +31,13 @@
   position: fixed;
   top: 0;
   left: 0;
+}
+
+/* ------------------------------------------------------------ TABLET QUERY --------------*/
+
+@media (min-width: 601px) {
+  .welcoming-page-copy h1 {
+    font-size: 50px;
+    rotate: -10deg;
+  }
 }
