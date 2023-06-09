@@ -8,11 +8,6 @@
   font-size: 16px;
 }
 
-.mainButton:hover {
-  opacity: 0.9;
-  scale: 0.95;
-}
-
 .secButton {
   color: var(--sec-color);
   border: 1px solid var(--sec-color);
@@ -21,11 +16,6 @@
   padding: 12px 20px;
   border-radius: 2px;
   font-size: 16px;
-}
-
-.secButton:hover {
-  opacity: 0.9;
-  scale: 0.95;
 }
 
 .ghostButton {
@@ -37,11 +27,6 @@
   font-size: 16px;
 }
 
-.ghostButton:hover {
-  opacity: 0.9;
-  scale: 0.95;
-}
-
 .linkButton {
   color: var(--sec-color);
   font-family: var(--main-font);
@@ -51,11 +36,6 @@
   font-size: 16px;
   font-style: italic;
   text-decoration-line: underline;
-}
-
-.linkButton:hover {
-  opacity: 0.9;
-  scale: 0.95;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
@@ -85,5 +65,60 @@
     border: 2px solid transparent;
     padding: 14px 24px;
     font-size: 26px;
+  }
+}
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+@media (min-width: 1181px) {
+  .mainButton {
+    border: 2px solid var(--invert-color);
+    padding: 14px 24px;
+    border-radius: 2px;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .secButton {
+    border: 2px solid var(--sec-color);
+    padding: 14px 24px;
+    border-radius: 2px;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .ghostButton {
+    border: 2px solid transparent;
+    padding: 14px 24px;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .linkButton {
+    border: 2px solid transparent;
+    padding: 14px 24px;
+    font-size: 20px;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .mainButton:hover {
+    opacity: 0.9;
+    scale: 0.98;
+    cursor: pointer;
+  }
+  .secButton:hover {
+    opacity: 0.9;
+    scale: 0.98;
+    cursor: pointer;
+  }
+  .ghostButton:hover {
+    opacity: 0.9;
+    scale: 0.98;
+    cursor: pointer;
+  }
+  .linkButton:hover {
+    opacity: 0.9;
+    scale: 0.98;
+    cursor: pointer;
   }
 }

@@ -3,7 +3,6 @@
   height: min-content;
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   margin: 0 auto;
 }
@@ -64,5 +63,56 @@
   .landing-page-CTA {
     gap: 20px;
     margin-top: 10%;
+  }
+}
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+@media (min-width: 1181px) {
+  .landing-page-root {
+    width: 80%;
+    height: min-content;
+    position: relative;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+
+  .landing-page-content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-content img {
+    width: 40%;
+    object-fit: contain;
+  }
+
+  .landing-page-copy {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing-page-copy h2 {
+    font-size: 60px;
+    line-height: var(--line-heigth);
+    color: var(--main-color);
+  }
+
+  .landing-page-CTA {
+    width: 100%;
+    height: min-content;
+    gap: 10px;
+    margin-top: 10%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
   }
 }
