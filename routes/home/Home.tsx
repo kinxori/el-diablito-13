@@ -19,12 +19,12 @@ const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welco
 
 export default function () {
   const [isLoading, setIsLoading] = useState(false);
-  const [isClicked, setIsClicked] = useState(true); //invert this values for correct display!!
+  const [isClicked, setIsClicked] = useState(false); //invert this values for correct display!!
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(true);
-    }, 3000);
+    }, 0); //SET THIS TO 3 seconds
 
     return () => clearTimeout(timer);
   }, []);
