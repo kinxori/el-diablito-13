@@ -186,8 +186,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border: 1px dotted white;
+    gap: 40px;
   }
 
   .card-display-img-content {
