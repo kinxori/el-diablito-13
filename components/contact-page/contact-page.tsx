@@ -21,7 +21,7 @@ export default function ContactPage() {
       <div className="contact-page-content">
         <div className="contact-page-copy">
           <h2>
-            Instagram <i className="fa-brands fa-instagram"></i>
+            Instagram &nbsp; <i className="fa-brands fa-instagram"></i>
           </h2>
           <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
           <LinkButton
@@ -34,7 +34,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-page-copy">
           <h2>
-            Twitch.tv <i className="fa-brands fa-twitch"></i>
+            Twitch.tv &nbsp; <i className="fa-brands fa-twitch"></i>
           </h2>
 
           <p>
