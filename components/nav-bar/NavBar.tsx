@@ -1,5 +1,6 @@
 import "./🎨navBar.css";
 import NavMobile from "./navMobile";
+import DesktopNav from "./NavDesktop";
 import { useState, useEffect } from "react";
 
 export default function NavBar() {
@@ -13,7 +14,7 @@ export default function NavBar() {
       if (screenWidth <= 1180) {
         setNavComponent(<NavMobile />);
       } else if (screenWidth > 1180) {
-        setNavComponent(<div style={{ backgroundColor: "red", color: "white" }}>desktop</div>);
+        setNavComponent(<DesktopNav />);
       }
     };
     window.addEventListener("resize", handleRezise);
