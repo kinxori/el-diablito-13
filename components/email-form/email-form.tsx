@@ -6,7 +6,7 @@ export default function EmailForm() {
   const [emailInput, setEmailInput] = useState("");
   const [subjectInput, setSubjectInput] = useState("");
   const [messageInput, setMessageInput] = useState("");
-  const [isPopUp, setIsPopUp] = useState(true);
+  const [isPopUp, setIsPopUp] = useState(false);
 
   const handleSubmit = async (event: any) => {
     event.preventDefault();

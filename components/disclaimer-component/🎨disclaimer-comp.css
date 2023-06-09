@@ -53,3 +53,39 @@
     line-height: 15px;
   }
 }
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+@media (min-width: 1181px) {
+  .disclaimer-comp-root {
+    width: 100vw;
+    height: min-content;
+    position: relative;
+    background-color: var(--invert-color);
+    margin-top: 15%;
+  }
+
+  .disclaimer-comp-copy {
+    width: 100%;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .disclaimer-comp-copy h5 {
+    color: var(--main-color);
+    opacity: 0.3;
+    text-align: center;
+  }
+
+  .disclaimer-comp-copy p {
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.3;
+    padding: 0 100px;
+    color: var(--main-color);
+    line-height: 10px;
+    font-family: var(--sec-font);
+  }
+}
