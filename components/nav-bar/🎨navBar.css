@@ -246,3 +246,17 @@
     font-size: 30px;
   }
 }
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+.nav-desktop-root {
+  width: 100vw;
+  height: 80px;
+  top: 0;
+  z-index: 1000;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
