@@ -51,7 +51,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-page-copy">
           <h2>
-            Correo <i className="fa-regular fa-envelope"></i>
+            Correo &nbsp; <i className="fa-regular fa-envelope"></i>
           </h2>
           <p>
             Mi correo es: &nbsp;
@@ -73,7 +73,7 @@ export default function ContactPage() {
         </div>
         <div className="contact-page-copy">
           <h2>
-            Mánda un correo <i className="fa-solid fa-pencil"></i>
+            Mánda un correo &nbsp; <i className="fa-solid fa-pencil"></i>
           </h2>
           <EmailForm />
         </div>
