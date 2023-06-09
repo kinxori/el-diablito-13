@@ -184,4 +184,9 @@
   .projects-draws-fullscreen-asset:hover {
     cursor: pointer;
   }
+
+  .projects-draws-asset-open {
+    height: 100vh;
+    width: 100vw;
+  }
 }
