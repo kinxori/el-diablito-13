@@ -22,3 +22,12 @@
     margin-top: 120px;
   }
 }
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+@media (min-width: 601px) {
+  #home-root {
+    height: 100vh;
+    margin-top: 80px;
+  }
+}
