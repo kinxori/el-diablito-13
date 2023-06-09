@@ -219,6 +219,7 @@
   }
 
   .projects-draws-asset-open {
+    height: 100vh;
     width: 100vw;
     object-fit: contain;
     position: fixed;
