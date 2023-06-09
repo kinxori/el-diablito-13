@@ -179,11 +179,15 @@
   }
 
   .projects-draws-page-cards {
-    height: min-content;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    border: 1px dotted white;
   }
 
   .card-display-img-content {
