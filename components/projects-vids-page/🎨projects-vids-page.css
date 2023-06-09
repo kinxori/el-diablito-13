@@ -151,3 +151,109 @@
     height: 60%;
   }
 }
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+@media (min-width: 1181px) {
+  .projects-vids-page-root {
+    width: 80%;
+    height: min-content;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0%;
+    border: 1px dotted white;
+  }
+
+  .projects-vids-page-copy {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .projects-vids-page-copy h2 {
+    font-size: 50px;
+    display: flex;
+    margin-right: auto;
+    line-height: var(--line-heigth);
+  }
+
+  .projects-vids-page-copy p {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;
+  }
+
+  .projects-vids-page-cards {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  /* ------------------ FULL SCREEN IMG -------------------- */
+
+  .projects-vids-fullscreen-asset {
+    width: 100%;
+    height: 70%;
+  }
+
+  .projects-vids-fullscreen-asset:hover {
+    cursor: pointer;
+  }
+
+  .projects-vids-asset-loader {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-vids-asset-close {
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .projects-vids-asset-open {
+    width: 100vw;
+    object-fit: contain;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2100;
+  }
+
+  .projects-vids-asset-close-button {
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    z-index: 2100;
+  }
+
+  .projects-vids-asset-close-button button {
+    color: var(--main-color);
+  }
+
+  .projects-vids-asset-bg-blank {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: black;
+  }
+}
