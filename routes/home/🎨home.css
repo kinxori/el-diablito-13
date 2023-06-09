@@ -25,9 +25,25 @@
 
 /* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
 
-@media (min-width: 601px) {
+@media (min-width: 1181px) {
   #home-root {
     height: 100vh;
     margin-top: 80px;
+  }
+  #home-root::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  #home-root::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  #home-root::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 9999px;
+  }
+
+  #home-root::-webkit-scrollbar-thumb:hover {
+    background-color: var(--sec-color);
   }
 }
