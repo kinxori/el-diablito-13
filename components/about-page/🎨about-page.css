@@ -73,3 +73,64 @@
     padding-top: 30px;
   }
 }
+
+/* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
+
+@media (min-width: 1181px) {
+  .about-page-root {
+    width: 80%;
+    height: min-content;
+    position: relative;
+    justify-content: flex-start;
+    margin: 0 auto;
+    margin-top: 0%;
+    border: 1px dotted white;
+  }
+
+  .about-page-content {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-page-content img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .about-page-copy {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .about-page-copy h2 {
+    font-size: 50px;
+    display: flex;
+    margin-right: auto;
+    line-height: var(--line-heigth);
+    color: var(--main-color);
+  }
+
+  .about-page-copy p {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 50px;
+    font-family: var(--sec-font);
+    color: var(--main-color);
+  }
+
+  .about-page-CTA {
+    width: 100%;
+    height: min-content;
+    margin-top: 10%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+}
