@@ -27,7 +27,7 @@
 
 @media (min-width: 1181px) {
   #home-root {
-    height: 100vh;
+    height: 90vh;
     margin-top: 80px;
   }
   #home-root::-webkit-scrollbar {
