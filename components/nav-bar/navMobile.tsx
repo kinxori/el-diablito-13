@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import logoNav from "./../../src/assets/BK_f_white.png";
 import slideMenuPFP from "./../../src/assets/3333.png";
-import AnchorButton from "../custom-buttons/AnchorButton";
 import "./🎨navBar.css";
 
 export default function NavMobile() {
@@ -26,56 +25,51 @@ export default function NavMobile() {
             <img src={slideMenuPFP} alt="el diablito trece foto de perfil"></img>
           </div>
           <div className="nav-mobile-slide-copy">
-            <AnchorButton
+            <a
               href="#landing-page-id"
-              variant="ghostButton"
               className="nav-mobile-slide-anchor"
               onClick={() => setClicked(false)}
             >
               <h3>
-                Inicio <i className="fa-solid fa-house"></i>
+                Inicio&nbsp;&nbsp;<i className="fa-solid fa-house"></i>
               </h3>
-            </AnchorButton>
-            <AnchorButton
+            </a>
+            <a
               href="#about-page-id"
-              variant="ghostButton"
               className="nav-mobile-slide-anchor"
               onClick={() => setClicked(false)}
             >
               <h3>
-                Acerca <i className="fa-solid fa-user"></i>
+                Acerca&nbsp;&nbsp;<i className="fa-solid fa-user"></i>
               </h3>
-            </AnchorButton>
-            <AnchorButton
+            </a>
+            <a
               href="#projects-draws-page-id"
-              variant="ghostButton"
               className="nav-mobile-slide-anchor"
               onClick={() => setClicked(false)}
             >
               <h3>
-                Ilustración <i className="fa-solid fa-pencil"></i>
+                Ilustración&nbsp;&nbsp;<i className="fa-solid fa-pencil"></i>
               </h3>
-            </AnchorButton>
-            <AnchorButton
+            </a>
+            <a
               href="#projects-vids-page-id"
-              variant="ghostButton"
               className="nav-mobile-slide-anchor"
               onClick={() => setClicked(false)}
             >
               <h3>
-                Animación <i className="fa-solid fa-film"></i>
+                Animación&nbsp;&nbsp;<i className="fa-solid fa-film"></i>
               </h3>
-            </AnchorButton>
-            <AnchorButton
+            </a>
+            <a
               href="#contact-page-id"
-              variant="ghostButton"
               className="nav-mobile-slide-anchor"
               onClick={() => setClicked(false)}
             >
               <h3>
-                Contacto <i className="fa-solid fa-at"></i>
+                Contacto&nbsp;&nbsp;<i className="fa-solid fa-at"></i>
               </h3>
-            </AnchorButton>
+            </a>
           </div>
           <hr className="nav-mobile-slide-separator"></hr>
           <div className="nav-mobile-slide-social-media">

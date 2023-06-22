@@ -98,8 +98,8 @@
 .nav-mobile-slide-copy {
   width: 100%;
   height: min-content;
-  margin-top: 20px;
-  gap: 00px;
+  margin-top: 30px;
+  gap: 15px;
   display: flex;
   flex-direction: column;
 }
@@ -118,7 +118,6 @@
 .nav-mobile-slide-anchor i {
   font-size: 24px;
   color: var(--main-color);
-  padding-left: 15px;
 }
 
 .nav-mobile-slide-separator {
@@ -162,7 +161,8 @@
   }
 
   .nav-mobile-main-logo {
-    width: 80px;
+    height: 100%;
+    object-fit: contain;
   }
 
   .nav-mobile-icon-open {
@@ -184,7 +184,7 @@
 
   .nav-mobile-slide-root-close {
     width: 500px;
-    right: -80%;
+    right: -500px;
     box-shadow: 0px 0px 0px 0px hsla(0, 0%, 20%, 1);
   }
 
@@ -195,33 +195,33 @@
   }
 
   .nav-mobile-slide-content {
-    gap: 50px;
-    margin: 50px;
+    gap: 30px;
+    margin: 30px;
   }
 
   .nav-mobile-slide-headline {
-    gap: 40px;
+    gap: 30px;
   }
 
   .nav-mobile-slide-headline h2 {
-    font-size: 45px;
+    font-size: 36px;
   }
 
   .nav-mobile-slide-headline img {
-    height: 80px;
+    height: 60px;
   }
 
   .nav-mobile-slide-copy {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .nav-mobile-slide-anchor h3 {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   .nav-mobile-slide-anchor i {
-    font-size: 34px;
-    padding-left: 25px;
+    font-size: 32px;
+    padding-left: 10px;
   }
 
   .nav-mobile-slide-separator {
