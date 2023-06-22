@@ -4,6 +4,7 @@
   position: absolute;
   margin-top: 70px;
   overflow: hidden scroll;
+  scroll-behavior: smooth;
 }
 
 #home-bg-img {
@@ -30,6 +31,7 @@
     height: calc(100vh - 80px);
     margin-top: 80px;
   }
+
   #home-root::-webkit-scrollbar {
     width: 10px;
   }
