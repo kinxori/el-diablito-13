@@ -1,5 +1,5 @@
 .nav-mobile-root {
-  height: 80px;
+  height: 70px;
   width: 100%;
   top: 0;
   background-color: var(--invert-color);
@@ -11,8 +11,9 @@
 }
 
 .nav-mobile-main-logo {
-  width: 100px;
-  object-fit: cover;
+  height: 70px;
+  position: relative;
+  object-fit: contain;
 }
 
 .nav-mobile-icon-open {
@@ -162,11 +163,11 @@
 
 @media (min-width: 601px) {
   .nav-mobile-root {
-    height: 120px;
+    height: 80px;
   }
 
   .nav-mobile-main-logo {
-    width: 150px;
+    width: 80px;
   }
 
   .nav-mobile-icon-open {

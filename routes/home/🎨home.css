@@ -1,9 +1,8 @@
 #home-root {
   width: 100vw;
-  height: 90vh;
+  height: calc(100vh - 70px);
   position: relative;
   overflow: hidden scroll;
-  margin-top: 80px;
 }
 
 #home-bg-img {
@@ -18,8 +17,7 @@
 
 @media (min-width: 601px) {
   #home-root {
-    height: 100vh;
-    margin-top: 120px;
+    height: calc(100vh - 80px);
   }
 }
 
@@ -27,8 +25,7 @@
 
 @media (min-width: 1181px) {
   #home-root {
-    height: 90vh;
-    margin-top: 80px;
+    height: calc(100vh - 80px);
   }
   #home-root::-webkit-scrollbar {
     width: 10px;
@@ -40,7 +37,7 @@
 
   #home-root::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
-    border-radius: 9999px;
+    border-radius: 10px;
   }
 
   #home-root::-webkit-scrollbar-thumb:hover {
