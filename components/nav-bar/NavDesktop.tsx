@@ -12,6 +12,7 @@ export default function DesktopNav() {
       <div className="nav-desktop-content">
         <Link to="/" className="nav-desktop-main-logo">
           <img src={logoNav} alt="el-diablito-13"></img>
+          <div></div>
         </Link>
         <div className="nav-desktop-buttons">
           <a href="#landing-page-id" className="nav-desktop-button">

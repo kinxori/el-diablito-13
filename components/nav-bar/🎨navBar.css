@@ -259,10 +259,30 @@
 
 .nav-desktop-main-logo {
   height: 100%;
-  width: min-content;
+  width: fit-content;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   position: absolute;
   left: 40px;
+}
+
+.nav-desktop-main-logo img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav-desktop-main-logo div {
+  width: 0%;
+  height: 5%;
+  bottom: 0;
+  position: absolute;
+  background-color: var(--sec-color);
+  transition: all 0.2s cubic-bezier(0.59, 0.22, 0.46, 0.99);
+}
+
+.nav-desktop-main-logo:hover > div {
+  width: 100%;
 }
 
 .nav-desktop-buttons {
@@ -279,7 +299,6 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .nav-desktop-button:hover {
@@ -289,9 +308,6 @@
 
 .nav-desktop-button h3 {
   font-size: 20px;
-  width: fit-content;
-  display: flex;
-  margin: 0 auto;
   color: var(--main-color);
   transition: scale 0.1s ease-in-out;
 }
