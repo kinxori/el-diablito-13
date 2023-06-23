@@ -16,7 +16,11 @@ export default function NavMobile() {
         className={isClicked ? "nav-mobile-icon-open" : "nav-mobile-icon-close"}
         onClick={() => setClicked(!isClicked)}
       >
-        {isClicked ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars"></i>}
+        {isClicked ? (
+          <i className="fa-regular fa-circle-xmark"></i>
+        ) : (
+          <i className="fa-solid fa-bars"></i>
+        )}
       </span>
       <div className={isClicked ? "nav-mobile-slide-root-open" : "nav-mobile-slide-root-close"}>
         <div className="nav-mobile-slide-content">
@@ -24,10 +28,11 @@ export default function NavMobile() {
             <h2>El Diablito 13</h2>
             <img src={slideMenuPFP} alt="el diablito trece foto de perfil"></img>
           </div>
+          <hr className="nav-mobile-slide-separator"></hr>
           <div className="nav-mobile-slide-copy">
             <a
               href="#landing-page-id"
-              className="nav-mobile-slide-anchor"
+              className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
               <h3>
@@ -36,7 +41,7 @@ export default function NavMobile() {
             </a>
             <a
               href="#about-page-id"
-              className="nav-mobile-slide-anchor"
+              className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
               <h3>
@@ -45,7 +50,7 @@ export default function NavMobile() {
             </a>
             <a
               href="#projects-draws-page-id"
-              className="nav-mobile-slide-anchor"
+              className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
               <h3>
@@ -54,7 +59,7 @@ export default function NavMobile() {
             </a>
             <a
               href="#projects-vids-page-id"
-              className="nav-mobile-slide-anchor"
+              className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
               <h3>
@@ -63,7 +68,7 @@ export default function NavMobile() {
             </a>
             <a
               href="#contact-page-id"
-              className="nav-mobile-slide-anchor"
+              className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
               <h3>
