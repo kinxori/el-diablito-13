@@ -8,7 +8,7 @@ export default function AboutPage() {
       <div className="about-page-content">
         <img src={aboutMainImg} alt="about page el diablito trece"></img>
         <div className="about-page-copy">
-          <h2>Quien es el diablito 13? pues soy yo, kien mas jasjs </h2>
+          <h2>¿Quién es El Diablito Trece? 😈</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus
             quisquam debitis, quibusdam eligendi ab. Vel, vitae nulla, cumque sequi autem incidunt

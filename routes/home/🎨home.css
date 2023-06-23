@@ -3,6 +3,8 @@
   height: calc(100vh - 70px);
   position: absolute;
   margin-top: 70px;
+  display: flex;
+  flex-direction: column;
   overflow: hidden scroll;
   scroll-behavior: smooth;
 }
