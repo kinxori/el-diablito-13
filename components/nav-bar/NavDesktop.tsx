@@ -16,18 +16,23 @@ export default function DesktopNav() {
         <div className="nav-desktop-buttons">
           <a href="#landing-page-id" className="nav-desktop-button">
             <h3>Inicio</h3>
+            <div></div>
           </a>
           <a href="#about-page-id" className="nav-desktop-button">
             <h3>Acerca</h3>
+            <div></div>
           </a>
           <a href="#projects-draws-page-id" className="nav-desktop-button">
             <h3>Ilustración</h3>
+            <div></div>
           </a>
           <a href="#projects-vids-page-id" className="nav-desktop-button">
             <h3>Animación</h3>
+            <div></div>
           </a>
           <a href="#contact-page-id" className="nav-desktop-button">
             <h3>Contacto</h3>
+            <div></div>
           </a>
           <Link
             to="https://www.twitch.tv/eldiablitotrece"
@@ -35,6 +40,7 @@ export default function DesktopNav() {
             target="_blank"
           >
             <h3>Twitch</h3>
+            <div></div>
           </Link>
           <Link
             to="https://www.instagram.com/eldiablitotrece/"
@@ -42,6 +48,7 @@ export default function DesktopNav() {
             target="_blank"
           >
             <h3>Instagram</h3>
+            <div></div>
           </Link>
           <Link
             to="https://www.facebook.com/eldiablitotrece"
@@ -49,6 +56,7 @@ export default function DesktopNav() {
             target="_blank"
           >
             <h3>Facebook</h3>
+            <div></div>
           </Link>
           <Link
             to="https://www.tiktok.com/@eldiablitotrece"
@@ -56,6 +64,7 @@ export default function DesktopNav() {
             target="_blank"
           >
             <h3>TikTok</h3>
+            <div></div>
           </Link>
         </div>
       </div>

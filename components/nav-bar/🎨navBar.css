@@ -183,7 +183,7 @@
     width: 450px;
     border-left: 14px solid var(--sec-color);
     border-radius: 20px 0px 0px 20px;
-    box-shadow: 0px 0px 500px 300px hsla(3deg, 58%, 55%, 0.3);
+    box-shadow: 0px 0px 500px 300px hsla(3deg, 58%, 55%, 0.2);
   }
 
   .nav-mobile-slide-root-close {
@@ -241,7 +241,9 @@
   width: 100vw;
   height: 80px;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
+  box-shadow: 0px 0px 20px 10px hsla(3deg, 58%, 55%, 0.3);
+  border-bottom: 1px solid var(--sec-color);
   background-color: var(--invert-color);
   position: fixed;
 }
@@ -256,40 +258,58 @@
 }
 
 .nav-desktop-main-logo {
-  height: min-content;
+  height: 100%;
   width: min-content;
   display: flex;
   position: absolute;
   left: 40px;
 }
 
-.nav-desktop-main-logo img {
-  height: 100px;
-  object-fit: contain;
-}
-
 .nav-desktop-buttons {
   width: min-content;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5%;
 }
 
 .nav-desktop-button {
-  width: min-content;
-  height: min-content;
+  width: fit-content;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nav-desktop-button:hover {
+  font-size: 20px;
+  color: var(--sec-color);
 }
 
 .nav-desktop-button h3 {
   font-size: 20px;
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
   color: var(--main-color);
   transition: scale 0.1s ease-in-out;
 }
 
-.nav-desktop-button h3:hover {
-  font-size: 20px;
+.nav-desktop-button:hover > h3 {
   color: var(--sec-color);
-  scale: 1.05;
+}
+
+.nav-desktop-button div {
+  width: 0%;
+  height: 5%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: var(--sec-color);
+  transition: all 0.2s cubic-bezier(0.59, 0.22, 0.46, 0.99);
+}
+
+.nav-desktop-button:hover > div {
+  width: 100%;
 }
