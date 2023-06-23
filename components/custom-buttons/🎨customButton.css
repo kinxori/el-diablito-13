@@ -6,6 +6,7 @@
   padding: 12px 20px;
   border-radius: 2px;
   font-size: 16px;
+  min-width: 180px;
 }
 
 .secButton {
@@ -16,6 +17,7 @@
   padding: 12px 20px;
   border-radius: 2px;
   font-size: 16px;
+  min-width: 180px;
 }
 
 .ghostButton {
@@ -25,6 +27,7 @@
   background: transparent;
   padding: 12px 20px;
   font-size: 16px;
+  min-width: 180px;
 }
 
 .linkButton {
@@ -34,6 +37,7 @@
   background: transparent;
   padding: 12px 20px;
   font-size: 16px;
+  min-width: 180px;
   font-style: italic;
   text-decoration-line: underline;
 }
