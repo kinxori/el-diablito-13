@@ -48,10 +48,10 @@
   height: 100vh;
   right: 0;
   top: 0;
-  border-left: 10px solid var(--sec-color);
+  border-left: 6px solid var(--sec-color);
   border-radius: 20px 0px 0px 20px;
   transition: all 0.5s cubic-bezier(0.59, 0.22, 0.46, 0.99);
-  box-shadow: 0px 0px 100px 50px hsla(3deg, 58%, 55%, 0.15);
+  box-shadow: 0px 0px 100px 50px hsla(3deg, 58%, 55%, 0.2);
   background-color: var(--invert-color);
   position: absolute;
   display: flex;
