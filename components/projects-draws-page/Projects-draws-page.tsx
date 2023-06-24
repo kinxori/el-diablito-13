@@ -4,6 +4,7 @@ import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";
+import billyButcher from "/src/assets/dibujo-3.jpeg";
 
 export default function ProjectsDrawsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
@@ -67,7 +68,7 @@ export default function ProjectsDrawsPage() {
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="Dibujo 3">
+          <CardDisplay header="Billy Butcher">
             {isFullScreen === "3" && (
               <>
                 <LinkButton
@@ -75,13 +76,13 @@ export default function ProjectsDrawsPage() {
                   variant="linkButton"
                   onClick={() => handleFullScreen("3")}
                 >
-                  Close
+                  <i className="fa-regular fa-circle-xmark"></i>
                 </LinkButton>
                 <div className="full-screen-bg-blank" onClick={() => handleFullScreen("3")}></div>
               </>
             )}
             <img
-              src={projectsMainImg}
+              src={billyButcher}
               alt="dibujo 3 - tal"
               className={
                 isFullScreen === "3"
@@ -91,7 +92,7 @@ export default function ProjectsDrawsPage() {
               onClick={() => handleFullScreen("3")}
             ></img>
             <h3 style={{ color: "white" }} className="projects-draws-card-title">
-              "¡El mismísimo Billy Butcher y el maldito Homelander de The Boys!"
+              "¡El mismísimo Billy Butcher de The Boys!"
             </h3>
             <i className="projects-draws-card-date">- Agosto 12, 2022</i>
             <div className="projects-draws-card-CTA">
