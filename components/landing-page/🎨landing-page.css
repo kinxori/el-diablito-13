@@ -38,8 +38,9 @@
 
 .landing-page-copy-content h2 {
   font-size: 32px;
-  font-weight: 700;
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--main-font);
   color: var(--main-color);
 }
 

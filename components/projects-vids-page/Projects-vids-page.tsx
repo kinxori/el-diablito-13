@@ -16,107 +16,151 @@ export default function ProjectsVidsPage() {
     <section id="projects-vids-page-id" className="projects-vids-page-root">
       <div className="projects-vids-page-content">
         <div className="projects-vids-page-copy">
-          <h2>Proyectos de Animación 👺</h2>
+          <h2>Proyectos de Animación </h2>
           <p>Tambien soy animador, estos son unos de mis trabajos 👺</p>
         </div>
         <div className="projects-vids-page-cards">
           <CardDisplay header="video 1">
-            <div className="projects-vids-fullscreen-asset" onClick={() => handleFullScreen("1")}>
-              {!isLoadingVideo && (
-                <div className="projects-vids-asset-loader">Loading video...</div>
-              )}
-              {isFullScreen === "1" && (
-                <LinkButton className="projects-vids-asset-close-button" variant="linkButton">
+            {isFullScreen === "1" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("1")}
+                >
                   Close
                 </LinkButton>
-              )}
-              <video
-                loop
-                autoPlay
-                src={projectsVideo1}
-                className={
-                  isFullScreen === "1" ? "projects-vids-asset-open" : "projects-vids-asset-close"
-                }
-                onLoadedData={() => setIsLoadingVideo(true)}
-              ></video>
-              {isFullScreen === "1" && <div className="projects-vids-asset-bg-blank"></div>}
-            </div>
-            <div className="projects-vids-page-CTA">
+                <div
+                  className="projects-vids-asset-bg-blank"
+                  onClick={() => handleFullScreen("1")}
+                ></div>
+              </>
+            )}
+            <video
+              loop={false}
+              autoPlay={false}
+              controls={true}
+              preload="auto"
+              disablePictureInPicture
+              controlsList="nodownload noplaybackrate"
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
+              onClick={() => handleFullScreen("1")}
+            ></video>
+            <h3 className="projects-draws-card-title">
+              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
+              Twitch!"
+            </h3>
+            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="video 2">
-            <div className="projects-vids-fullscreen-asset" onClick={() => handleFullScreen("2")}>
-              {!isLoadingVideo && (
-                <div className="projects-vids-asset-loader">Loading video...</div>
-              )}
-              {isFullScreen === "2" && (
-                <LinkButton className="projects-vids-asset-close-button" variant="linkButton">
+          <CardDisplay header="video 1">
+            {isFullScreen === "1" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("1")}
+                >
                   Close
                 </LinkButton>
-              )}
-              <video
-                loop
-                autoPlay
-                src={projectsVideo1}
-                className={
-                  isFullScreen === "2" ? "projects-vids-asset-open" : "projects-vids-asset-close"
-                }
-                onLoadedData={() => setIsLoadingVideo(true)}
-              ></video>
-              {isFullScreen === "2" && <div className="projects-vids-asset-bg-blank"></div>}
-            </div>
-            <div className="projects-vids-page-CTA">
+                <div
+                  className="projects-vids-asset-bg-blank"
+                  onClick={() => handleFullScreen("1")}
+                ></div>
+              </>
+            )}
+            <video
+              loop={false}
+              autoPlay={false}
+              controls={true}
+              preload="auto"
+              disablePictureInPicture
+              controlsList="nodownload noplaybackrate"
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
+              onClick={() => handleFullScreen("1")}
+            ></video>
+            <h3 className="projects-draws-card-title">
+              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
+              Twitch!"
+            </h3>
+            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="video 3">
-            <div className="projects-vids-fullscreen-asset" onClick={() => handleFullScreen("3")}>
-              {!isLoadingVideo && (
-                <div className="projects-vids-asset-loader">Loading video...</div>
-              )}
-              {isFullScreen === "3" && (
-                <LinkButton className="projects-vids-asset-close-button" variant="linkButton">
+          <CardDisplay header="video 1">
+            {isFullScreen === "1" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("1")}
+                >
                   Close
                 </LinkButton>
-              )}
-              <video
-                loop
-                autoPlay
-                src={projectsVideo1}
-                className={
-                  isFullScreen === "3" ? "projects-vids-asset-open" : "projects-vids-asset-close"
-                }
-                onLoadedData={() => setIsLoadingVideo(true)}
-              ></video>
-              {isFullScreen === "3" && <div className="projects-vids-asset-bg-blank"></div>}
-            </div>
-            <div className="projects-vids-page-CTA">
+                <div
+                  className="projects-vids-asset-bg-blank"
+                  onClick={() => handleFullScreen("1")}
+                ></div>
+              </>
+            )}
+            <video
+              loop={false}
+              autoPlay={false}
+              controls={true}
+              preload="auto"
+              disablePictureInPicture
+              controlsList="nodownload noplaybackrate"
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
+              onClick={() => handleFullScreen("1")}
+            ></video>
+            <h3 className="projects-draws-card-title">
+              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
+              Twitch!"
+            </h3>
+            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="video 4">
-            <div className="projects-vids-fullscreen-asset" onClick={() => handleFullScreen("4")}>
-              {!isLoadingVideo && (
-                <div className="projects-vids-asset-loader">Loading video...</div>
-              )}
-              {isFullScreen === "4" && (
-                <LinkButton className="projects-vids-asset-close-button" variant="linkButton">
+          <CardDisplay header="video 1">
+            {isFullScreen === "1" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("1")}
+                >
                   Close
                 </LinkButton>
-              )}
-              <video
-                loop
-                autoPlay
-                src={projectsVideo1}
-                className={
-                  isFullScreen === "4" ? "projects-vids-asset-open" : "projects-vids-asset-close"
-                }
-                onLoadedData={() => setIsLoadingVideo(true)}
-              ></video>
-              {isFullScreen === "4" && <div className="projects-vids-asset-bg-blank"></div>}
-            </div>
-            <div className="projects-vids-page-CTA">
+                <div
+                  className="projects-vids-asset-bg-blank"
+                  onClick={() => handleFullScreen("1")}
+                ></div>
+              </>
+            )}
+            <video
+              loop={false}
+              autoPlay={false}
+              controls={true}
+              preload="auto"
+              disablePictureInPicture
+              controlsList="nodownload noplaybackrate"
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
+              onClick={() => handleFullScreen("1")}
+            ></video>
+            <h3 className="projects-draws-card-title">
+              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
+              Twitch!"
+            </h3>
+            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>

@@ -35,7 +35,7 @@
   color: var(--main-color);
 }
 
-.projects-draws-cards {
+.projects-draws-page-cards {
   width: 100%;
   gap: 20px;
   padding-top: 20%;
@@ -94,6 +94,7 @@
 .full-screen-close-button button {
   color: var(--main-color);
   min-width: 0;
+  padding: 20px;
   font-size: 30px;
 }
 

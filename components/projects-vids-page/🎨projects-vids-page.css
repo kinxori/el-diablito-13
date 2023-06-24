@@ -1,93 +1,63 @@
 .projects-vids-page-root {
   width: 80%;
-  height: min-content;
-  color: var(--main-color);
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   margin: 0 auto;
-  margin-top: 25%;
+  padding: 10% 0;
+  border: 1px dotted white;
 }
 
 .projects-vids-page-content {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  border: 1px dotted white;
 }
 
 .projects-vids-page-copy {
   width: 100%;
-  height: 100%;
+  gap: 20px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-bottom: 20%;
 }
 
 .projects-vids-page-copy h2 {
-  font-size: 38px;
-  display: flex;
-  margin-right: auto;
-  line-height: var(--line-heigth);
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--main-font);
   color: var(--main-color);
 }
 
 .projects-vids-page-copy p {
   font-size: 16px;
-  display: flex;
-  margin-right: auto;
-  line-height: 20px;
-  padding-top: 15px;
   font-family: var(--sec-font);
   color: var(--main-color);
 }
 
 .projects-vids-page-cards {
-  height: min-content;
   width: 100%;
+  gap: 20px;
+  padding-top: 20%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  border: 1px dotted white;
 }
 
-.card-display-vid-content {
-  height: 60%;
-  object-fit: contain;
-  display: flex;
-  justify-content: center;
-}
-
-.projects-vids-page-CTA {
+.projects-vids-card-CTA {
   width: 100%;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
 /* ------------------ FULL SCREEN IMG -------------------- */
 
-.projects-vids-fullscreen-asset {
-  width: 100%;
-  height: 70%;
-}
-
-.projects-vids-asset-loader {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .projects-vids-asset-close {
-  height: 100%;
+  width: 100%;
+  border-radius: 2px;
   object-fit: contain;
   position: relative;
-  display: flex;
-  margin: 0 auto;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .projects-vids-asset-open {

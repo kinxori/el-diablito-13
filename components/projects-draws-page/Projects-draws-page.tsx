@@ -25,7 +25,7 @@ export default function ProjectsDrawsPage() {
             oscuro de mi creatividad y adéntrate en el mundo de El Diablito Trece.
           </p>
         </div>
-        <div className="projects-draws-cards">
+        <div className="projects-draws-page-cards">
           <CardDisplay header="Jonathan Devil">
             {isFullScreen === "1" && (
               <>
