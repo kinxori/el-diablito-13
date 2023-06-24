@@ -24,14 +24,20 @@
 
 .about-page-copy {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   border: 1px dotted white;
 }
 
-.about-page-copy h2 {
+.about-page-copy-content {
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-page-copy-content h2 {
   font-size: 32px;
   text-align: center;
   font-weight: bold;
@@ -39,11 +45,18 @@
   color: var(--main-color);
 }
 
-.about-page-copy p {
+.about-page-copy-content p {
   font-size: 16px;
-  padding-top: 10%;
   font-family: var(--sec-font);
   color: var(--main-color);
+}
+
+.about-page-copy-content-img {
+  width: 100%;
+  min-height: 200px;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 1px dotted white;
 }
 
 .about-page-CTA {
