@@ -5,32 +5,27 @@ import "./🎨projects-vids-page.css";
 import { useState } from "react";
 
 export default function ProjectsVidsPage() {
-  const [isFullScreen, setIsFullScreen] = useState("");
-  const [isLoadingVideo, setIsLoadingVideo] = useState(false);
-
-  const handleFullScreen = (id: string) => {
-    setIsFullScreen((currenValue) => (currenValue !== id ? id : ""));
-  };
-
   return (
     <section id="projects-vids-page-id" className="projects-vids-page-root">
       <div className="projects-vids-page-content">
         <div className="projects-vids-page-copy">
           <h2>Proyectos de Animación </h2>
-          <p>Tambien soy animador, estos son unos de mis trabajos 👺</p>
+          <p>
+            Además de ser ilustrador, también me aventuro en el mundo de la animación. Aquí te
+            presento algunos de mis trabajos más sobresalientes. 👺
+          </p>
         </div>
         <div className="projects-vids-page-cards">
           <CardDisplay header="video 1">
             <video
               src={projectsVideo1}
-              loop={false}
-              autoPlay={false}
-              controls={true}
-              preload="auto"
-              disablePictureInPicture
-              controlsList="nodownload noplaybackrate"
               className="projects-vids-card-asset"
-              onClick={() => handleFullScreen("1")}
+              loop={false}
+              autoPlay={false}
+              controls={true}
+              preload="auto"
+              disablePictureInPicture
+              controlsList="nodownload noplaybackrate"
             ></video>
             <h3 className="projects-draws-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
@@ -44,14 +39,13 @@ export default function ProjectsVidsPage() {
           <CardDisplay header="video 1">
             <video
               src={projectsVideo1}
-              className="projects-vids-asset-close"
+              className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
@@ -65,14 +59,13 @@ export default function ProjectsVidsPage() {
           <CardDisplay header="video 1">
             <video
               src={projectsVideo1}
-              className="projects-vids-asset-close"
+              className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
@@ -86,14 +79,13 @@ export default function ProjectsVidsPage() {
           <CardDisplay header="video 1">
             <video
               src={projectsVideo1}
-              className="projects-vids-asset-close"
+              className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
