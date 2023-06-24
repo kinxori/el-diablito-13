@@ -51,11 +51,11 @@
   color: var(--main-color);
 }
 
-.about-page-copy-content-img {
+.about-page-copy-content img {
   width: 100%;
   min-height: 200px;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 2px;
   border: 1px dotted white;
 }
 

@@ -15,11 +15,7 @@ export default function AboutPage() {
               enfoque se centra en expresar ideas surrealistas y alucinantes para entretener con una
               experiencia visual impactante.
             </p>
-            <img
-              src=""
-              alt="Imagen sobre el estilo del diablito 13"
-              className="about-page-copy-content-img"
-            ></img>
+            <img src="" alt="Imagen sobre el estilo del diablito 13"></img>
             <p>
               Descubrieron su pasión por la animación al darse cuenta de las ideas imposibles en sus
               mentes y cómo la animación les permite darles vida sin riesgo.
@@ -31,7 +27,6 @@ export default function AboutPage() {
             <img
               src=""
               alt="Podrías incluir una imagen que represente una sesión de brainstorming o ilustraciones y referencias que inspiran su creatividad."
-              className="about-page-copy-content-img"
             ></img>
             <p>
               Consideran que el arte siempre lleva un mensaje personal o dirigido a un sector. Ven
@@ -41,7 +36,7 @@ export default function AboutPage() {
               Prefieren Instagram para mostrar su trabajo y Facebook para diversión. Si tuvieran que
               hacer un autorretrato, sería un diablo grotesco y enorme con múltiples caras.
             </p>
-            <img src="" alt="dibujo de diablo" className="about-page-copy-content-img"></img>
+            <img src="" alt="dibujo de diablo"></img>
             <p>
               Aconsejan perseverancia, representar ideas y estudiar el entorno. Películas favoritas:
               "Fight Club", "Fear & Loathing in Las Vegas", "Django", "Ren y Stimpy" e "Invader
