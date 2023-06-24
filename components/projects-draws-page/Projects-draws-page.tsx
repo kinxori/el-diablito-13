@@ -15,8 +15,11 @@ export default function ProjectsDrawsPage() {
     <section id="projects-draws-id" className="projects-draws-root">
       <div className="projects-draws-content">
         <div className="projects-draws-copy">
-          <h2>Proyectos de Ilustración 👺</h2>
-          <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
+          <h2>Proyectos de Ilustración ✐</h2>
+          <p>
+            Aquí te presento una muestra de mis trabajos como ilustrador. Sumérgete en el lado
+            oscuro de mi creatividad y adéntrate en el mundo de El Diablito Trece.
+          </p>
         </div>
         <div className="projects-draws-cards">
           <CardDisplay header="Dibujo 1">
