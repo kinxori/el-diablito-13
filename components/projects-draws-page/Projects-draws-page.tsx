@@ -68,30 +68,32 @@ export default function ProjectsDrawsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 3">
-            <div className="projects-draw-card-asset">
-              {isFullScreen === "3" && (
-                <>
-                  <LinkButton
-                    className="full-screen-close-button"
-                    variant="linkButton"
-                    onClick={() => handleFullScreen("3")}
-                  >
-                    Close
-                  </LinkButton>
-                  <div className="full-screen-bg-blank" onClick={() => handleFullScreen("3")}></div>
-                </>
-              )}
-              <img
-                src={projectsMainImg}
-                alt="dibujo 3 - tal"
-                className={
-                  isFullScreen === "3"
-                    ? "projects-draws-card-asset-open"
-                    : "projects-draws-card-asset-close"
-                }
-                onClick={() => handleFullScreen("3")}
-              ></img>
-            </div>
+            {isFullScreen === "3" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("3")}
+                >
+                  Close
+                </LinkButton>
+                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("3")}></div>
+              </>
+            )}
+            <img
+              src={projectsMainImg}
+              alt="dibujo 3 - tal"
+              className={
+                isFullScreen === "3"
+                  ? "projects-draws-card-asset-open"
+                  : "projects-draws-card-asset-close"
+              }
+              onClick={() => handleFullScreen("3")}
+            ></img>
+            <h3 style={{ color: "white" }} className="projects-draws-card-title">
+              "¡El mismísimo Billy Butcher y el maldito Homelander de The Boys!"
+            </h3>
+            <i className="projects-draws-card-date">- Agosto 12, 2022</i>
             <div className="projects-draws-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
