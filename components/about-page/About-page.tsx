@@ -1,5 +1,6 @@
 import LinkButton from "../custom-buttons/LinkButton";
 import aboutMainImg from "./../../src/assets/Recurso 2@3x.png";
+import diablitoCollage from "/src/assets/diablito-13-about-collage.jpg";
 import "./🎨about-page.css";
 
 export default function AboutPage() {
@@ -15,7 +16,7 @@ export default function AboutPage() {
               enfoque se centra en expresar ideas surrealistas y alucinantes para entretener con una
               experiencia visual impactante.
             </p>
-            <img src="" alt="Imagen sobre el estilo del diablito 13"></img>
+            <img src={diablitoCollage} alt="Imagen sobre el estilo del diablito 13"></img>
             <p>
               Descubrieron su pasión por la animación al darse cuenta de las ideas imposibles en sus
               mentes y cómo la animación les permite darles vida sin riesgo.
@@ -24,10 +25,13 @@ export default function AboutPage() {
               Su proceso creativo se basa en buenas pláticas, referencias y diversión. Encuentran
               inspiración en temas actuales, vivencias y alucinaciones.
             </p>
-            <img
-              src=""
-              alt="Podrías incluir una imagen que represente una sesión de brainstorming o ilustraciones y referencias que inspiran su creatividad."
-            ></img>
+            <video
+              preload="auto"
+              autoPlay={true}
+              loop={true}
+              controls={false}
+              src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/Timelapse-Work-Emote-16x9.mp4?alt=media&token=040263aa-14e6-46a8-ba24-1a960b52b41d"
+            ></video>
             <p>
               Consideran que el arte siempre lleva un mensaje personal o dirigido a un sector. Ven
               la relación entre el arte y la tecnología como una adaptación para mejorar su trabajo.

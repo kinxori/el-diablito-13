@@ -53,8 +53,15 @@
 
 .about-page-copy-content img {
   width: 100%;
-  min-height: 200px;
+  height: 100%;
   object-fit: contain;
+  border-radius: 2px;
+  border: 1px dotted white;
+}
+
+.about-page-copy-content video {
+  width: 100%;
+  height: 100%;
   border-radius: 2px;
   border: 1px dotted white;
 }
