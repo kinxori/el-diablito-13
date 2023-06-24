@@ -2,7 +2,8 @@
   width: 80%;
   height: auto;
   position: relative;
-  margin: 10% auto;
+  margin: 0 auto;
+  padding: 10% 0;
   border: 1px dotted white;
 }
 
@@ -23,14 +24,20 @@
 
 .landing-page-copy {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   border: 1px dotted white;
 }
 
-.landing-page-copy h2 {
+.landing-page-copy-content {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-page-copy-content h2 {
   font-size: 32px;
   font-weight: 700;
   text-align: left;
