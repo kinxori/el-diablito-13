@@ -22,7 +22,7 @@ export default function EmailForm() {
       {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "label-Type": "application/json",
         },
         body: JSON.stringify({ ...form }),
       }
@@ -40,7 +40,7 @@ export default function EmailForm() {
   return (
     <section className="email-form-root">
       <form onSubmit={handleSubmit} className="email-form-body">
-        <div className="email-form-entry">
+        <div className="email-form-label">
           <h3>Tu correo: </h3>
           <input
             type="email"
@@ -52,7 +52,7 @@ export default function EmailForm() {
             placeholder="ejemplo@email.com"
           />
         </div>
-        <div className="email-form-entry">
+        <div className="email-form-label">
           <h3>Asunto: </h3>
           <input
             value={subjectInput}
@@ -63,7 +63,7 @@ export default function EmailForm() {
             placeholder="Ingresa el asunto"
           />
         </div>
-        <div className="email-form-entry">
+        <div className="email-form-label">
           <h3>Mensaje:</h3>
           <textarea
             required

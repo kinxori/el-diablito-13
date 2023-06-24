@@ -26,11 +26,11 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h3 className="projects-draws-card-title">
+            <h3 className="projects-vids-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
               Twitch!"
             </h3>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-vids-card-date">- Mayo 31, 2023</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
@@ -46,11 +46,11 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h3 className="projects-draws-card-title">
+            <h3 className="projects-vids-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
               Twitch!"
             </h3>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-vids-card-date">- Mayo 31, 2023</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
@@ -66,11 +66,11 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h3 className="projects-draws-card-title">
+            <h3 className="projects-vids-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
               Twitch!"
             </h3>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-vids-card-date">- Mayo 31, 2023</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
@@ -86,11 +86,11 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h3 className="projects-draws-card-title">
+            <h3 className="projects-vids-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
               Twitch!"
             </h3>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-vids-card-date">- Mayo 31, 2023</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
