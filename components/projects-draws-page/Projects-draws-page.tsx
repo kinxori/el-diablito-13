@@ -5,6 +5,8 @@ import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";
 import billyButcher from "/src/assets/dibujo-3.jpeg";
+import inking2022 from "/src/assets/dibujo-2.jpeg";
+import jonathanDevils from "/src/assets/dibujo-2.jpeg";
 
 export default function ProjectsDrawsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
@@ -46,26 +48,38 @@ export default function ProjectsDrawsPage() {
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="Dibujo 2">
-            <div className="projects-draw-card-asset" onClick={() => handleFullScreen("2")}>
-              {isFullScreen === "2" && (
-                <LinkButton className="full-screen-close-button" variant="linkButton">
-                  Close
+          <CardDisplay header="Inking 2022">
+            {isFullScreen === "2" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("2")}
+                >
+                  <i className="fa-regular fa-circle-xmark"></i>
                 </LinkButton>
-              )}
-              <img
-                src={projectsMainImg}
-                alt="dibujo 2 - tal"
-                className={
-                  isFullScreen === "2"
-                    ? "projects-draws-card-asset-open"
-                    : "projects-draws-card-asset-close"
-                }
-              ></img>
-              {isFullScreen === "2" && <div className="full-screen-bg-blank"></div>}
-            </div>
+                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("2")}></div>
+              </>
+            )}
+            <img
+              src={inking2022}
+              alt="dibujo 2 - tal"
+              className={
+                isFullScreen === "2"
+                  ? "projects-draws-card-asset-open"
+                  : "projects-draws-card-asset-close"
+              }
+              onClick={() => handleFullScreen("2")}
+            ></img>
+
+            <h3 className="projects-draws-card-title">
+              "¡Inspirado en los 2 sujetos más bizarros e idiotas de los 90's!"
+            </h3>
+            <i className="projects-draws-card-date">- Noviembre 8, 2022</i>
             <div className="projects-draws-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/p/CktgH2OPdMQ/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Billy Butcher">
@@ -91,12 +105,14 @@ export default function ProjectsDrawsPage() {
               }
               onClick={() => handleFullScreen("3")}
             ></img>
-            <h3 style={{ color: "white" }} className="projects-draws-card-title">
+            <h3 className="projects-draws-card-title">
               "¡El mismísimo Billy Butcher de The Boys!"
             </h3>
             <i className="projects-draws-card-date">- Agosto 12, 2022</i>
             <div className="projects-draws-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/p/ChK_mZpOjbu/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Un Toque Mágico">
@@ -122,10 +138,8 @@ export default function ProjectsDrawsPage() {
               }
               onClick={() => handleFullScreen("4")}
             ></img>
-            <h3 style={{ color: "white" }} className="projects-draws-card-title">
-              "¡Tal vez necesito un toque mágico!"
-            </h3>
-            <i className="projects-draws-card-date">- Noviembre 11, 2022</i>
+            <h3 className="projects-draws-card-title">"¡Tal vez necesito un toque mágico!"</h3>
+            <i className="projects-draws-card-date">- Noviembre 11, 2020</i>
             <div className="projects-draws-card-CTA">
               <LinkButton to="https://www.instagram.com/p/CHds-TbHjlX/" target="_blank">
                 Visitar
