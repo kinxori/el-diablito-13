@@ -6,15 +6,13 @@ export default function DisclaimerComp() {
       <div className="disclaimer-comp-copy">
         <h5>Descargo de responsabilidad de "El Diablito 13"</h5>
         <p>
-          La información en este sitio web es solo para fines informativos. No nos hacemos
-          responsables de la integridad, precisión o actualidad de la información proporcionada, ni
-          de cualquier pérdida o daño derivado de su uso. Los enlaces a otros sitios web se
-          proporcionan como conveniencia, pero no respaldamos ni garantizamos la exactitud de las
-          opiniones o información en esos sitios. Hacemos todo lo posible para mantener el sitio web
-          en funcionamiento, pero no nos hacemos responsables de la disponibilidad temporal debido a
-          problemas técnicos. Para cualquier pregunta o inquietud, contáctanos.
+          Los enlaces a otros sitios web se proporcionan como conveniencia, pero no respaldamos ni
+          garantizamos la exactitud de las opiniones o información en esos sitios. Hacemos todo lo
+          posible para mantener el sitio web en funcionamiento, pero no nos hacemos responsables de
+          la disponibilidad temporal debido a problemas técnicos. Para cualquier pregunta o
+          inquietud, contáctanos.
         </p>
-        <p>Todos los derechos reservados © 2023 "El Diablito 13".</p>
+        <i>Todos los derechos reservados © 2023 "El Diablito 13".</i>
       </div>
     </section>
   );
