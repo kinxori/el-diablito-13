@@ -21,30 +21,15 @@ export default function ProjectsVidsPage() {
         </div>
         <div className="projects-vids-page-cards">
           <CardDisplay header="video 1">
-            {isFullScreen === "1" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("1")}
-                >
-                  Close
-                </LinkButton>
-                <div
-                  className="projects-vids-asset-bg-blank"
-                  onClick={() => handleFullScreen("1")}
-                ></div>
-              </>
-            )}
             <video
+              src={projectsVideo1}
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              src={projectsVideo1}
-              className="projects-vids-asset-close"
+              className="projects-vids-card-asset"
               onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">
@@ -57,30 +42,15 @@ export default function ProjectsVidsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="video 1">
-            {isFullScreen === "1" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("1")}
-                >
-                  Close
-                </LinkButton>
-                <div
-                  className="projects-vids-asset-bg-blank"
-                  onClick={() => handleFullScreen("1")}
-                ></div>
-              </>
-            )}
             <video
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              src={projectsVideo1}
-              className="projects-vids-asset-close"
               onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">
@@ -93,30 +63,15 @@ export default function ProjectsVidsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="video 1">
-            {isFullScreen === "1" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("1")}
-                >
-                  Close
-                </LinkButton>
-                <div
-                  className="projects-vids-asset-bg-blank"
-                  onClick={() => handleFullScreen("1")}
-                ></div>
-              </>
-            )}
             <video
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              src={projectsVideo1}
-              className="projects-vids-asset-close"
               onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">
@@ -129,30 +84,15 @@ export default function ProjectsVidsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="video 1">
-            {isFullScreen === "1" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("1")}
-                >
-                  Close
-                </LinkButton>
-                <div
-                  className="projects-vids-asset-bg-blank"
-                  onClick={() => handleFullScreen("1")}
-                ></div>
-              </>
-            )}
             <video
+              src={projectsVideo1}
+              className="projects-vids-asset-close"
               loop={false}
               autoPlay={false}
               controls={true}
               preload="auto"
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
-              src={projectsVideo1}
-              className="projects-vids-asset-close"
               onClick={() => handleFullScreen("1")}
             ></video>
             <h3 className="projects-draws-card-title">

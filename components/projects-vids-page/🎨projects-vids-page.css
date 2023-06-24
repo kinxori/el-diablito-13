@@ -51,44 +51,11 @@
   justify-content: center;
 }
 
-/* ------------------ FULL SCREEN IMG -------------------- */
-
-.projects-vids-asset-close {
+.projects-vids-card-asset {
   width: 100%;
   border-radius: 2px;
   object-fit: contain;
   position: relative;
-}
-
-.projects-vids-asset-open {
-  width: 100vw;
-  object-fit: contain;
-  position: fixed;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2100;
-}
-
-.projects-vids-asset-close-button {
-  position: fixed;
-  right: 0%;
-  top: 0%;
-  z-index: 2100;
-}
-
-.projects-vids-asset-close-button button {
-  color: var(--main-color);
-}
-
-.projects-vids-asset-bg-blank {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2000;
-  background-color: black;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
