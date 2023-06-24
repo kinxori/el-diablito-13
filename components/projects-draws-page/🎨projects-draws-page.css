@@ -57,13 +57,14 @@
 
 /* ------------------ FULL SCREEN IMG -------------------- */
 
-.projects-draws-fullscreen-asset {
+.projects-draw-asset {
   width: 100%;
-  height: 70%;
+  height: 100%;
 }
 
 .projects-draws-asset-close {
   width: 100%;
+  height: 100%;
   object-fit: contain;
   position: relative;
   top: 50%;
@@ -175,7 +176,7 @@
 
   /* ------------------ FULL SCREEN IMG -------------------- */
 
-  .projects-draws-fullscreen-asset:hover {
+  .projects-draw-asset:hover {
     cursor: pointer;
   }
 

@@ -1,8 +1,9 @@
+import { useState } from "react";
 import LinkButton from "../custom-buttons/LinkButton";
 import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
-import { useState } from "react";
+import unToqueMagico from "/src/assets/dibujo-4.jpeg";
 
 export default function ProjectsDrawsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
@@ -23,7 +24,7 @@ export default function ProjectsDrawsPage() {
         </div>
         <div className="projects-draws-cards">
           <CardDisplay header="Dibujo 1">
-            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("1")}>
+            <div className="projects-draw-asset" onClick={() => handleFullScreen("1")}>
               {isFullScreen === "1" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
@@ -43,7 +44,7 @@ export default function ProjectsDrawsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 2">
-            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("2")}>
+            <div className="projects-draw-asset" onClick={() => handleFullScreen("2")}>
               {isFullScreen === "2" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
@@ -63,7 +64,7 @@ export default function ProjectsDrawsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 3">
-            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("3")}>
+            <div className="projects-draw-asset" onClick={() => handleFullScreen("3")}>
               {isFullScreen === "3" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
@@ -82,15 +83,15 @@ export default function ProjectsDrawsPage() {
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="Dibujo 4">
-            <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("4")}>
+          <CardDisplay header="Un Toque Mágico">
+            <div className="projects-draw-asset" onClick={() => handleFullScreen("4")}>
               {isFullScreen === "4" && (
                 <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
                   Close
                 </LinkButton>
               )}
               <img
-                src={projectsMainImg}
+                src={unToqueMagico}
                 alt="dibujo 4 - tal"
                 className={
                   isFullScreen === "4" ? "projects-draws-asset-open" : "projects-draws-asset-close"
@@ -98,9 +99,13 @@ export default function ProjectsDrawsPage() {
               ></img>
               {isFullScreen === "4" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
-
+            <p style={{ color: "white" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi tenetur
+              repudiandae assumenda corporis quibusdam iusto nihil odit provident necessitatibus,
+              pariatur aliquam, ea consequatur natus accusamus molestias similique. Error, adipisci!
+            </p>
             <div className="projects-draws-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/p/CHds-TbHjlX/">Visitar</LinkButton>
             </div>
           </CardDisplay>
         </div>
