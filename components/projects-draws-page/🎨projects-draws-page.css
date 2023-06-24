@@ -44,61 +44,65 @@
   border: 1px dotted white;
 }
 
-.card-display-img-content {
-  height: 100%;
-  object-fit: contain;
+.projects-draws-card-title {
+  font-size: 24px;
+  text-align: center;
+  color: var(--main-color);
 }
 
-.projects-draws-CTA {
+.projects-draws-card-date {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.6;
+  color: var(--main-color);
+}
+
+.projects-draws-card-CTA {
   width: 100%;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
 /* ------------------ FULL SCREEN IMG -------------------- */
-
-.projects-draw-asset {
-  width: 100%;
-  height: 100%;
-}
-
-.projects-draws-asset-close {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.projects-draws-asset-open {
+.projects-draws-card-asset-open {
   width: 100vw;
+  height: 100vh;
   object-fit: contain;
   position: fixed;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 2100;
+  z-index: 300;
 }
 
-.projects-draws-asset-close-button {
+.projects-draws-card-asset-close {
+  width: 100%;
+  border-radius: 2px;
+  object-fit: contain;
+  position: relative;
+}
+
+.full-screen-close-button {
   position: fixed;
   right: 0%;
   top: 0%;
-  z-index: 2100;
+  z-index: 400;
 }
 
-.projects-draws-asset-close-button button {
+.full-screen-close-button button {
   color: var(--main-color);
+  min-width: 0;
+  font-size: 30px;
 }
 
-.projects-draws-asset-bg-blank {
+.full-screen-bg-blank {
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2000;
+  z-index: 200;
   background-color: black;
 }
 
@@ -176,11 +180,11 @@
 
   /* ------------------ FULL SCREEN IMG -------------------- */
 
-  .projects-draw-asset:hover {
+  .projects-draw-card-asset:hover {
     cursor: pointer;
   }
 
-  .projects-draws-asset-open {
+  .projects-draws-card-asset-open {
     height: 100vh;
     width: 100vw;
   }

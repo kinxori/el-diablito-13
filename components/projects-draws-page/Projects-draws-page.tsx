@@ -24,9 +24,9 @@ export default function ProjectsDrawsPage() {
         </div>
         <div className="projects-draws-cards">
           <CardDisplay header="Dibujo 1">
-            <div className="projects-draw-asset" onClick={() => handleFullScreen("1")}>
+            <div className="projects-draw-card-asset" onClick={() => handleFullScreen("1")}>
               {isFullScreen === "1" && (
-                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
+                <LinkButton className="full-screen-close-button" variant="linkButton">
                   Close
                 </LinkButton>
               )}
@@ -34,19 +34,21 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 1 - tal"
                 className={
-                  isFullScreen === "1" ? "projects-draws-asset-open" : "projects-draws-asset-close"
+                  isFullScreen === "1"
+                    ? "projects-draws-card-asset-open"
+                    : "projects-draws-card-asset-close"
                 }
               ></img>
-              {isFullScreen === "1" && <div className="projects-draws-asset-bg-blank"></div>}
+              {isFullScreen === "1" && <div className="full-screen-bg-blank"></div>}
             </div>
-            <div className="projects-draws-CTA">
+            <div className="projects-draws-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 2">
-            <div className="projects-draw-asset" onClick={() => handleFullScreen("2")}>
+            <div className="projects-draw-card-asset" onClick={() => handleFullScreen("2")}>
               {isFullScreen === "2" && (
-                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
+                <LinkButton className="full-screen-close-button" variant="linkButton">
                   Close
                 </LinkButton>
               )}
@@ -54,58 +56,77 @@ export default function ProjectsDrawsPage() {
                 src={projectsMainImg}
                 alt="dibujo 2 - tal"
                 className={
-                  isFullScreen === "2" ? "projects-draws-asset-open" : "projects-draws-asset-close"
+                  isFullScreen === "2"
+                    ? "projects-draws-card-asset-open"
+                    : "projects-draws-card-asset-close"
                 }
               ></img>
-              {isFullScreen === "2" && <div className="projects-draws-asset-bg-blank"></div>}
+              {isFullScreen === "2" && <div className="full-screen-bg-blank"></div>}
             </div>
-            <div className="projects-draws-CTA">
+            <div className="projects-draws-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Dibujo 3">
-            <div className="projects-draw-asset" onClick={() => handleFullScreen("3")}>
+            <div className="projects-draw-card-asset">
               {isFullScreen === "3" && (
-                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
-                  Close
-                </LinkButton>
+                <>
+                  <LinkButton
+                    className="full-screen-close-button"
+                    variant="linkButton"
+                    onClick={() => handleFullScreen("3")}
+                  >
+                    Close
+                  </LinkButton>
+                  <div className="full-screen-bg-blank" onClick={() => handleFullScreen("3")}></div>
+                </>
               )}
               <img
                 src={projectsMainImg}
                 alt="dibujo 3 - tal"
                 className={
-                  isFullScreen === "3" ? "projects-draws-asset-open" : "projects-draws-asset-close"
+                  isFullScreen === "3"
+                    ? "projects-draws-card-asset-open"
+                    : "projects-draws-card-asset-close"
                 }
+                onClick={() => handleFullScreen("3")}
               ></img>
-              {isFullScreen === "3" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
-            <div className="projects-draws-CTA">
+            <div className="projects-draws-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Un Toque Mágico">
-            <div className="projects-draw-asset" onClick={() => handleFullScreen("4")}>
-              {isFullScreen === "4" && (
-                <LinkButton className="projects-draws-asset-close-button" variant="linkButton">
-                  Close
+            {isFullScreen === "4" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("4")}
+                >
+                  <i className="fa-regular fa-circle-xmark"></i>
                 </LinkButton>
-              )}
-              <img
-                src={unToqueMagico}
-                alt="dibujo 4 - tal"
-                className={
-                  isFullScreen === "4" ? "projects-draws-asset-open" : "projects-draws-asset-close"
-                }
-              ></img>
-              {isFullScreen === "4" && <div className="projects-draws-asset-bg-blank"></div>}
-            </div>
-            <p style={{ color: "white" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi tenetur
-              repudiandae assumenda corporis quibusdam iusto nihil odit provident necessitatibus,
-              pariatur aliquam, ea consequatur natus accusamus molestias similique. Error, adipisci!
-            </p>
-            <div className="projects-draws-CTA">
-              <LinkButton to="https://www.instagram.com/p/CHds-TbHjlX/">Visitar</LinkButton>
+                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("4")}></div>
+              </>
+            )}
+            <img
+              src={unToqueMagico}
+              alt="dibujo 4 - tal"
+              className={
+                isFullScreen === "4"
+                  ? "projects-draws-card-asset-open"
+                  : "projects-draws-card-asset-close"
+              }
+              onClick={() => handleFullScreen("4")}
+            ></img>
+            <h3 style={{ color: "white" }} className="projects-draws-card-title">
+              "¡Tal vez necesito un toque mágico!"
+            </h3>
+            <i className="projects-draws-card-date">- Noviembre 11, 2022</i>
+            <div className="projects-draws-card-CTA">
+              <LinkButton to="https://www.instagram.com/p/CHds-TbHjlX/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
         </div>
