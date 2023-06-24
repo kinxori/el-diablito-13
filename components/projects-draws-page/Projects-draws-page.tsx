@@ -6,7 +6,7 @@ import "./🎨projects-draws-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";
 import billyButcher from "/src/assets/dibujo-3.jpeg";
 import inking2022 from "/src/assets/dibujo-2.jpeg";
-import jonathanDevils from "/src/assets/dibujo-2.jpeg";
+import jonathanDevils from "/src/assets/dibujo-1.jpeg";
 
 export default function ProjectsDrawsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
@@ -26,26 +26,38 @@ export default function ProjectsDrawsPage() {
           </p>
         </div>
         <div className="projects-draws-cards">
-          <CardDisplay header="Dibujo 1">
-            <div className="projects-draw-card-asset" onClick={() => handleFullScreen("1")}>
-              {isFullScreen === "1" && (
-                <LinkButton className="full-screen-close-button" variant="linkButton">
-                  Close
+          <CardDisplay header="Jonathan Devil">
+            {isFullScreen === "1" && (
+              <>
+                <LinkButton
+                  className="full-screen-close-button"
+                  variant="linkButton"
+                  onClick={() => handleFullScreen("1")}
+                >
+                  <i className="fa-regular fa-circle-xmark"></i>
                 </LinkButton>
-              )}
-              <img
-                src={projectsMainImg}
-                alt="dibujo 1 - tal"
-                className={
-                  isFullScreen === "1"
-                    ? "projects-draws-card-asset-open"
-                    : "projects-draws-card-asset-close"
-                }
-              ></img>
-              {isFullScreen === "1" && <div className="full-screen-bg-blank"></div>}
-            </div>
+                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("1")}></div>
+              </>
+            )}
+            <img
+              src={jonathanDevils}
+              alt="dibujo 1 - tal"
+              className={
+                isFullScreen === "1"
+                  ? "projects-draws-card-asset-open"
+                  : "projects-draws-card-asset-close"
+              }
+              onClick={() => handleFullScreen("1")}
+            ></img>
+            <h3 className="projects-draws-card-title">
+              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
+              Twitch!"
+            </h3>
+            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
             <div className="projects-draws-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/p/Cs7AL0lRnch/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Inking 2022">
