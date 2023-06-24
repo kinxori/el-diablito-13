@@ -12,13 +12,13 @@ export default function ProjectsDrawsPage() {
   };
 
   return (
-    <section id="projects-draws-page-id" className="projects-draws-page-root">
-      <div className="projects-draws-page-asset">
-        <div className="projects-draws-page-copy">
+    <section id="projects-draws-id" className="projects-draws-root">
+      <div className="projects-draws-content">
+        <div className="projects-draws-copy">
           <h2>Proyectos de Ilustración 👺</h2>
           <p>TRabajando como ilustrador, estos son unos de mis trabajos 👺</p>
         </div>
-        <div className="projects-draws-page-cards">
+        <div className="projects-draws-cards">
           <CardDisplay header="Dibujo 1">
             <div className="projects-draws-fullscreen-asset" onClick={() => handleFullScreen("1")}>
               {isFullScreen === "1" && (
@@ -35,7 +35,7 @@ export default function ProjectsDrawsPage() {
               ></img>
               {isFullScreen === "1" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
-            <div className="projects-draws-page-CTA">
+            <div className="projects-draws-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
@@ -55,7 +55,7 @@ export default function ProjectsDrawsPage() {
               ></img>
               {isFullScreen === "2" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
-            <div className="projects-draws-page-CTA">
+            <div className="projects-draws-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
@@ -75,7 +75,7 @@ export default function ProjectsDrawsPage() {
               ></img>
               {isFullScreen === "3" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
-            <div className="projects-draws-page-CTA">
+            <div className="projects-draws-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
@@ -96,7 +96,7 @@ export default function ProjectsDrawsPage() {
               {isFullScreen === "4" && <div className="projects-draws-asset-bg-blank"></div>}
             </div>
 
-            <div className="projects-draws-page-CTA">
+            <div className="projects-draws-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>

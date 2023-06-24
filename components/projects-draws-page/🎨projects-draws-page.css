@@ -1,54 +1,47 @@
-.projects-draws-page-root {
+.projects-draws-root {
   width: 80%;
-  height: min-content;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   margin: 0 auto;
-  margin-top: 25%;
+  padding: 10% 0;
+  border: 1px dotted white;
 }
 
-.projects-draws-page-content {
+.projects-draws-content {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  border: 1px dotted white;
 }
 
-.projects-draws-page-copy {
+.projects-draws-copy {
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  gap: 20px;
   align-items: center;
-  margin-bottom: 20%;
+  display: flex;
+  flex-direction: column;
 }
 
-.projects-draws-page-copy h2 {
-  font-size: 38px;
-  display: flex;
-  margin-right: auto;
-  line-height: var(--line-heigth);
+.projects-draws-copy h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--main-font);
   color: var(--main-color);
 }
 
-.projects-draws-page-copy p {
-  margin-right: auto;
-  display: flex;
+.projects-draws-copy p {
+  font-size: 16px;
   font-family: var(--sec-font);
   color: var(--main-color);
-  font-size: 16px;
-  padding-top: 15px;
-  line-height: 20px;
 }
 
-.projects-draws-page-cards {
-  height: min-content;
+.projects-draws-cards {
   width: 100%;
+  gap: 20px;
+  padding-top: 20%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  border: 1px dotted white;
 }
 
 .card-display-img-content {
@@ -56,7 +49,7 @@
   object-fit: contain;
 }
 
-.projects-draws-page-CTA {
+.projects-draws-CTA {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -111,21 +104,21 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
-  .projects-draws-page-copy {
+  .projects-draws-copy {
     margin-bottom: 15%;
   }
 
-  .projects-draws-page-copy h2 {
+  .projects-draws-copy h2 {
     font-size: 60px;
   }
 
-  .projects-draws-page-copy p {
+  .projects-draws-copy p {
     font-size: 26px;
     line-height: 30px;
     padding-top: 30px;
   }
 
-  .projects-draws-page-cards {
+  .projects-draws-cards {
     gap: 40px;
   }
 
@@ -137,7 +130,7 @@
 /* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
 
 @media (min-width: 1181px) {
-  .projects-draws-page-root {
+  .projects-draws-root {
     width: 80%;
     height: min-content;
     position: relative;
@@ -145,7 +138,7 @@
     margin-top: 0%;
   }
 
-  .projects-draws-page-copy {
+  .projects-draws-copy {
     width: 100%;
     height: min-content;
     display: flex;
@@ -155,21 +148,21 @@
     margin-bottom: 10%;
   }
 
-  .projects-draws-page-copy h2 {
+  .projects-draws-copy h2 {
     font-size: 50px;
     display: flex;
     margin-right: 0;
     line-height: var(--line-heigth);
   }
 
-  .projects-draws-page-copy p {
+  .projects-draws-copy p {
     font-size: 20px;
     line-height: 25px;
     padding-top: 20px;
     margin-right: 0;
   }
 
-  .projects-draws-page-cards {
+  .projects-draws-cards {
     height: auto;
     width: auto;
     display: flex;
