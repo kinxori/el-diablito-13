@@ -1,6 +1,7 @@
 import LinkButton from "../custom-buttons/LinkButton";
 import aboutMainImg from "./../../src/assets/Recurso 2@3x.png";
 import diablitoCollage from "/src/assets/diablito-13-about-collage.jpg";
+import diablitoDrawing from "/src/assets/diablito-picture.png";
 import "./🎨about-page.css";
 
 export default function AboutPage() {
@@ -29,6 +30,7 @@ export default function AboutPage() {
               preload="auto"
               autoPlay={true}
               loop={true}
+              muted={true}
               controls={false}
               src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/Timelapse-Work-Emote-16x9.mp4?alt=media&token=040263aa-14e6-46a8-ba24-1a960b52b41d"
             ></video>
@@ -40,7 +42,7 @@ export default function AboutPage() {
               Prefieren Instagram para mostrar su trabajo y Facebook para diversión. Si tuvieran que
               hacer un autorretrato, sería un diablo grotesco y enorme con múltiples caras.
             </p>
-            <img src="" alt="dibujo de diablo"></img>
+            <img src={diablitoDrawing} alt="dibujo de diablo"></img>
             <p>
               Aconsejan perseverancia, representar ideas y estudiar el entorno. Películas favoritas:
               "Fight Club", "Fear & Loathing in Las Vegas", "Django", "Ren y Stimpy" e "Invader
