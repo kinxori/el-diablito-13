@@ -49,7 +49,7 @@ export default function NavMobile() {
               </h3>
             </a>
             <a
-              href="#projects-draws-page-id"
+              href="#projects-draws-id"
               className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
@@ -58,7 +58,7 @@ export default function NavMobile() {
               </h3>
             </a>
             <a
-              href="#projects-vids-page-id"
+              href="#projects-vids-id"
               className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >
