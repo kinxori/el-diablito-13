@@ -1,8 +1,8 @@
 .disclaimer-comp-root {
   width: 100%;
   position: relative;
-  background-color: var(--invert-color);
   margin-top: 20%;
+  background-color: var(--invert-color);
 }
 
 .disclaimer-comp-copy {
