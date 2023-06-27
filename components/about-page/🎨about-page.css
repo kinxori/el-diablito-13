@@ -81,18 +81,41 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
+  .about-page-root {
+    padding: 10% 0;
+  }
+
   .about-page-content img {
-    height: 200px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
-  .about-page-copy h2 {
-    font-size: 60px;
+  .about-page-copy-content {
+    gap: 30px;
   }
 
-  .about-page-copy p {
-    font-size: 26px;
-    line-height: 30px;
-    padding-top: 30px;
+  .about-page-copy-content h2 {
+    font-size: 48px;
+  }
+
+  .about-page-copy-content p {
+    font-size: 20px;
+  }
+
+  .about-page-copy-content img {
+    padding: 0;
+    border-radius: 3px;
+  }
+
+  .about-page-copy-content video {
+    border-radius: 3px;
+  }
+
+  .about-page-CTA {
+    gap: 20px;
+    padding-top: 15%;
   }
 }
 
