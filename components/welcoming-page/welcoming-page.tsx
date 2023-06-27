@@ -1,4 +1,5 @@
 import welcomingPageImgBG from "./../../src/assets/BK.png";
+import clickMeAsset from "/src/assets/clickme-opening-asset.png";
 import "./🎨welcoming-page.css";
 import { useState } from "react";
 
@@ -7,9 +8,8 @@ export default function WelcomingPage({ onClick }: any) {
 
   return (
     <section className="welcoming-page-root">
-      <div className="welcoming-page-copy">
-        <h1 onClick={onClick}>🔥 Clickeame!🔥</h1>
-      </div>
+      <img src=""></img>
+      <img className="welcoming-page-asset" src={clickMeAsset} onClick={onClick}></img>
       <img
         className="welcoming-page-bg-img"
         src={welcomingPageImgBG}
