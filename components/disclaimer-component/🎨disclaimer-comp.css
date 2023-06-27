@@ -19,6 +19,7 @@
   color: var(--main-color);
   font-family: var(--main-font);
   opacity: 0.3;
+  font-size: 12px;
 }
 
 .disclaimer-comp-copy p {
@@ -34,30 +35,31 @@
   font-family: var(--sec-font);
   font-size: 10px;
   opacity: 0.3;
-  line-height: 10px;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
   .disclaimer-comp-root {
-    margin-top: 30%;
-    bottom: 10%;
+    margin-top: 10%;
   }
 
   .disclaimer-comp-copy {
-    gap: 8px;
-    padding: 20px 0;
+    width: 85%;
+    gap: 12px;
+    padding: 30px 0;
   }
 
   .disclaimer-comp-copy h5 {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .disclaimer-comp-copy p {
-    font-size: 16px;
-    padding: 0 30px;
-    line-height: 15px;
+    font-size: 12px;
+  }
+
+  .disclaimer-comp-copy i {
+    font-size: 14px;
   }
 }
 
