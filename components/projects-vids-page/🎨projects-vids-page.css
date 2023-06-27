@@ -117,56 +117,73 @@
 
 @media (min-width: 1181px) {
   .projects-vids-root {
+    width: 90%;
+    padding: 5% 0;
+  }
+
+  .projects-vids-content {
     width: 80%;
-    height: min-content;
-    position: relative;
     margin: 0 auto;
-    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
   }
 
   .projects-vids-copy {
-    width: 100%;
-    height: min-content;
+    gap: 30px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    border: 1px dotted white;
   }
 
   .projects-vids-copy h2 {
-    font-size: 50px;
-    display: flex;
-    margin-right: 0;
-    line-height: var(--line-heigth);
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--main-font);
+    color: var(--main-color);
   }
 
   .projects-vids-copy p {
     font-size: 20px;
-    line-height: 25px;
-    padding-top: 20px;
-    margin-right: 0;
+    font-family: var(--sec-font);
+    color: var(--main-color);
   }
 
   .projects-vids-cards {
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    padding-top: 10%;
+    display: grid;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
+    grid-template-columns: max-content max-content;
+    border: 1px dotted white;
   }
 
-  /* ------------------ FULL SCREEN IMG -------------------- */
-
-  .projects-vids-fullscreen-asset:hover {
-    cursor: pointer;
+  .projects-vids-card-title {
+    font-size: 24px;
+    text-align: center;
+    color: var(--main-color);
   }
 
-  .projects-vids-asset-open {
-    height: 100vh;
-    width: 100vw;
+  .projects-vids-card-date {
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.6;
+    color: var(--main-color);
+  }
+
+  .projects-vids-card-CTA {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-vids-card-asset {
+    width: 100%;
+    border-radius: 3px;
+    object-fit: contain;
+    position: relative;
   }
 }

@@ -26,12 +26,14 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h4 className="projects-draws-card-title">
+            <h4 className="projects-vids-card-title">
               "¡Estaría bien verga que le llegará a mi patrón Silverio 👀 Con mucho cariño 😍!"
             </h4>
-            <i className="projects-draws-card-date">- Junio 25, 2022</i>
+            <i className="projects-vids-card-date">- Junio 25, 2022</i>
             <div className="projects-vids-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/reel/Ce119EuAg38/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="El Moustro del Pantano">
@@ -45,13 +47,15 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h4 className="projects-draws-card-title">
+            <h4 className="projects-vids-card-title">
               "¡El Moustro del pantano les manda saludos especiales. Idea original de mi carnalito
               @victorlglz!"
             </h4>
-            <i className="projects-draws-card-date">- Febrero 4, 2022</i>
+            <i className="projects-vids-card-date">- Febrero 4, 2022</i>
             <div className="projects-vids-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/reel/CZkZlbKFcyk/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Leyendas legendarias">
@@ -65,13 +69,15 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h4 className="projects-draws-card-title">
+            <h4 className="projects-vids-card-title">
               "¡Armé este pequeño homenaje para los carnales de @leyendaspodcast @elbadiablo
               @ninguneduardo @mariolopezcapi!"
             </h4>
-            <i className="projects-draws-card-date">- Octubre 30, 2020</i>
+            <i className="projects-vids-card-date">- Octubre 30, 2020</i>
             <div className="projects-vids-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/reel/CG-piSSnMbT/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
           <CardDisplay header="Chino Moreno de los Deftones.">
@@ -85,12 +91,14 @@ export default function ProjectsVidsPage() {
               disablePictureInPicture
               controlsList="nodownload noplaybackrate"
             ></video>
-            <h4 className="projects-draws-card-title">
+            <h4 className="projects-vids-card-title">
               "¡Desde el mismísimo infierno para esa bandota tan rifada!"
             </h4>
-            <i className="projects-draws-card-date">- Junio 20, 2020</i>
+            <i className="projects-vids-card-date">- Junio 20, 2020</i>
             <div className="projects-vids-card-CTA">
-              <LinkButton>Visitar</LinkButton>
+              <LinkButton to="https://www.instagram.com/reel/CBqzm3tnWED/" target="_blank">
+                Visitar
+              </LinkButton>
             </div>
           </CardDisplay>
         </div>

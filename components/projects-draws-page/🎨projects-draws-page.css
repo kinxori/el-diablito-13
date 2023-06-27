@@ -163,7 +163,6 @@
 @media (min-width: 1181px) {
   .projects-draws-root {
     width: 90%;
-
     padding: 5% 0;
   }
 
@@ -200,9 +199,10 @@
     width: 100%;
     gap: 30px;
     padding-top: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: max-content max-content;
+    border: 1px dotted white;
   }
 
   .projects-draws-card-title {
@@ -240,7 +240,7 @@
 
   .projects-draws-card-asset-close {
     width: 100%;
-    border-radius: 2px;
+    border-radius: 3px;
     object-fit: contain;
     position: relative;
   }

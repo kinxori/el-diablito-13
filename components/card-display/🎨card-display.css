@@ -68,7 +68,7 @@
 @media (min-width: 1181px) {
   .card-root {
     height: 400px;
-    width: 45%;
+    width: 500px;
     border: 2px solid var(--sec-color);
   }
 
