@@ -1,6 +1,6 @@
 import LinkButton from "../custom-buttons/LinkButton";
 import aboutMainImg from "./../../src/assets/Recurso 2@3x.png";
-import diablitoCollage from "/src/assets/diablito-13-about-collage.jpg";
+import diablitoCollage from "/src/assets/diablito-13-about-collage-2.jpg";
 import diablitoDrawing from "/src/assets/diablito-picture.png";
 import "./🎨about-page.css";
 
