@@ -15,9 +15,9 @@ export default function ProjectsVidsPage() {
           </p>
         </div>
         <div className="projects-vids-cards">
-          <CardDisplay header="video 1">
+          <CardDisplay header="Su majestad imperial">
             <video
-              src={projectsVideo1}
+              src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/silverio%20Dances_2.mp4?alt=media&token=98007614-5a04-4bcd-ba24-481575ba4f07"
               className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
@@ -27,17 +27,16 @@ export default function ProjectsVidsPage() {
               controlsList="nodownload noplaybackrate"
             ></video>
             <h4 className="projects-draws-card-title">
-              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
-              Twitch!"
+              "¡Estaría bien verga que le llegará a mi patrón Silverio 👀 Con mucho cariño 😍!"
             </h4>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-draws-card-date">- Junio 25, 2022</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="video 1">
+          <CardDisplay header="El Moustro del Pantano">
             <video
-              src={projectsVideo1}
+              src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/moustropantano.mp4?alt=media&token=2ea3c1bc-1d3f-4a71-900c-677a7cd1f5be"
               className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
@@ -47,17 +46,17 @@ export default function ProjectsVidsPage() {
               controlsList="nodownload noplaybackrate"
             ></video>
             <h4 className="projects-draws-card-title">
-              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
-              Twitch!"
+              "¡El Moustro del pantano les manda saludos especiales. Idea original de mi carnalito
+              @victorlglz!"
             </h4>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-draws-card-date">- Febrero 4, 2022</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="video 1">
+          <CardDisplay header="Leyendas legendarias">
             <video
-              src={projectsVideo1}
+              src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/LL_2.mp4?alt=media&token=3e2bce49-6153-4b22-8f2f-96564ede052c"
               className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
@@ -67,17 +66,17 @@ export default function ProjectsVidsPage() {
               controlsList="nodownload noplaybackrate"
             ></video>
             <h4 className="projects-draws-card-title">
-              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
-              Twitch!"
+              "¡Armé este pequeño homenaje para los carnales de @leyendaspodcast @elbadiablo
+              @ninguneduardo @mariolopezcapi!"
             </h4>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-draws-card-date">- Octubre 30, 2020</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="video 1">
+          <CardDisplay header="Chino Moreno de los Deftones.">
             <video
-              src={projectsVideo1}
+              src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/chino%20moreno%20grito-.mp4?alt=media&token=7754e300-6a11-4d27-9937-13f2f51e87a1"
               className="projects-vids-card-asset"
               loop={false}
               autoPlay={false}
@@ -87,10 +86,9 @@ export default function ProjectsVidsPage() {
               controlsList="nodownload noplaybackrate"
             ></video>
             <h4 className="projects-draws-card-title">
-              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
-              Twitch!"
+              "¡Desde el mismísimo infierno para esa bandota tan rifada!"
             </h4>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
+            <i className="projects-draws-card-date">- Junio 20, 2020</i>
             <div className="projects-vids-card-CTA">
               <LinkButton>Visitar</LinkButton>
             </div>
