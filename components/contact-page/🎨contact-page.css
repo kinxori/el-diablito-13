@@ -81,63 +81,50 @@
 
 @media (min-width: 1181px) {
   .contact-page-root {
-    width: 80%;
-    height: min-content;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 0%;
+    width: 90%;
+    padding: 5% 0;
   }
 
   .contact-page-content {
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
-    margin-top: 10%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .contact-page-copy {
-    width: 100%;
-    height: min-content;
+    width: 50%;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
+    border: 1px dotted white;
   }
 
   .contact-page-copy h2 {
-    font-size: 50px;
-    display: flex;
-    margin-right: 0;
-    align-items: center;
-    line-height: var(--line-heigth);
-  }
-
-  .contact-page-copy i {
-    font-size: 40px;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--main-font);
+    color: var(--main-color);
   }
 
   .contact-page-copy p {
     font-size: 20px;
-    line-height: 25px;
-    padding-top: 20px;
-    text-align: center;
-    margin-right: 0;
+    font-family: var(--sec-font);
+    color: var(--main-color);
   }
 
   .contact-page-CTA-button {
-    margin: 0;
-    margin-top: 5%;
+    width: 100%;
+    padding: 5% 0;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    border: 1px dotted white;
   }
 
-  .contact-page-copy-email-button i {
-    width: min-content;
-    height: min-content;
-    font-size: inherit;
-    color: inherit;
+  .contact-page-email-text {
+    text-decoration: underline;
+    font-weight: bold;
   }
 }
