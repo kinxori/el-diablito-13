@@ -1,6 +1,5 @@
 import { useState } from "react";
 import LinkButton from "../custom-buttons/LinkButton";
-import projectsMainImg from "./../../src/assets/master.png";
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-draws-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";

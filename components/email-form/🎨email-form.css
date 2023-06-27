@@ -164,7 +164,6 @@
 @media (min-width: 1181px) {
   .email-form-root {
     width: 100%;
-    margin-top: 20px;
     height: min-content;
   }
 
@@ -179,17 +178,17 @@
   .email-form-label h3 {
     width: 100%;
     color: var(--main-color);
+    font-size: 32px;
   }
 
   .email-form-label input {
     width: 100%;
     height: 40px;
     border: 2px solid var(--sec-color);
-    border-radius: 2px;
-    padding-left: 10px;
-    font-size: 16px;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 20px;
     box-sizing: border-box;
-    font: var(--sec-font);
     font-family: var(--sec-font);
   }
 
@@ -198,12 +197,11 @@
     width: 100%;
     min-height: 200px;
     border: 2px solid var(--sec-color);
-    border-radius: 2px;
-    padding-left: 10px;
-    padding-top: 10px;
-    font-size: 16px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 20px;
     box-sizing: border-box;
-    line-height: 20px;
     font-family: var(--sec-font);
   }
 
@@ -211,14 +209,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
   }
 
   .email-form-submit-button {
-    width: min-content;
-    display: flex;
-    margin-left: 0;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   /* ------------------------- Pop Up ------*/
@@ -230,10 +225,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 30px;
     height: 220px;
     width: 400px;
-    border-radius: 2px;
+    border-radius: 3px;
   }
 
   .email-form-pop-up-body h2 {

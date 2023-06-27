@@ -1,5 +1,4 @@
 import LinkButton from "../custom-buttons/LinkButton";
-import projectsVideo1 from "./../../src/assets/Ilustracion_sin_título.mp4"; //this has to be a video
 import CardDisplay from "../card-display/card-display";
 import "./🎨projects-vids-page.css";
 
