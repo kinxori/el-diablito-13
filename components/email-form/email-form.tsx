@@ -81,16 +81,15 @@ export default function EmailForm() {
           <>
             <div className="email-form-pop-up-root">
               <div className="email-form-pop-up-body">
-                <h2>Correo enviado! 👺</h2>
-                <LinkButton
-                  variant="mainButton"
-                  className="email-form-pop-up-button"
+                <h3>¡Correo enviado! 👺</h3>
+                <button
+                  className="mainButton email-form-pop-up-button"
                   onClick={() => {
                     setIsPopUp(false);
                   }}
                 >
                   Ok
-                </LinkButton>
+                </button>
               </div>
             </div>
 

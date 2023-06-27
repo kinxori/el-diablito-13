@@ -51,26 +51,29 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
-  .contact-page-content {
-    gap: 45px;
+  .contact-page-root {
+    padding: 10% 0;
+  }
+
+  .contact-page-copy {
+    gap: 30px;
   }
 
   .contact-page-copy h2 {
-    font-size: 60px;
-  }
-
-  .contact-page-copy i {
-    font-size: 40px;
+    font-size: 48px;
   }
 
   .contact-page-copy p {
-    font-size: 26px;
-    padding-top: 30px;
-    line-height: 30px;
+    font-size: 20px;
   }
 
-  .contact-page-copy-email-button i {
-    font-size: inherit;
+  .contact-page-CTA-button {
+    padding: 10% 0;
+  }
+
+  .contact-page-email-text {
+    text-decoration: underline;
+    font-weight: bold;
   }
 }
 
