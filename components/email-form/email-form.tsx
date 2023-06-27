@@ -1,5 +1,4 @@
 import { useState } from "react";
-import LinkButton from "../custom-buttons/LinkButton";
 import "./🎨email-form.css";
 
 export default function EmailForm() {
