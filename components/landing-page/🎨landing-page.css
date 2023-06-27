@@ -3,14 +3,12 @@
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
-  border: 1px dotted white;
 }
 
 .landing-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .landing-page-content img {
@@ -25,7 +23,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .landing-page-copy-content {
@@ -52,7 +49,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/

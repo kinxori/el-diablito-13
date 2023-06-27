@@ -3,14 +3,12 @@
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
-  border: 1px dotted white;
 }
 
 .about-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .about-page-content img {
@@ -26,7 +24,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .about-page-copy-content {
@@ -57,14 +54,12 @@
   padding: 0;
   object-fit: contain;
   border-radius: 2px;
-  border: 1px dotted white;
 }
 
 .about-page-copy-content video {
   width: 100%;
   height: 100%;
   border-radius: 2px;
-  border: 1px dotted white;
 }
 
 .about-page-CTA {
@@ -75,7 +70,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
@@ -131,7 +125,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 1px dotted white;
   }
 
   .about-page-content img {

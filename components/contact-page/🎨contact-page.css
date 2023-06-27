@@ -3,14 +3,12 @@
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
-  border: 1px dotted white;
 }
 
 .contact-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .contact-page-copy {
@@ -40,7 +38,6 @@
   padding: 10% 0;
   display: flex;
   justify-content: center;
-  border: 1px dotted white;
 }
 
 .contact-page-email-text {
@@ -98,7 +95,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    border: 1px dotted white;
   }
 
   .contact-page-copy h2 {
@@ -120,7 +116,6 @@
     padding: 5% 0;
     display: flex;
     justify-content: center;
-    border: 1px dotted white;
   }
 
   .contact-page-email-text {
