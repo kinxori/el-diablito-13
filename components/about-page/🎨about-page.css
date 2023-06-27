@@ -123,53 +123,75 @@
 
 @media (min-width: 1181px) {
   .about-page-root {
-    width: 80%;
-    height: min-content;
-    position: relative;
-    margin: 0 auto;
+    width: 90%;
+    padding: 5% 0;
   }
 
   .about-page-content {
     width: 100%;
-    height: 100%;
-    margin-top: 15%;
     display: flex;
     flex-direction: column;
+    border: 1px dotted white;
   }
 
   .about-page-content img {
     width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     object-fit: contain;
   }
 
   .about-page-copy {
-    width: 100%;
-    height: min-content;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
+  }
+
+  .about-page-copy-content {
+    width: 100%;
+    gap: 30px;
     align-items: center;
-  }
-
-  .about-page-copy h2 {
-    font-size: 50px;
     display: flex;
-    margin-right: 0;
-    line-height: var(--line-heigth);
+    flex-direction: column;
   }
 
-  .about-page-copy p {
-    margin-right: 0;
+  .about-page-copy-content h2 {
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--main-font);
+    color: var(--main-color);
+  }
+
+  .about-page-copy-content p {
     font-size: 20px;
-    line-height: 25px;
-    padding-top: 20px;
+    font-family: var(--sec-font);
+    color: var(--main-color);
+  }
+
+  .about-page-copy-content img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    object-fit: contain;
+    border-radius: 3px;
+  }
+
+  .about-page-copy-content video {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
   }
 
   .about-page-CTA {
     width: 100%;
     height: min-content;
-    margin-top: 5%;
+    gap: 10px;
+    padding-top: 10%;
     align-items: center;
     display: flex;
+    flex-direction: column;
   }
 }
