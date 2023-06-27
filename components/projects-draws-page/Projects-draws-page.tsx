@@ -49,10 +49,10 @@ export default function ProjectsDrawsPage() {
               }
               onClick={() => handleFullScreen("1")}
             ></img>
-            <h3 className="projects-draws-card-title">
+            <h4 className="projects-draws-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
               Twitch!"
-            </h3>
+            </h4>
             <i className="projects-draws-card-date">- Mayo 31, 2023</i>
             <div className="projects-draws-card-CTA">
               <LinkButton to="https://www.instagram.com/p/Cs7AL0lRnch/" target="_blank">
@@ -84,9 +84,9 @@ export default function ProjectsDrawsPage() {
               onClick={() => handleFullScreen("2")}
             ></img>
 
-            <h3 className="projects-draws-card-title">
+            <h4 className="projects-draws-card-title">
               "¡Inspirado en los 2 sujetos más bizarros e idiotas de los 90's!"
-            </h3>
+            </h4>
             <i className="projects-draws-card-date">- Noviembre 8, 2022</i>
             <div className="projects-draws-card-CTA">
               <LinkButton to="https://www.instagram.com/p/CktgH2OPdMQ/" target="_blank">
@@ -117,9 +117,9 @@ export default function ProjectsDrawsPage() {
               }
               onClick={() => handleFullScreen("3")}
             ></img>
-            <h3 className="projects-draws-card-title">
+            <h4 className="projects-draws-card-title">
               "¡El mismísimo Billy Butcher de The Boys!"
-            </h3>
+            </h4>
             <i className="projects-draws-card-date">- Agosto 12, 2022</i>
             <div className="projects-draws-card-CTA">
               <LinkButton to="https://www.instagram.com/p/ChK_mZpOjbu/" target="_blank">
@@ -150,7 +150,7 @@ export default function ProjectsDrawsPage() {
               }
               onClick={() => handleFullScreen("4")}
             ></img>
-            <h3 className="projects-draws-card-title">"¡Tal vez necesito un toque mágico!"</h3>
+            <h4 className="projects-draws-card-title">"¡Tal vez necesito un toque mágico!"</h4>
             <i className="projects-draws-card-date">- Noviembre 11, 2020</i>
             <div className="projects-draws-card-CTA">
               <LinkButton to="https://www.instagram.com/p/CHds-TbHjlX/" target="_blank">
