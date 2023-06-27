@@ -83,7 +83,7 @@
   .mainButton {
     border: 2px solid var(--invert-color);
     padding: 14px 24px;
-    border-radius: 2px;
+    border-radius: 3px;
     font-size: 20px;
     transition: all 0.1s ease-in-out;
   }
@@ -91,7 +91,7 @@
   .secButton {
     border: 2px solid var(--sec-color);
     padding: 14px 24px;
-    border-radius: 2px;
+    border-radius: 3px;
     font-size: 20px;
     transition: all 0.1s ease-in-out;
   }
@@ -111,23 +111,19 @@
   }
 
   .mainButton:hover {
-    opacity: 0.9;
-    scale: 0.98;
-    cursor: pointer;
+    opacity: 0.85;
+    scale: 1.01;
   }
   .secButton:hover {
-    opacity: 0.9;
-    scale: 0.98;
-    cursor: pointer;
+    opacity: 0.85;
+    scale: 1.01;
   }
   .ghostButton:hover {
-    opacity: 0.9;
-    scale: 0.98;
-    cursor: pointer;
+    opacity: 0.85;
+    scale: 1.01;
   }
   .linkButton:hover {
-    opacity: 0.9;
-    scale: 0.98;
-    cursor: pointer;
+    opacity: 0.85;
+    scale: 1.01;
   }
 }
