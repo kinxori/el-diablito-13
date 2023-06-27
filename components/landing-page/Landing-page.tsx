@@ -12,10 +12,10 @@ export default function LandingPage() {
             <h2>Sumérgete en el abismo de la imaginación del Diablito Trece 🔥</h2>
           </div>
           <div className="landing-page-CTA">
-            <AnchorButton href="#projects-draws-page-id" variant="mainButton">
+            <AnchorButton href="#projects-draws-id" variant="mainButton">
               Galería de ilustración
             </AnchorButton>
-            <AnchorButton href="#projects-vids-page-id" variant="secButton">
+            <AnchorButton href="#projects-vids-id" variant="secButton">
               Galería de animación
             </AnchorButton>
           </div>

@@ -13,18 +13,21 @@ export default function AboutPage() {
           <div className="about-page-copy-content">
             <h2>¿Quién es El Diablito Trece? 😈</h2>
             <p>
-              El Diablito 13 es una secta de animadores que se dedica a la animación 2D y 3D. Su
-              enfoque se centra en expresar ideas surrealistas y alucinantes para entretener con una
-              experiencia visual impactante.
+              ¡Hola! Soy parte de El Diablito 13, un animador e ilustrador apasionado dedicado a la
+              animación 2D y 3D, así como a la creación de ilustraciones. Mi enfoque se centra en
+              expresar ideas surrealistas y alucinantes para entretener con una experiencia visual
+              cautivadora.
             </p>
             <img src={diablitoCollage} alt="Imagen sobre el estilo del diablito 13"></img>
             <p>
-              Descubrieron su pasión por la animación al darse cuenta de las ideas imposibles en sus
-              mentes y cómo la animación les permite darles vida sin riesgo.
+              Descubrí mi pasión por la animación y la ilustración al darme cuenta de las ideas
+              imposibles en mi mente y cómo estas disciplinas me permiten darles vida sin límites
+              creativos.
             </p>
             <p>
-              Su proceso creativo se basa en buenas pláticas, referencias y diversión. Encuentran
-              inspiración en temas actuales, vivencias y alucinaciones.
+              Mi proceso creativo se basa en buenas pláticas, referencias inspiradoras y mucha
+              diversión. Encuentro inspiración en temas actuales, mis propias vivencias y
+              alucinaciones que me llevan a explorar nuevos universos visuales.
             </p>
             <video
               preload="auto"
@@ -35,23 +38,26 @@ export default function AboutPage() {
               src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/Timelapse-Work-Emote-16x9.mp4?alt=media&token=040263aa-14e6-46a8-ba24-1a960b52b41d"
             ></video>
             <p>
-              Consideran que el arte siempre lleva un mensaje personal o dirigido a un sector. Ven
-              la relación entre el arte y la tecnología como una adaptación para mejorar su trabajo.
+              Considero que el arte siempre lleva consigo un mensaje personal o dirigido a un
+              determinado sector. Veo la relación entre el arte y la tecnología como una combinación
+              perfecta para potenciar mi trabajo creativo.
             </p>
             <p>
-              Prefieren Instagram para mostrar su trabajo y Facebook para diversión. Si tuvieran que
-              hacer un autorretrato, sería un diablo grotesco y enorme con múltiples caras.
+              Utilizo plataformas como Instagram para mostrar mi trabajo y Facebook para compartir
+              momentos divertidos. Si tuviera que hacer un autorretrato, sería un diablo grotesco y
+              enorme con múltiples caras, una representación única de mi estilo.
             </p>
             <img src={diablitoDrawing} alt="dibujo de diablo"></img>
             <p>
-              Aconsejan perseverancia, representar ideas y estudiar el entorno. Películas favoritas:
-              "Fight Club", "Fear & Loathing in Las Vegas", "Django", "Ren y Stimpy" e "Invader
-              Zim". El Diablito 13 promueve una experiencia única y cautivadora a través de su
-              animación. 👺
+              Aconsejo perseverancia, representar ideas auténticas y estudiar mi entorno. Algunas de
+              mis películas favoritas incluyen "Fight Club", "Fear & Loathing in Las Vegas",
+              "Django", "Ren y Stimpy" e "Invader Zim". Como animador e ilustrador de El Diablito
+              13, mi objetivo es brindar una experiencia única y cautivadora a través de mis
+              creaciones visuales. 👺
             </p>
           </div>
           <div className="about-page-CTA">
-            <LinkButton>Sigueme en Instagram!</LinkButton>
+            <LinkButton>¡Sigueme en Instagram!</LinkButton>
           </div>
         </div>
       </div>

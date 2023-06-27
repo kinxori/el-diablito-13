@@ -24,7 +24,7 @@ export default function () {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(true);
-    }, 0); //SET THIS TO 3 seconds only if welcoming page is enabled!!
+    }, 2000); //SET THIS TO 3 seconds only if welcoming page is enabled!!
 
     return () => clearTimeout(timer);
   }, []);

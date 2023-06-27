@@ -23,7 +23,7 @@ export default function ContactPage() {
           <h2>
             Instagram&nbsp;<i className="fa-brands fa-instagram"></i>
           </h2>
-          <p>Dame un follow en instagram para seguir mis proyectos o hacer una colaboración</p>
+          <p>Dame un follow en Instagram para seguir mis proyectos o hacer una colaboración.</p>
         </div>
         <LinkButton
           to="https://www.instagram.com/eldiablitotrece/"
@@ -39,7 +39,7 @@ export default function ContactPage() {
 
           <p>
             Si te interesa ver el proceso de 0 a 100 de mis proyectos, no dudes en echarte un
-            clavado a mis livestreams
+            clavado a mis livestreams.
           </p>
         </div>
         <LinkButton
@@ -56,7 +56,7 @@ export default function ContactPage() {
           <p>
             Mi correo es: &nbsp;
             <i ref={textToClipBoard} className="contact-page-email-text">
-              eldiablito13@gmail.com
+              eldiablito1213@gmail.com
             </i>
           </p>
         </div>

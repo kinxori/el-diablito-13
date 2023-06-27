@@ -23,11 +23,11 @@ export default function DesktopNav() {
             <h3>Acerca</h3>
             <div></div>
           </a>
-          <a href="#projects-draws-page-id" className="nav-desktop-button">
+          <a href="#projects-draws-id" className="nav-desktop-button">
             <h3>Ilustración</h3>
             <div></div>
           </a>
-          <a href="#projects-vids-page-id" className="nav-desktop-button">
+          <a href="#projects-vids-id" className="nav-desktop-button">
             <h3>Animación</h3>
             <div></div>
           </a>
