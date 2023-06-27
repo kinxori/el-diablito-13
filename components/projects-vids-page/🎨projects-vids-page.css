@@ -74,27 +74,42 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
+  .projects-vids-root {
+    padding: 10% 0;
+  }
+
   .projects-vids-copy {
-    margin-bottom: 15%;
+    gap: 30px;
   }
 
   .projects-vids-copy h2 {
-    font-size: 60px;
+    font-size: 48px;
   }
 
   .projects-vids-copy p {
-    font-size: 26px;
-
-    line-height: 30px;
-    padding-top: 30px;
+    font-size: 20px;
   }
 
   .projects-vids-cards {
-    gap: 40px;
+    gap: 30px;
+    padding-top: 10%;
   }
 
-  .card-display-vid-content {
-    height: 60%;
+  .projects-vids-card-title {
+    font-size: 24px;
+  }
+
+  .projects-vids-card-date {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .projects-vids-card-CTA {
+    padding: 30px 0;
+  }
+
+  .projects-vids-card-asset {
+    border-radius: 3px;
   }
 }
 
