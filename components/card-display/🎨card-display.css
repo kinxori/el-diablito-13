@@ -69,7 +69,9 @@
   .card-root {
     height: 400px;
     width: 500px;
+    margin: 0;
     border: 2px solid var(--sec-color);
+    border: 3px dotted white;
   }
 
   .card-title {

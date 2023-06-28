@@ -21,7 +21,7 @@ export default function ProjectsDrawsPage() {
           <h2>Proyectos de Ilustración ✐</h2>
           <p>
             Aquí te presento una muestra de mis trabajos como ilustrador. Sumérgete en el lado
-            oscuro de mi creatividad y adéntrate en el mundo de El Diablito Trece.
+            oscuro de mi creatividad y adéntrate en mi mundo.
           </p>
         </div>
         <div className="projects-draws-page-cards">

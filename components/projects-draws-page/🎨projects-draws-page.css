@@ -164,13 +164,13 @@
   }
 
   .projects-draws-content {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
 
   .projects-draws-copy {
+    margin: 0 auto;
+    width: 70%;
     gap: 30px;
     align-items: center;
     display: flex;
@@ -192,12 +192,13 @@
   }
 
   .projects-draws-page-cards {
-    width: 100%;
-    gap: 30px;
+    gap: 50px;
     padding-top: 10%;
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: max-content max-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px dotted white;
   }
 
   .projects-draws-card-title {

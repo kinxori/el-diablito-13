@@ -13,10 +13,9 @@ export default function AboutPage() {
           <div className="about-page-copy-content">
             <h2>¿Quién es El Diablito Trece? 😈</h2>
             <p>
-              ¡Hola! Soy parte de El Diablito 13, un animador e ilustrador apasionado dedicado a la
-              animación 2D y 3D, así como a la creación de ilustraciones. Mi enfoque se centra en
-              expresar ideas surrealistas y alucinantes para entretener con una experiencia visual
-              cautivadora.
+              ¡Hola! Soy El Diablito, un artista apasionado dedicado a la ilustración y la animación
+              2D. Mi enfoque se centra en expresar ideas surrealistas y vulgares para entretener a
+              la pandilla con mi visión de ver al mundo.
             </p>
             <img src={diablitoCollage} alt="Imagen sobre el estilo del diablito 13"></img>
             <p>
@@ -51,9 +50,8 @@ export default function AboutPage() {
             <p>
               Aconsejo perseverancia, representar ideas auténticas y estudiar mi entorno. Algunas de
               mis películas favoritas incluyen "Fight Club", "Fear & Loathing in Las Vegas",
-              "Django", "Ren y Stimpy" e "Invader Zim". Como animador e ilustrador de El Diablito
-              13, mi objetivo es brindar una experiencia única y cautivadora a través de mis
-              creaciones visuales. 👺
+              "Django", "Ren y Stimpy" e "Invader Zim". Como animador e ilustrador, mi objetivo es
+              brindar una experiencia única y cautivadora a través de mis creaciones visuales. 👺
             </p>
           </div>
           <div className="about-page-CTA">

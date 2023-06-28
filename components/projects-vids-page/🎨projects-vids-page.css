@@ -119,13 +119,13 @@
   }
 
   .projects-vids-content {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
 
   .projects-vids-copy {
+    width: 70%;
+    margin: 0 auto;
     gap: 30px;
     align-items: center;
     display: flex;
@@ -147,12 +147,13 @@
   }
 
   .projects-vids-cards {
-    width: 100%;
-    gap: 30px;
+    gap: 50px;
     padding-top: 10%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    grid-template-columns: max-content max-content;
+    border: 1px dotted white;
   }
 
   .projects-vids-card-title {
