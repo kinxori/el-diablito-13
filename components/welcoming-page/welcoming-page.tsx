@@ -3,7 +3,7 @@ import clickMeAsset from "/src/assets/clickme-opening-asset.png";
 import "./🎨welcoming-page.css";
 import { useState } from "react";
 
-export default function WelcomingPage({ onClick }: any) {
+export default function WelcomingPage() {
   const [isClicked, setIsClicked] = useState(true);
 
   return (
