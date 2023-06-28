@@ -54,7 +54,7 @@ export default function ContactPage() {
             Correo&nbsp;<i className="fa-regular fa-envelope"></i>
           </h2>
           <p>
-            Mi correo es: &nbsp;
+            Mi correo es:&nbsp;
             <i ref={textToClipBoard} className="contact-page-email-text">
               eldiablito1213@gmail.com
             </i>

@@ -12,61 +12,91 @@ export default function DesktopNav() {
       <div className="nav-desktop-content">
         <Link to="/" className="nav-desktop-main-logo">
           <img src={logoNav} alt="el-diablito-13"></img>
-          <div></div>
+          <span></span>
         </Link>
         <div className="nav-desktop-buttons">
           <a href="#landing-page-id" className="nav-desktop-button">
             <h3>Inicio</h3>
-            <div></div>
+            <span></span>
           </a>
           <a href="#about-page-id" className="nav-desktop-button">
             <h3>Acerca</h3>
-            <div></div>
+            <span></span>
           </a>
           <a href="#projects-draws-id" className="nav-desktop-button">
             <h3>Ilustración</h3>
-            <div></div>
+            <span></span>
           </a>
           <a href="#projects-vids-id" className="nav-desktop-button">
             <h3>Animación</h3>
-            <div></div>
+            <span></span>
           </a>
           <a href="#contact-page-id" className="nav-desktop-button">
             <h3>Contacto</h3>
-            <div></div>
+            <span></span>
           </a>
-          <Link
-            to="https://www.twitch.tv/eldiablitotrece"
-            className="nav-desktop-button"
-            target="_blank"
-          >
-            <h3>Twitch</h3>
-            <div></div>
-          </Link>
-          <Link
-            to="https://www.instagram.com/eldiablitotrece/"
-            className="nav-desktop-button"
-            target="_blank"
-          >
-            <h3>Instagram</h3>
-            <div></div>
-          </Link>
-          <Link
-            to="https://www.facebook.com/eldiablitotrece"
-            className="nav-desktop-button"
-            target="_blank"
-          >
-            <h3>Facebook</h3>
-            <div></div>
-          </Link>
-          <Link
-            to="https://www.tiktok.com/@eldiablitotrece"
-            className="nav-desktop-button"
-            target="_blank"
-          >
-            <h3>TikTok</h3>
-            <div></div>
-          </Link>
+          <button className="nav-desktop-button" onClick={() => setClicked(!isClicked)}>
+            <h3>
+              Redes Sociales{" "}
+              {isClicked ? (
+                <i className="fa-solid fa-chevron-up"></i>
+              ) : (
+                <i className="fa-solid fa-chevron-down"></i>
+              )}
+            </h3>
+            <span></span>
+            <div
+              className={
+                isClicked ? "nav-desktop-button-redes-open" : "nav-desktop-button-redes-closed"
+              }
+            >
+              <a
+                className="nav-desktop-slider-redes-anchor"
+                href="https://www.twitch.tv/eldiablitotrece"
+                target="_blank"
+              >
+                <h3>
+                  <i className="fa-brands fa-twitch"></i>&nbsp;&nbsp;Twitch
+                </h3>
+              </a>
+              <a
+                className="nav-desktop-slider-redes-anchor"
+                href="https://www.instagram.com/eldiablitotrece/"
+                target="_blank"
+              >
+                <h3>
+                  <i className="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram
+                </h3>
+              </a>
+              <a
+                className="nav-desktop-slider-redes-anchor"
+                href="https://www.facebook.com/eldiablitotrece"
+                target="_blank"
+              >
+                <h3>
+                  <i className="fa-brands fa-facebook"></i>&nbsp;&nbsp;Facebook
+                </h3>
+              </a>
+              <a
+                className="nav-desktop-slider-redes-anchor"
+                href="https://www.tiktok.com/@eldiablitotrece"
+                target="_blank"
+              >
+                <h3>
+                  <i className="fa-brands fa-tiktok"></i>&nbsp;&nbsp;TikTok
+                </h3>
+              </a>
+              <a
+                className="nav-desktop-slider-redes-anchor"
+                href="https://discord.gg/pQAFQxaUWC"
+                target="_blank"
+              >
+                <h3>
+                  <i className="fa-brands fa-discord"></i>&nbsp;&nbsp;Discord
+                </h3>
+              </a>
+            </div>
+          </button>
         </div>
       </div>
     </section>
