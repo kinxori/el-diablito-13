@@ -10,9 +10,12 @@ export default function WelcomingPage() {
     <>
       {isClicked && (
         <section className="welcoming-page-root">
-          <img src=""></img>
           <img
-            className="welcoming-page-asset"
+            src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/cenizas-alpha.gif?alt=media&token=babbab27-fc34-427a-9ec5-c9e225cefbbf"
+            className="welcoming-page-ashes-asset"
+          ></img>
+          <img
+            className="welcoming-page-click-me-asset"
             src={clickMeAsset}
             onClick={() => setIsClicked(false)}
           ></img>

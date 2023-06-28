@@ -10,7 +10,17 @@
   align-items: center;
 }
 
-.welcoming-page-asset {
+.welcoming-page-ashes-asset {
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+
+.welcoming-page-click-me-asset {
   width: 50%;
   z-index: 1;
   rotate: -5deg;
@@ -32,18 +42,25 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
-  .welcoming-page-asset {
+  .welcoming-page-click-me-asset {
     width: 30%;
+  }
+  .welcoming-page-ashes-asset {
+    display: none;
   }
 }
 
 /* ------------------------------------------------------------ DESKTOP QUERY --------------*/
 
 @media (min-width: 1181px) {
-  .welcoming-page-asset {
+  .welcoming-page-ashes-asset {
+    display: block;
+    pointer-events: none;
+  }
+  .welcoming-page-click-me-asset {
     width: 30%;
   }
-  .welcoming-page-asset:hover {
+  .welcoming-page-click-me-asset:hover {
     cursor: pointer;
   }
 }
