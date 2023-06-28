@@ -19,7 +19,6 @@ const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welco
 
 export default function () {
   const [isLoading, setIsLoading] = useState(false);
-  const [isClicked, setIsClicked] = useState(true); //invert this value for welcoming page to appear!!!
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -46,9 +45,7 @@ export default function () {
           ></div>
         }
       >
-        {isClicked && <WelcomingPage onClick={() => setIsClicked(false)} />}
-      </Suspense>
-      <Suspense>
+        <WelcomingPage />
         {isLoading && (
           <>
             <img src={backgroundImg} id="home-bg-img"></img>

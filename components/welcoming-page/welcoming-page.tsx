@@ -7,14 +7,22 @@ export default function WelcomingPage({ onClick }: any) {
   const [isClicked, setIsClicked] = useState(true);
 
   return (
-    <section className="welcoming-page-root">
-      <img src=""></img>
-      <img className="welcoming-page-asset" src={clickMeAsset} onClick={onClick}></img>
-      <img
-        className="welcoming-page-bg-img"
-        src={welcomingPageImgBG}
-        alt="welcoming page background el diablito 13"
-      ></img>
-    </section>
+    <>
+      {isClicked && (
+        <section className="welcoming-page-root">
+          <img src=""></img>
+          <img
+            className="welcoming-page-asset"
+            src={clickMeAsset}
+            onClick={() => setIsClicked(false)}
+          ></img>
+          <img
+            className="welcoming-page-bg-img"
+            src={welcomingPageImgBG}
+            alt="welcoming page background el diablito 13"
+          ></img>
+        </section>
+      )}
+    </>
   );
 }
