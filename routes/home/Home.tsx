@@ -6,8 +6,8 @@ const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welco
 const NavBar = lazy(() => import("./../../components/nav-bar/NavBar"));
 const LandingPage = lazy(() => import("./../../components/landing-page/Landing-page"));
 const AboutPage = lazy(() => import("./../../components/about-page/About-page"));
-const DrawingsPage = lazy(() => import("../../components/drawings-page/Projects-draws-page"));
-const VideosPage = lazy(() => import("../../components/videos-page/Projects-vids-page"));
+const DrawingsPage = lazy(() => import("../../components/drawings-page/Drawings-page"));
+const VideosPage = lazy(() => import("../../components/videos-page/Videos-page"));
 const ColabsPage = lazy(() => import("./../../components/colabs-page/Colabs-page"));
 const ContactPage = lazy(() => import("./../../components/contact-page/contact-page"));
 const DisclaimerComp = lazy(

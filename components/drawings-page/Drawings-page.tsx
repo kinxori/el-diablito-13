@@ -1,7 +1,7 @@
+import "./🎨drawings-page.css";
 import { useState } from "react";
 import LinkButton from "../custom-buttons/LinkButton";
 import CardDisplay from "../card-display/card-display";
-import "./🎨drawings-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";
 import billyButcher from "/src/assets/dibujo-3.jpeg";
 import inking2022 from "/src/assets/dibujo-2.jpeg";
@@ -26,18 +26,6 @@ export default function ProjectsDrawsPage() {
         </div>
         <div className="projects-draws-page-cards">
           <CardDisplay header="Jonathan Devil">
-            {isFullScreen === "1" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("1")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("1")}></div>
-              </>
-            )}
             <img
               src={jonathanDevils}
               alt="dibujo 1 - tal"
@@ -60,18 +48,6 @@ export default function ProjectsDrawsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Inking 2022">
-            {isFullScreen === "2" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("2")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("2")}></div>
-              </>
-            )}
             <img
               src={inking2022}
               alt="dibujo 2 - tal"
@@ -94,18 +70,6 @@ export default function ProjectsDrawsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Billy Butcher">
-            {isFullScreen === "3" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("3")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("3")}></div>
-              </>
-            )}
             <img
               src={billyButcher}
               alt="dibujo 3 - tal"
@@ -127,18 +91,6 @@ export default function ProjectsDrawsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Un Toque Mágico">
-            {isFullScreen === "4" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("4")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("4")}></div>
-              </>
-            )}
             <img
               src={unToqueMagico}
               alt="dibujo 4 - tal"
@@ -157,6 +109,18 @@ export default function ProjectsDrawsPage() {
               </LinkButton>
             </div>
           </CardDisplay>
+          {isFullScreen !== "" && (
+            <>
+              <LinkButton
+                className="full-screen-close-button"
+                variant="linkButton"
+                onClick={() => handleFullScreen("")}
+              >
+                <i className="fa-regular fa-circle-xmark"></i>
+              </LinkButton>
+              <div className="full-screen-bg-blank" onClick={() => handleFullScreen("")}></div>
+            </>
+          )}
         </div>
       </div>
     </section>

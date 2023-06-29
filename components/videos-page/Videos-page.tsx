@@ -1,6 +1,6 @@
+import "./🎨videos-page.css";
 import LinkButton from "../custom-buttons/LinkButton";
 import CardDisplay from "../card-display/card-display";
-import "./🎨videos-page.css";
 
 export default function ProjectsVidsPage() {
   return (

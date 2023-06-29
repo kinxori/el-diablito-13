@@ -1,7 +1,7 @@
 import { useState } from "react";
+import "./🎨colabs-page.css";
 import LinkButton from "../custom-buttons/LinkButton";
 import CardDisplay from "../card-display/card-display";
-import "./🎨colabs-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";
 import billyButcher from "/src/assets/dibujo-3.jpeg";
 import inking2022 from "/src/assets/dibujo-2.jpeg";
@@ -18,10 +18,10 @@ export default function ColabsPage() {
     <section id="projects-draws-id" className="projects-draws-root">
       <div className="projects-draws-content">
         <div className="projects-draws-copy">
-          <h2>Proyectos de Ilustración ✐</h2>
+          <h2>Proyectos de Colaboración 👥</h2>
           <p>
-            Aquí te presento una muestra de mis trabajos como ilustrador. Sumérgete en el lado
-            oscuro de mi creatividad y adéntrate en mi mundo.
+            Algo que me encanta es conocer personas talentosas y poder colaborar en proyectos. Aquí
+            te presento unas colaboraciones que he realizado.
           </p>
         </div>
         <div className="projects-draws-page-cards">
@@ -122,37 +122,6 @@ export default function ColabsPage() {
             <i className="projects-draws-card-date">- Agosto 12, 2022</i>
             <div className="projects-draws-card-CTA">
               <LinkButton to="https://www.instagram.com/p/ChK_mZpOjbu/" target="_blank">
-                Visitar
-              </LinkButton>
-            </div>
-          </CardDisplay>
-          <CardDisplay header="Un Toque Mágico">
-            {isFullScreen === "4" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("4")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("4")}></div>
-              </>
-            )}
-            <img
-              src={unToqueMagico}
-              alt="dibujo 4 - tal"
-              className={
-                isFullScreen === "4"
-                  ? "projects-draws-card-asset-open"
-                  : "projects-draws-card-asset-close"
-              }
-              onClick={() => handleFullScreen("4")}
-            ></img>
-            <h4 className="projects-draws-card-title">"¡Tal vez necesito un toque mágico!"</h4>
-            <i className="projects-draws-card-date">- Noviembre 11, 2020</i>
-            <div className="projects-draws-card-CTA">
-              <LinkButton to="https://www.instagram.com/p/CHds-TbHjlX/" target="_blank">
                 Visitar
               </LinkButton>
             </div>
