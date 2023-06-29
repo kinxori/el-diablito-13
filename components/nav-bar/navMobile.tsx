@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import logoNav from "./../../src/assets/BK_f_white.png";
+import logoNav from "/src/assets/BK_f_white.png";
 import slideMenuPFP from "./../../src/assets/3333.png";
 import "./🎨navBar.css";
+import LinkButton from "../custom-buttons/LinkButton";
 
 export default function NavMobile() {
   const [isClicked, setClicked] = useState(false);
 
   return (
     <section className="nav-mobile-root">
-      <Link to="/">
-        <img className="nav-mobile-main-logo" src={logoNav} alt="el-diablito-13"></img>
+      <Link to="/" className="nav-mobile-main-logo">
+        <img src={logoNav} alt="el-diablito-13-logo"></img>
       </Link>
       <span
         className={isClicked ? "nav-mobile-icon-open" : "nav-mobile-icon-close"}
