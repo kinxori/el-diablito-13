@@ -1,7 +1,6 @@
 .error-404-page-root {
   width: 100vw;
   height: 100vh;
-  gap: 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -10,7 +9,10 @@
 }
 
 .error-404-page-root img {
-  height: 300px;
+  height: 250px;
+  padding-bottom: 10%;
+  width: fit-content;
+  margin: 0 auto;
   object-fit: contain;
 }
 
@@ -30,7 +32,8 @@
 
 .error-404-page-CTA {
   display: flex;
-  margin: 10% auto;
+  margin: 0 auto;
+  padding-top: 15%;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
@@ -39,7 +42,6 @@
   .error-404-page-root {
     width: 100vw;
     height: 100vh;
-    gap: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -48,14 +50,17 @@
   }
 
   .error-404-page-root img {
-    height: 400px;
+    height: 300px;
+    width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 5%;
     object-fit: contain;
   }
 
   .error-404-page-root h2 {
     color: var(--main-color);
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
     width: 100%;
   }
 
@@ -68,7 +73,8 @@
 
   .error-404-page-CTA {
     display: flex;
-    margin: 10% auto;
+    margin: 0 auto;
+    padding-top: 7.5%;
   }
 }
 
@@ -78,7 +84,6 @@
   .error-404-page-root {
     width: 100vw;
     height: 100vh;
-    gap: 10px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -87,8 +92,11 @@
   }
 
   .error-404-page-root img {
-    height: 400px;
+    height: 350px;
+    width: fit-content;
+    margin: 0 auto;
     object-fit: contain;
+    padding-bottom: 2.5%;
   }
 
   .error-404-page-root h2 {
@@ -107,6 +115,7 @@
 
   .error-404-page-CTA {
     display: flex;
-    margin: 5% auto;
+    margin: 0 auto;
+    padding-top: 5%;
   }
 }

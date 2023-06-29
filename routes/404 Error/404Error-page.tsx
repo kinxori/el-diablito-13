@@ -1,5 +1,5 @@
 import { useRouteError } from "react-router-dom";
-import error404pageIMG from "./../../src/assets/08_1080.png";
+import error404pageIMG from "./../../src/assets/06_resized.png";
 import "./🎨404error-page.css";
 import LinkButton from "../../components/custom-buttons/LinkButton";
 
