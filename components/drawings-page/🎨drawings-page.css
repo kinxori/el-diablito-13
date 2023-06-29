@@ -1,17 +1,17 @@
-.projects-draws-root {
+.drawings-page-root {
   width: 80%;
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
 }
 
-.projects-draws-content {
+.drawings-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.projects-draws-copy {
+.drawings-page-copy {
   width: 100%;
   gap: 20px;
   align-items: center;
@@ -19,7 +19,7 @@
   flex-direction: column;
 }
 
-.projects-draws-copy h2 {
+.drawings-page-copy h2 {
   font-size: 32px;
   text-align: center;
   font-weight: bold;
@@ -27,13 +27,13 @@
   color: var(--main-color);
 }
 
-.projects-draws-copy p {
+.drawings-page-copy p {
   font-size: 16px;
   font-family: var(--sec-font);
   color: var(--main-color);
 }
 
-.projects-draws-page-cards {
+.drawings-page-page-cards {
   width: 100%;
   gap: 20px;
   padding-top: 20%;
@@ -41,20 +41,20 @@
   flex-direction: column;
 }
 
-.projects-draws-card-title {
+.drawings-page-card-title {
   font-size: 20px;
   text-align: center;
   color: var(--main-color);
 }
 
-.projects-draws-card-date {
+.drawings-page-card-date {
   font-size: 14px;
   text-align: center;
   opacity: 0.6;
   color: var(--main-color);
 }
 
-.projects-draws-card-CTA {
+.drawings-page-card-CTA {
   width: 100%;
   padding: 20px 0;
   display: flex;
@@ -63,7 +63,7 @@
 
 /* ------------------ FULL SCREEN IMG -------------------- */
 
-.projects-draws-card-asset-open {
+.drawings-page-card-asset-open {
   width: 100vw;
   height: 100vh;
   object-fit: contain;
@@ -74,7 +74,7 @@
   z-index: 300;
 }
 
-.projects-draws-card-asset-close {
+.drawings-page-card-asset-close {
   width: 100%;
   border-radius: 2px;
   object-fit: contain;
@@ -108,43 +108,43 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
-  .projects-draws-root {
+  .drawings-page-root {
     padding: 10% 0;
   }
 
-  .projects-draws-copy {
+  .drawings-page-copy {
     gap: 30px;
   }
 
-  .projects-draws-copy h2 {
+  .drawings-page-copy h2 {
     font-size: 48px;
   }
 
-  .projects-draws-copy p {
+  .drawings-page-copy p {
     font-size: 20px;
   }
 
-  .projects-draws-page-cards {
+  .drawings-page-page-cards {
     gap: 30px;
     padding-top: 10%;
   }
 
-  .projects-draws-card-title {
+  .drawings-page-card-title {
     font-size: 24px;
   }
 
-  .projects-draws-card-date {
+  .drawings-page-card-date {
     font-size: 16px;
     opacity: 0.6;
   }
 
-  .projects-draws-card-CTA {
+  .drawings-page-card-CTA {
     padding: 30px 0;
   }
 
   /* ------------------ FULL SCREEN IMG -------------------- */
 
-  .projects-draws-card-asset-close {
+  .drawings-page-card-asset-close {
     border-radius: 3px;
   }
 
@@ -158,17 +158,17 @@
 /* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
 
 @media (min-width: 1181px) {
-  .projects-draws-root {
+  .drawings-page-root {
     width: 90%;
     padding: 5% 0;
   }
 
-  .projects-draws-content {
+  .drawings-page-content {
     display: flex;
     flex-direction: column;
   }
 
-  .projects-draws-copy {
+  .drawings-page-copy {
     margin: 0 auto;
     width: 70%;
     gap: 30px;
@@ -177,7 +177,7 @@
     flex-direction: column;
   }
 
-  .projects-draws-copy h2 {
+  .drawings-page-copy h2 {
     font-size: 56px;
     text-align: center;
     font-weight: bold;
@@ -185,13 +185,13 @@
     color: var(--main-color);
   }
 
-  .projects-draws-copy p {
+  .drawings-page-copy p {
     font-size: 20px;
     font-family: var(--sec-font);
     color: var(--main-color);
   }
 
-  .projects-draws-page-cards {
+  .drawings-page-page-cards {
     gap: 50px;
     padding-top: 10%;
     display: flex;
@@ -200,20 +200,20 @@
     justify-content: center;
   }
 
-  .projects-draws-card-title {
+  .drawings-page-card-title {
     font-size: 24px;
     text-align: center;
     color: var(--main-color);
   }
 
-  .projects-draws-card-date {
+  .drawings-page-card-date {
     font-size: 14px;
     text-align: center;
     opacity: 0.6;
     color: var(--main-color);
   }
 
-  .projects-draws-card-CTA {
+  .drawings-page-card-CTA {
     width: 100%;
     padding: 30px 0;
     display: flex;
@@ -222,7 +222,7 @@
 
   /* ------------------ FULL SCREEN IMG -------------------- */
 
-  .projects-draws-card-asset-open {
+  .drawings-page-card-asset-open {
     width: 100vw;
     height: 100vh;
     object-fit: contain;
@@ -233,18 +233,18 @@
     z-index: 300;
   }
 
-  .projects-draws-card-asset-open:hover {
+  .drawings-page-card-asset-open:hover {
     cursor: pointer;
   }
 
-  .projects-draws-card-asset-close {
+  .drawings-page-card-asset-close {
     width: 100%;
     border-radius: 3px;
     object-fit: contain;
     position: relative;
   }
 
-  .projects-draws-card-asset-close:hover {
+  .drawings-page-card-asset-close:hover {
     cursor: pointer;
   }
 

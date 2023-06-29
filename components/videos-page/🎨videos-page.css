@@ -1,17 +1,17 @@
-.projects-vids-root {
+.videos-page-root {
   width: 80%;
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
 }
 
-.projects-vids-content {
+.videos-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.projects-vids-copy {
+.videos-page-copy {
   width: 100%;
   gap: 20px;
   align-items: center;
@@ -19,7 +19,7 @@
   flex-direction: column;
 }
 
-.projects-vids-copy h2 {
+.videos-page-copy h2 {
   font-size: 32px;
   text-align: center;
   font-weight: bold;
@@ -27,13 +27,13 @@
   color: var(--main-color);
 }
 
-.projects-vids-copy p {
+.videos-page-copy p {
   font-size: 16px;
   font-family: var(--sec-font);
   color: var(--main-color);
 }
 
-.projects-vids-cards {
+.videos-page-cards {
   width: 100%;
   gap: 20px;
   padding-top: 20%;
@@ -41,27 +41,27 @@
   flex-direction: column;
 }
 
-.projects-vids-card-title {
+.videos-page-card-title {
   font-size: 24px;
   text-align: center;
   color: var(--main-color);
 }
 
-.projects-vids-card-date {
+.videos-page-card-date {
   font-size: 12px;
   text-align: center;
   opacity: 0.6;
   color: var(--main-color);
 }
 
-.projects-vids-card-CTA {
+.videos-page-card-CTA {
   width: 100%;
   padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
-.projects-vids-card-asset {
+.videos-page-card-asset {
   width: 100%;
   border-radius: 2px;
   object-fit: contain;
@@ -71,41 +71,41 @@
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
 
 @media (min-width: 601px) {
-  .projects-vids-root {
+  .videos-page-root {
     padding: 10% 0;
   }
 
-  .projects-vids-copy {
+  .videos-page-copy {
     gap: 30px;
   }
 
-  .projects-vids-copy h2 {
+  .videos-page-copy h2 {
     font-size: 48px;
   }
 
-  .projects-vids-copy p {
+  .videos-page-copy p {
     font-size: 20px;
   }
 
-  .projects-vids-cards {
+  .videos-page-cards {
     gap: 30px;
     padding-top: 10%;
   }
 
-  .projects-vids-card-title {
+  .videos-page-card-title {
     font-size: 24px;
   }
 
-  .projects-vids-card-date {
+  .videos-page-card-date {
     font-size: 16px;
     text-align: center;
   }
 
-  .projects-vids-card-CTA {
+  .videos-page-card-CTA {
     padding: 30px 0;
   }
 
-  .projects-vids-card-asset {
+  .videos-page-card-asset {
     border-radius: 3px;
   }
 }
@@ -113,17 +113,17 @@
 /* ------------------------------------------------------------ DESKTOP MEDIA QUERY ------------------*/
 
 @media (min-width: 1181px) {
-  .projects-vids-root {
+  .videos-page-root {
     width: 90%;
     padding: 5% 0;
   }
 
-  .projects-vids-content {
+  .videos-page-content {
     display: flex;
     flex-direction: column;
   }
 
-  .projects-vids-copy {
+  .videos-page-copy {
     width: 70%;
     margin: 0 auto;
     gap: 30px;
@@ -132,7 +132,7 @@
     flex-direction: column;
   }
 
-  .projects-vids-copy h2 {
+  .videos-page-copy h2 {
     font-size: 56px;
     text-align: center;
     font-weight: bold;
@@ -140,13 +140,13 @@
     color: var(--main-color);
   }
 
-  .projects-vids-copy p {
+  .videos-page-copy p {
     font-size: 20px;
     font-family: var(--sec-font);
     color: var(--main-color);
   }
 
-  .projects-vids-cards {
+  .videos-page-cards {
     gap: 50px;
     padding-top: 10%;
     display: flex;
@@ -155,27 +155,27 @@
     justify-content: center;
   }
 
-  .projects-vids-card-title {
+  .videos-page-card-title {
     font-size: 24px;
     text-align: center;
     color: var(--main-color);
   }
 
-  .projects-vids-card-date {
+  .videos-page-card-date {
     font-size: 14px;
     text-align: center;
     opacity: 0.6;
     color: var(--main-color);
   }
 
-  .projects-vids-card-CTA {
+  .videos-page-card-CTA {
     width: 100%;
     padding: 30px 0;
     display: flex;
     justify-content: center;
   }
 
-  .projects-vids-card-asset {
+  .videos-page-card-asset {
     width: 100%;
     border-radius: 3px;
     object-fit: contain;

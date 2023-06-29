@@ -23,7 +23,7 @@ export default function DesktopNav() {
             <h3>Acerca</h3>
             <span></span>
           </a>
-          <a href="#projects-draws-id" className="nav-desktop-button">
+          <a href="#drawings-page-id" className="nav-desktop-button">
             <h3>Ilustración</h3>
             <span></span>
           </a>
