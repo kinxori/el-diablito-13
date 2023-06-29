@@ -2,10 +2,9 @@ import { useState } from "react";
 import "./🎨colabs-page.css";
 import LinkButton from "../custom-buttons/LinkButton";
 import CardDisplay from "../card-display/card-display";
-import unToqueMagico from "/src/assets/dibujo-4.jpeg";
-import billyButcher from "/src/assets/dibujo-3.jpeg";
-import inking2022 from "/src/assets/dibujo-2.jpeg";
-import jonathanDevils from "/src/assets/dibujo-1.jpeg";
+import glotoAsset from "/src/assets/colabs/glotoneria-kawai-poster.png";
+import grenudoAsset from "/src/assets/colabs/grenudo-logo.png";
+import NLPAsset from "/src/assets/colabs/NLP-portada.png";
 
 export default function ColabsPage() {
   const [isFullScreen, setIsFullScreen] = useState("");
@@ -27,7 +26,7 @@ export default function ColabsPage() {
         <div className="colabs-page-page-cards">
           <CardDisplay header="Jonathan Devil">
             <img
-              src={jonathanDevils}
+              src={glotoAsset}
               alt="dibujo 1 - tal"
               className={
                 isFullScreen === "1"
@@ -49,7 +48,7 @@ export default function ColabsPage() {
           </CardDisplay>
           <CardDisplay header="Inking 2022">
             <img
-              src={inking2022}
+              src={grenudoAsset}
               alt="dibujo 2 - tal"
               className={
                 isFullScreen === "2"
@@ -71,7 +70,7 @@ export default function ColabsPage() {
           </CardDisplay>
           <CardDisplay header="Billy Butcher">
             <img
-              src={billyButcher}
+              src={NLPAsset}
               alt="dibujo 3 - tal"
               className={
                 isFullScreen === "3"
