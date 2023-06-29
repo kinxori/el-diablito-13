@@ -15,33 +15,33 @@ export default function ColabsPage() {
   };
 
   return (
-    <section id="projects-draws-id" className="projects-draws-root">
-      <div className="projects-draws-content">
-        <div className="projects-draws-copy">
+    <section id="colabs-page-id" className="colabs-page-root">
+      <div className="colabs-page-content">
+        <div className="colabs-page-copy">
           <h2>Proyectos de Colaboración 👥</h2>
           <p>
             Algo que me encanta es conocer personas talentosas y poder colaborar en proyectos. Aquí
             te presento unas colaboraciones que he realizado.
           </p>
         </div>
-        <div className="projects-draws-page-cards">
+        <div className="colabs-page-page-cards">
           <CardDisplay header="Jonathan Devil">
             <img
               src={jonathanDevils}
               alt="dibujo 1 - tal"
               className={
                 isFullScreen === "1"
-                  ? "projects-draws-card-asset-open"
-                  : "projects-draws-card-asset-close"
+                  ? "colabs-page-card-asset-open"
+                  : "colabs-page-card-asset-close"
               }
               onClick={() => handleFullScreen("1")}
             ></img>
-            <h4 className="projects-draws-card-title">
+            <h4 className="colabs-page-card-title">
               "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
               Twitch!"
             </h4>
-            <i className="projects-draws-card-date">- Mayo 31, 2023</i>
-            <div className="projects-draws-card-CTA">
+            <i className="colabs-page-card-date">- Mayo 31, 2023</i>
+            <div className="colabs-page-card-CTA">
               <LinkButton to="https://www.instagram.com/p/Cs7AL0lRnch/" target="_blank">
                 Visitar
               </LinkButton>
@@ -53,17 +53,17 @@ export default function ColabsPage() {
               alt="dibujo 2 - tal"
               className={
                 isFullScreen === "2"
-                  ? "projects-draws-card-asset-open"
-                  : "projects-draws-card-asset-close"
+                  ? "colabs-page-card-asset-open"
+                  : "colabs-page-card-asset-close"
               }
               onClick={() => handleFullScreen("2")}
             ></img>
 
-            <h4 className="projects-draws-card-title">
+            <h4 className="colabs-page-card-title">
               "¡Inspirado en los 2 sujetos más bizarros e idiotas de los 90's!"
             </h4>
-            <i className="projects-draws-card-date">- Noviembre 8, 2022</i>
-            <div className="projects-draws-card-CTA">
+            <i className="colabs-page-card-date">- Noviembre 8, 2022</i>
+            <div className="colabs-page-card-CTA">
               <LinkButton to="https://www.instagram.com/p/CktgH2OPdMQ/" target="_blank">
                 Visitar
               </LinkButton>
@@ -75,16 +75,14 @@ export default function ColabsPage() {
               alt="dibujo 3 - tal"
               className={
                 isFullScreen === "3"
-                  ? "projects-draws-card-asset-open"
-                  : "projects-draws-card-asset-close"
+                  ? "colabs-page-card-asset-open"
+                  : "colabs-page-card-asset-close"
               }
               onClick={() => handleFullScreen("3")}
             ></img>
-            <h4 className="projects-draws-card-title">
-              "¡El mismísimo Billy Butcher de The Boys!"
-            </h4>
-            <i className="projects-draws-card-date">- Agosto 12, 2022</i>
-            <div className="projects-draws-card-CTA">
+            <h4 className="colabs-page-card-title">"¡El mismísimo Billy Butcher de The Boys!"</h4>
+            <i className="colabs-page-card-date">- Agosto 12, 2022</i>
+            <div className="colabs-page-card-CTA">
               <LinkButton to="https://www.instagram.com/p/ChK_mZpOjbu/" target="_blank">
                 Visitar
               </LinkButton>
