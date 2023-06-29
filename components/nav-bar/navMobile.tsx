@@ -79,24 +79,29 @@ export default function NavMobile() {
           <hr className="nav-mobile-slide-separator"></hr>
           <div className="nav-mobile-slide-social-media">
             <div>
-              <Link to="https://www.twitch.tv/eldiablitotrece" target="_blank">
+              <a href="https://www.twitch.tv/eldiablitotrece" target="_blank">
                 <i className="fa-brands fa-twitch"></i>
-              </Link>
+              </a>
             </div>
             <div>
-              <Link to="https://www.instagram.com/eldiablitotrece/" target="_blank">
+              <a href="https://www.instagram.com/eldiablitotrece/" target="_blank">
                 <i className="fa-brands fa-instagram"></i>
-              </Link>
+              </a>
             </div>
             <div>
-              <Link to="https://www.facebook.com/eldiablitotrece" target="_blank">
+              <a href="https://www.facebook.com/eldiablitotrece" target="_blank">
                 <i className="fa-brands fa-facebook"></i>
-              </Link>
+              </a>
             </div>
             <div>
-              <Link to="https://www.tiktok.com/@eldiablitotrece" target="_blank">
+              <a href="https://www.tiktok.com/@eldiablitotrece" target="_blank">
                 <i className="fa-brands fa-tiktok"></i>
-              </Link>
+              </a>
+            </div>
+            <div>
+              <a href="https://discord.gg/pQAFQxaUWC" target="_blank">
+                <i className="fa-brands fa-discord"></i>
+              </a>
             </div>
           </div>
         </div>
