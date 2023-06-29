@@ -2,20 +2,17 @@ import { useState, useEffect, lazy, Suspense } from "react";
 import "./🎨home.css";
 import backgroundImg from "./../../src/assets/BK.png";
 
+const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welcoming-page"));
 const NavBar = lazy(() => import("./../../components/nav-bar/NavBar"));
 const LandingPage = lazy(() => import("./../../components/landing-page/Landing-page"));
 const AboutPage = lazy(() => import("./../../components/about-page/About-page"));
-const ProjectsDrawsPage = lazy(
-  () => import("./../../components/projects-draws-page/Projects-draws-page")
-);
-const ProjectsVidsPage = lazy(
-  () => import("./../../components/projects-vids-page/Projects-vids-page")
-);
+const DrawingsPage = lazy(() => import("../../components/drawings-page/Projects-draws-page"));
+const VideosPage = lazy(() => import("../../components/videos-page/Projects-vids-page"));
+const ColabsPage = lazy(() => import("./../../components/colabs-page/Colabs-page"));
 const ContactPage = lazy(() => import("./../../components/contact-page/contact-page"));
 const DisclaimerComp = lazy(
   () => import("./../../components/disclaimer-component/disclaimer-comp")
 );
-const WelcomingPage = lazy(() => import("./../../components/welcoming-page/welcoming-page"));
 
 export default function () {
   const [isLoading, setIsLoading] = useState(false);
@@ -52,8 +49,9 @@ export default function () {
             <NavBar />
             <LandingPage />
             <AboutPage />
-            <ProjectsDrawsPage />
-            <ProjectsVidsPage />
+            <DrawingsPage />
+            <VideosPage />
+            <ColabsPage />
             <ContactPage />
             <DisclaimerComp />
           </>

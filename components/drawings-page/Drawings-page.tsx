@@ -1,7 +1,7 @@
 import { useState } from "react";
 import LinkButton from "../custom-buttons/LinkButton";
 import CardDisplay from "../card-display/card-display";
-import "./🎨projects-draws-page.css";
+import "./🎨drawings-page.css";
 import unToqueMagico from "/src/assets/dibujo-4.jpeg";
 import billyButcher from "/src/assets/dibujo-3.jpeg";
 import inking2022 from "/src/assets/dibujo-2.jpeg";
