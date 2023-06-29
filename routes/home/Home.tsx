@@ -43,19 +43,21 @@ export default function () {
         }
       >
         <WelcomingPage />
-        {isLoading && (
-          <>
-            <img src={backgroundImg} id="home-bg-img"></img>
-            <NavBar />
-            <LandingPage />
-            <AboutPage />
-            <DrawingsPage />
-            <VideosPage />
-            <ColabsPage />
-            <ContactPage />
-            <DisclaimerComp />
-          </>
-        )}
+        <Suspense>
+          {isLoading && (
+            <>
+              <img src={backgroundImg} id="home-bg-img"></img>
+              <NavBar />
+              <LandingPage />
+              <AboutPage />
+              <DrawingsPage />
+              <VideosPage />
+              <ColabsPage />
+              <ContactPage />
+              <DisclaimerComp />
+            </>
+          )}
+        </Suspense>
       </Suspense>
     </article>
   );
