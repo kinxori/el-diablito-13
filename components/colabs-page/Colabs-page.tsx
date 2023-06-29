@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./🎨colabs-page.css";
 import LinkButton from "../custom-buttons/LinkButton";
 import CardDisplay from "../card-display/card-display";
-import glotoAsset from "/src/assets/colabs/glotoneria-kawai-poster-rezised.png";
+import glotoAsset from "/src/assets/colabs/glotoneria-kawai-poster-resized.png";
 import grenudoAsset from "/src/assets/colabs/grenudo-logo-resized.png";
 import NLPAsset from "/src/assets/colabs/NLP-portada.png";
 
