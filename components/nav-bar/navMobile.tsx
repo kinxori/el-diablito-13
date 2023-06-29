@@ -58,7 +58,7 @@ export default function NavMobile() {
               </h3>
             </a>
             <a
-              href="#projects-vids-id"
+              href="#videos-page-id"
               className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
             >

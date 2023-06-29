@@ -27,8 +27,12 @@ export default function DesktopNav() {
             <h3>Ilustración</h3>
             <span></span>
           </a>
-          <a href="#projects-vids-id" className="nav-desktop-button">
+          <a href="#videos-page-id" className="nav-desktop-button">
             <h3>Animación</h3>
+            <span></span>
+          </a>
+          <a href="#colabs-page-id" className="nav-desktop-button">
+            <h3>Colaboraciones</h3>
             <span></span>
           </a>
           <a href="#contact-page-id" className="nav-desktop-button">
