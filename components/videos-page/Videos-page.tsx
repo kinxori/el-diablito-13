@@ -10,7 +10,7 @@ export default function ProjectsVidsPage() {
           <h2>Proyectos de Animación </h2>
           <p>
             Además de ser ilustrador, también me aventuro en el mundo de la animación. Aquí te
-            presento algunos de mis trabajos más sobresalientes. 👺
+            presento algunos de mis trabajos más sobresalientes.
           </p>
         </div>
         <div className="videos-page-cards">
