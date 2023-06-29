@@ -9,13 +9,15 @@ export default function LandingPage() {
         <img src={landingPageImg} alt="landing page el diablito trece"></img>
         <div className="landing-page-copy">
           <div className="landing-page-copy-content">
-            <h2>Sumérgete en el abismo de la imaginación del Diablito Trece 🔥</h2>
+            <h2>
+              Sumérgete en el abismo de la imaginación de <b>El Diablito Trece 🔥</b>
+            </h2>
           </div>
           <div className="landing-page-CTA">
-            <AnchorButton href="#projects-draws-id" variant="mainButton">
+            <AnchorButton href="#drawings-page-id" variant="mainButton">
               Galería de ilustración
             </AnchorButton>
-            <AnchorButton href="#projects-vids-id" variant="secButton">
+            <AnchorButton href="#videos-page-id" variant="secButton">
               Galería de animación
             </AnchorButton>
           </div>

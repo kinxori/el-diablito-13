@@ -17,7 +17,7 @@ export default function ColabsPage() {
     <section id="colabs-page-id" className="colabs-page-root">
       <div className="colabs-page-content">
         <div className="colabs-page-copy">
-          <h2>Proyectos de Colaboración 👥</h2>
+          <h2>Proyectos de Colaboración</h2>
           <p>
             Algo que me encanta es conocer personas talentosas y poder colaborar en proyectos. Aquí
             te presento unas colaboraciones que he realizado.

@@ -23,6 +23,8 @@
   font-size: 32px;
   text-align: center;
   font-weight: bold;
+  text-decoration: underline var(--sec-color);
+
   font-family: var(--main-font);
   color: var(--main-color);
 }

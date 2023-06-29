@@ -18,7 +18,7 @@ export default function ProjectsDrawsPage() {
     <section id="drawings-page-id" className="drawings-page-root">
       <div className="drawings-page-content">
         <div className="drawings-page-copy">
-          <h2>Proyectos de Ilustración ✐</h2>
+          <h2>Proyectos de Ilustración</h2>
           <p>
             Aquí te presento una muestra de mis trabajos como ilustrador. Sumérgete en el lado
             oscuro de mi creatividad y adéntrate en mi mundo.
