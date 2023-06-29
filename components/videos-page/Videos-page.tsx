@@ -14,7 +14,7 @@ export default function ProjectsVidsPage() {
           </p>
         </div>
         <div className="videos-page-cards">
-          <CardDisplay header="Su majestad imperial">
+          <CardDisplay header="Su majestad Imperial">
             <video
               src="https://firebasestorage.googleapis.com/v0/b/el-diablito-13-b8034.appspot.com/o/silverio%20Dances_2.mp4?alt=media&token=98007614-5a04-4bcd-ba24-481575ba4f07"
               className="videos-page-card-asset"

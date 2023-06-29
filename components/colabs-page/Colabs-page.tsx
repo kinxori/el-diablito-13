@@ -26,18 +26,6 @@ export default function ColabsPage() {
         </div>
         <div className="projects-draws-page-cards">
           <CardDisplay header="Jonathan Devil">
-            {isFullScreen === "1" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("1")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("1")}></div>
-              </>
-            )}
             <img
               src={jonathanDevils}
               alt="dibujo 1 - tal"
@@ -60,18 +48,6 @@ export default function ColabsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Inking 2022">
-            {isFullScreen === "2" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("2")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("2")}></div>
-              </>
-            )}
             <img
               src={inking2022}
               alt="dibujo 2 - tal"
@@ -94,18 +70,6 @@ export default function ColabsPage() {
             </div>
           </CardDisplay>
           <CardDisplay header="Billy Butcher">
-            {isFullScreen === "3" && (
-              <>
-                <LinkButton
-                  className="full-screen-close-button"
-                  variant="linkButton"
-                  onClick={() => handleFullScreen("3")}
-                >
-                  <i className="fa-regular fa-circle-xmark"></i>
-                </LinkButton>
-                <div className="full-screen-bg-blank" onClick={() => handleFullScreen("3")}></div>
-              </>
-            )}
             <img
               src={billyButcher}
               alt="dibujo 3 - tal"
@@ -126,6 +90,18 @@ export default function ColabsPage() {
               </LinkButton>
             </div>
           </CardDisplay>
+          {isFullScreen !== "" && (
+            <>
+              <LinkButton
+                className="full-screen-close-button"
+                variant="linkButton"
+                onClick={() => handleFullScreen("")}
+              >
+                <i className="fa-regular fa-circle-xmark"></i>
+              </LinkButton>
+              <div className="full-screen-bg-blank" onClick={() => handleFullScreen("")}></div>
+            </>
+          )}
         </div>
       </div>
     </section>
