@@ -67,6 +67,15 @@ export default function NavMobile() {
               </h3>
             </a>
             <a
+              href="#colabs-page-id"
+              className="nav-mobile-slide-page-button"
+              onClick={() => setClicked(false)}
+            >
+              <h3>
+                Colaboraciones&nbsp;&nbsp;<i className="fa-solid fa-users"></i>
+              </h3>
+            </a>
+            <a
               href="#contact-page-id"
               className="nav-mobile-slide-page-button"
               onClick={() => setClicked(false)}
