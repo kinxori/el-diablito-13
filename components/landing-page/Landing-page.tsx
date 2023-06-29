@@ -1,5 +1,5 @@
 import "./🎨landing-page.css";
-import landingPageImg from "./../../src/assets/06_resized.png";
+import landingPageImg from "./../../src/assets/New_Logo_Diablo-edited.png";
 import AnchorButton from "../custom-buttons/AnchorButton";
 
 export default function LandingPage() {
