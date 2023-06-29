@@ -39,6 +39,23 @@ export default function ContactPage() {
         </LinkButton>
         <div className="contact-page-copy">
           <h2>
+            Discord&nbsp;<i className="fa-brands fa-discord"></i>
+          </h2>
+
+          <p>
+            Te invito a unirte a mi comunidad de Discord, donde compartimos de todo tipo de música,
+            cortos, arte y videojuegos. ¡Bienvenido al Diablito Trece! 👺
+          </p>
+        </div>
+        <LinkButton
+          to="https://discord.gg/pQAFQxaUWC"
+          target="_blank"
+          className="contact-page-CTA-button"
+        >
+          Ir a Discord
+        </LinkButton>
+        <div className="contact-page-copy">
+          <h2>
             Mánda un correo&nbsp;<i className="fa-solid fa-pencil"></i>
           </h2>
           <EmailForm />
