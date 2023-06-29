@@ -24,10 +24,11 @@ export default function ColabsPage() {
           </p>
         </div>
         <div className="colabs-page-page-cards">
-          <CardDisplay header="Jonathan Devil">
+          <CardDisplay header="Glotonería Kawaii">
             <img
               src={glotoAsset}
-              alt="dibujo 1 - tal"
+              alt="Titulo: Glotoneria Kawaii. Descripción: ¡Ilustración colaborativa para el bar Pachuqueño Glotoneria KAwaii alusiva al mes del
+              Halloween! Fecha: Abril 8, 2021. Autor: El Diablito 13 ft Glotonería Kawaii"
               className={
                 isFullScreen === "1"
                   ? "colabs-page-card-asset-open"
@@ -36,20 +37,20 @@ export default function ColabsPage() {
               onClick={() => handleFullScreen("1")}
             ></img>
             <h4 className="colabs-page-card-title">
-              "¡Tributo al Jonathan Davis de Korn con su clásico pans Adidas, hecho en vivo en
-              Twitch!"
+              "¡Ilustración colaborativa para el bar Pachuqueño Glotonería KAwaii alusiva al mes del
+              Halloween!"
             </h4>
-            <i className="colabs-page-card-date">- Mayo 31, 2023</i>
+            <i className="colabs-page-card-date">- Abril 8, 2021</i>
             <div className="colabs-page-card-CTA">
-              <LinkButton to="https://www.instagram.com/p/Cs7AL0lRnch/" target="_blank">
+              <LinkButton to="https://www.instagram.com/p/CNaqZCVn-nu/" target="_blank">
                 Visitar
               </LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="Inking 2022">
+          <CardDisplay header="Greñudo Games">
             <img
               src={grenudoAsset}
-              alt="dibujo 2 - tal"
+              alt="Titulo: Greñudo Games. Descripción: ¡Colaboración con Greñudo Games, streamer de kaizos, creamos su imagen y emotes ❤️! Fecha: Diciembre 30, 2021. Autor: El Diablito 13 ft Greñudo Games"
               className={
                 isFullScreen === "2"
                   ? "colabs-page-card-asset-open"
@@ -59,19 +60,19 @@ export default function ColabsPage() {
             ></img>
 
             <h4 className="colabs-page-card-title">
-              "¡Inspirado en los 2 sujetos más bizarros e idiotas de los 90's!"
+              "¡Colaboración con Greñudo Games, streamer de kaizos, creamos su imagen y emotes ❤️!"
             </h4>
-            <i className="colabs-page-card-date">- Noviembre 8, 2022</i>
+            <i className="colabs-page-card-date">- Diciembre 30, 2021</i>
             <div className="colabs-page-card-CTA">
-              <LinkButton to="https://www.instagram.com/p/CktgH2OPdMQ/" target="_blank">
+              <LinkButton to="https://www.instagram.com/p/CYHxD1pFu_l/" target="_blank">
                 Visitar
               </LinkButton>
             </div>
           </CardDisplay>
-          <CardDisplay header="Billy Butcher">
+          <CardDisplay header="NLP MX">
             <img
               src={NLPAsset}
-              alt="dibujo 3 - tal"
+              alt="Titulo: NLP MX. Descripción: ¡Colaboración con la banda de rock NLP MX para su primera live session! Fecha: Octubre 21, 2021. Autor: El Diablito 13 ft NLP MX"
               className={
                 isFullScreen === "3"
                   ? "colabs-page-card-asset-open"
@@ -79,10 +80,12 @@ export default function ColabsPage() {
               }
               onClick={() => handleFullScreen("3")}
             ></img>
-            <h4 className="colabs-page-card-title">"¡El mismísimo Billy Butcher de The Boys!"</h4>
-            <i className="colabs-page-card-date">- Agosto 12, 2022</i>
+            <h4 className="colabs-page-card-title">
+              "¡Colaboración con la banda de rock NLP MX para su primera live session!"
+            </h4>
+            <i className="colabs-page-card-date">- Octubre 21, 2021</i>
             <div className="colabs-page-card-CTA">
-              <LinkButton to="https://www.instagram.com/p/ChK_mZpOjbu/" target="_blank">
+              <LinkButton to="https://www.instagram.com/p/CVSyJD2tMLt/" target="_blank">
                 Visitar
               </LinkButton>
             </div>
