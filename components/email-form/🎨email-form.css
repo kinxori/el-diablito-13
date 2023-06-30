@@ -118,7 +118,7 @@
   }
 
   .email-form-body h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .email-form-body input {
@@ -184,7 +184,7 @@
   .email-form-root h3 {
     width: 100%;
     color: var(--main-color);
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .email-form-root input {

@@ -110,7 +110,7 @@
 
 @media (min-width: 601px) {
   .colabs-page-root {
-    padding: 10% 0;
+    padding: 5% 0;
   }
 
   .colabs-page-content {
@@ -123,11 +123,11 @@
   }
 
   .colabs-page-copy h2 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .colabs-page-copy p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .colabs-page-page-cards {
@@ -141,7 +141,6 @@
 
   .colabs-page-card-date {
     font-size: 12px;
-    opacity: 0.6;
   }
 
   .colabs-page-card-CTA {
@@ -209,7 +208,7 @@
   }
 
   .colabs-page-card-title {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     color: var(--main-color);
   }
