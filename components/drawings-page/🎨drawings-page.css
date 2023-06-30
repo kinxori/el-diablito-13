@@ -110,19 +110,24 @@
 
 @media (min-width: 601px) {
   .drawings-page-root {
-    padding: 10% 0;
+    padding: 5% 0;
+  }
+
+  .drawings-page-content {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .drawings-page-copy {
-    gap: 30px;
+    gap: 25px;
   }
 
   .drawings-page-copy h2 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .drawings-page-copy p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .drawings-page-page-cards {
@@ -131,11 +136,11 @@
   }
 
   .drawings-page-card-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .drawings-page-card-date {
-    font-size: 16px;
+    font-size: 12px;
     opacity: 0.6;
   }
 

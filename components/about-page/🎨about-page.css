@@ -77,26 +77,28 @@
 
 @media (min-width: 601px) {
   .about-page-root {
-    padding: 10% 0;
+    padding: 5% 0;
   }
 
   .about-page-content img {
     width: 100%;
-    min-height: 200px;
+    min-height: 100px;
     padding-top: 10%;
     padding-bottom: 10%;
   }
 
   .about-page-copy-content {
-    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 25px;
   }
 
   .about-page-copy-content h2 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .about-page-copy-content p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .about-page-copy-content img {
@@ -109,8 +111,8 @@
   }
 
   .about-page-CTA {
-    gap: 20px;
-    padding-top: 15%;
+    gap: 25px;
+    padding-top: 10%;
   }
 }
 
