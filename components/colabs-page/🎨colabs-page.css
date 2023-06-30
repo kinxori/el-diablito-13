@@ -113,8 +113,13 @@
     padding: 10% 0;
   }
 
+  .colabs-page-content {
+    margin: 0 auto;
+    width: 80%;
+  }
+
   .colabs-page-copy {
-    gap: 30px;
+    gap: 25px;
   }
 
   .colabs-page-copy h2 {
@@ -126,21 +131,21 @@
   }
 
   .colabs-page-page-cards {
-    gap: 30px;
+    gap: 25px;
     padding-top: 10%;
   }
 
   .colabs-page-card-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .colabs-page-card-date {
-    font-size: 16px;
+    font-size: 12px;
     opacity: 0.6;
   }
 
   .colabs-page-card-CTA {
-    padding: 30px 0;
+    padding: 25px 0;
   }
 
   /* ------------------ FULL SCREEN IMG -------------------- */

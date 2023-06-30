@@ -59,11 +59,11 @@
 
 @media (min-width: 601px) {
   .contact-page-root {
-    padding: 10% 0;
+    padding: 5% 0;
   }
 
   .contact-page-content {
-    gap: 30px;
+    gap: 25px;
   }
 
   .contact-page-content h2 {
@@ -76,7 +76,7 @@
 
   .contact-page-body {
     width: 100%;
-    gap: 30px;
+    gap: 25px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -85,7 +85,7 @@
 
   .contact-page-copy {
     width: 45%;
-    gap: 30px;
+    gap: 25px;
   }
 
   .contact-page-CTA-button {
@@ -93,7 +93,7 @@
   }
 
   .contact-page-email-form {
-    gap: 30px;
+    gap: 25px;
   }
 }
 

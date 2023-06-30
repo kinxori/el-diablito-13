@@ -114,11 +114,11 @@
 
 @media (min-width: 601px) {
   .email-form-body {
-    gap: 10px;
+    gap: 25px;
   }
 
   .email-form-body h3 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .email-form-body input {
@@ -178,6 +178,7 @@
   .email-form-root {
     width: 100%;
     height: min-content;
+    gap: 30px;
   }
 
   .email-form-root h3 {
