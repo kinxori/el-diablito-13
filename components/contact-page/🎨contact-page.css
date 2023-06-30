@@ -3,14 +3,12 @@
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
-  border: 1px dotted white;
 }
 
 .contact-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .contact-page-content h2 {
@@ -32,7 +30,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .contact-page-copy {
@@ -41,7 +38,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 .contact-page-CTA-button {
@@ -49,7 +45,6 @@
   padding: 15% 0;
   display: flex;
   justify-content: center;
-  border: 1px dotted white;
 }
 
 .contact-page-email-form {
@@ -58,7 +53,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: 1px dotted white;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
@@ -87,7 +81,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    border: 1px dotted white;
   }
 
   .contact-page-copy {
@@ -119,7 +112,7 @@
   }
 
   .contact-page-content h2 {
-    font-size: 56px;
+    font-size: 42px;
     text-align: center;
     font-weight: bold;
     font-family: var(--main-font);
@@ -127,19 +120,19 @@
   }
 
   .contact-page-content p {
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--sec-font);
     color: var(--main-color);
+    width: 80%;
   }
 
   .contact-page-body {
     width: 100%;
-    gap: 30px;
+    gap: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    border: 1px dotted white;
   }
 
   .contact-page-copy {
