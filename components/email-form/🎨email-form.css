@@ -187,16 +187,16 @@
   .email-form-root h3 {
     width: 100%;
     color: var(--main-color);
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .email-form-root input {
     width: 100%;
-    height: 40px;
+    height: 35px;
     border: 2px solid var(--sec-color);
     border-radius: 3px;
-    padding-left: 15px;
-    font-size: 20px;
+    padding-left: 10px;
+    font-size: 16px;
     box-sizing: border-box;
     font-family: var(--sec-font);
   }
@@ -204,19 +204,25 @@
   .email-form-root textarea {
     resize: none;
     width: 100%;
-    min-height: 200px;
+    min-height: 150px;
     border: 2px solid var(--sec-color);
     border-radius: 3px;
-    padding-left: 15px;
-    padding-top: 15px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 16px;
     box-sizing: border-box;
     font-family: var(--sec-font);
   }
 
+  .email-form-copy {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
   .email-form-body {
     width: 100%;
-    gap: 30px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +236,7 @@
   }
 
   .email-form-submit-button {
-    margin-top: 10%;
+    margin-top: calc(5% - 10px);
   }
 
   /* ------------------------- Pop Up ------*/
