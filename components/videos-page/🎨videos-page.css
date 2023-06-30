@@ -126,6 +126,7 @@
   .videos-page-content {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
 
   .videos-page-copy {

@@ -172,6 +172,7 @@
   .drawings-page-content {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
 
   .drawings-page-copy {
