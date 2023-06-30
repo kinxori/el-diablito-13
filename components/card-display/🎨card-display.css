@@ -43,7 +43,7 @@
   .card-root {
     width: 100%;
     margin: 0 auto;
-    height: 420px;
+    height: 360px;
     border: 3px solid var(--sec-color);
   }
 
@@ -57,8 +57,8 @@
   }
 
   .card-body {
-    height: 350px;
-    gap: 30px;
+    height: 290px;
+    gap: 25px;
     padding: 20px;
   }
 }

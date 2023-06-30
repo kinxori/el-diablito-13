@@ -73,37 +73,41 @@
 
 @media (min-width: 601px) {
   .videos-page-root {
-    padding: 10% 0;
+    padding: 5% 0;
   }
 
+  .videos-page-content {
+    width: 80%;
+    margin: 0 auto;
+  }
   .videos-page-copy {
-    gap: 30px;
+    gap: 25px;
   }
 
   .videos-page-copy h2 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .videos-page-copy p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .videos-page-cards {
-    gap: 30px;
+    gap: 25px;
     padding-top: 10%;
   }
 
   .videos-page-card-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .videos-page-card-date {
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
   }
 
   .videos-page-card-CTA {
-    padding: 30px 0;
+    padding: 25px 0;
   }
 
   .videos-page-card-asset {
