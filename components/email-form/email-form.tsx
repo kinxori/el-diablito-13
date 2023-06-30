@@ -39,28 +39,30 @@ export default function EmailForm() {
   return (
     <section className="email-form-root">
       <form onSubmit={handleSubmit} className="email-form-body">
-        <div className="email-form-label">
-          <h3>Tu correo: </h3>
-          <input
-            type="email"
-            value={emailInput}
-            name="email"
-            onChange={(event) => setEmailInput(event.target.value)}
-            className="email-input-box"
-            required
-            placeholder="ejemplo@email.com"
-          />
-        </div>
-        <div className="email-form-label">
-          <h3>Asunto: </h3>
-          <input
-            value={subjectInput}
-            name="subject"
-            onChange={(event) => setSubjectInput(event.target.value)}
-            className="email-input-box"
-            required
-            placeholder="Ingresa el asunto"
-          />
+        <div className="email-form-copy">
+          <div className="email-form-label">
+            <h3>Tu correo: </h3>
+            <input
+              type="email"
+              value={emailInput}
+              name="email"
+              onChange={(event) => setEmailInput(event.target.value)}
+              className="email-input-box"
+              required
+              placeholder="ejemplo@email.com"
+            />
+          </div>
+          <div className="email-form-label">
+            <h3>Asunto: </h3>
+            <input
+              value={subjectInput}
+              name="subject"
+              onChange={(event) => setSubjectInput(event.target.value)}
+              className="email-input-box"
+              required
+              placeholder="Ingresa el asunto"
+            />
+          </div>
         </div>
         <div className="email-form-label">
           <h3>Mensaje:</h3>
@@ -76,31 +78,31 @@ export default function EmailForm() {
         <button type="submit" className="mainButton email-form-submit-button">
           Enviar
         </button>
-        {isPopUp && (
-          <>
-            <div className="email-form-pop-up-root">
-              <div className="email-form-pop-up-body">
-                <h3>¡Correo enviado! 👺</h3>
-                <button
-                  className="mainButton email-form-pop-up-button"
-                  onClick={() => {
-                    setIsPopUp(false);
-                  }}
-                >
-                  Ok
-                </button>
-              </div>
-            </div>
-
-            <div
-              className="email-form-pop-up-background"
-              onClick={() => {
-                setIsPopUp(false);
-              }}
-            ></div>
-          </>
-        )}
       </form>
+      {isPopUp && (
+        <>
+          <div className="email-form-pop-up-root">
+            <div className="email-form-pop-up-body">
+              <h3>¡Correo enviado! 👺</h3>
+              <button
+                className="mainButton email-form-pop-up-button"
+                onClick={() => {
+                  setIsPopUp(false);
+                }}
+              >
+                Ok
+              </button>
+            </div>
+          </div>
+
+          <div
+            className="email-form-pop-up-background"
+            onClick={() => {
+              setIsPopUp(false);
+            }}
+          ></div>
+        </>
+      )}
     </section>
   );
 }
