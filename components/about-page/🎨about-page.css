@@ -137,7 +137,7 @@
   }
 
   .about-page-copy {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@
   }
 
   .about-page-copy-content h2 {
-    font-size: 56px;
+    font-size: 42px;
     text-align: center;
     font-weight: bold;
     font-family: var(--main-font);
@@ -160,7 +160,7 @@
   }
 
   .about-page-copy-content p {
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--sec-font);
     color: var(--main-color);
   }

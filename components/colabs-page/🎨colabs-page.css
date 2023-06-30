@@ -179,7 +179,7 @@
   }
 
   .colabs-page-copy h2 {
-    font-size: 56px;
+    font-size: 42px;
     text-align: center;
     font-weight: bold;
     font-family: var(--main-font);
@@ -187,14 +187,15 @@
   }
 
   .colabs-page-copy p {
-    font-size: 20px;
+    width: 80%;
+    font-size: 16px;
     font-family: var(--sec-font);
     color: var(--main-color);
   }
 
   .colabs-page-page-cards {
     gap: 50px;
-    padding-top: 10%;
+    padding-top: 5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
