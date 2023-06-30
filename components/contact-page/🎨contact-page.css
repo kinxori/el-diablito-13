@@ -3,12 +3,36 @@
   position: relative;
   margin: 0 auto;
   padding: 10% 0;
+  border: 1px dotted white;
 }
 
 .contact-page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
+  border: 1px dotted white;
+}
+
+.contact-page-content h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline var(--sec-color);
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+.contact-page-content p {
+  font-size: 16px;
+  font-family: var(--sec-font);
+  color: var(--main-color);
+}
+
+.contact-page-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted white;
 }
 
 .contact-page-copy {
@@ -17,34 +41,24 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-}
-
-.contact-page-copy h2 {
-  font-size: 32px;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: underline var(--sec-color);
-
-  font-family: var(--main-font);
-  color: var(--main-color);
-}
-
-.contact-page-copy p {
-  font-size: 16px;
-  font-family: var(--sec-font);
-  color: var(--main-color);
+  border: 1px dotted white;
 }
 
 .contact-page-CTA-button {
   width: 100%;
-  padding: 10% 0;
+  padding: 15% 0;
   display: flex;
   justify-content: center;
+  border: 1px dotted white;
 }
 
-.contact-page-email-text {
-  text-decoration: underline;
-  font-weight: bold;
+.contact-page-email-form {
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted white;
 }
 
 /* ------------------------------------------------------------ TABLET QUERY --------------*/
@@ -54,25 +68,39 @@
     padding: 10% 0;
   }
 
-  .contact-page-copy {
+  .contact-page-content {
     gap: 30px;
   }
 
-  .contact-page-copy h2 {
+  .contact-page-content h2 {
     font-size: 48px;
   }
 
-  .contact-page-copy p {
+  .contact-page-content p {
     font-size: 20px;
+  }
+
+  .contact-page-body {
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px dotted white;
+  }
+
+  .contact-page-copy {
+    width: 45%;
+    gap: 30px;
   }
 
   .contact-page-CTA-button {
     padding: 10% 0;
   }
 
-  .contact-page-email-text {
-    text-decoration: underline;
-    font-weight: bold;
+  .contact-page-email-form {
+    gap: 30px;
   }
 }
 
@@ -118,10 +146,5 @@
     padding: 5% 0;
     display: flex;
     justify-content: center;
-  }
-
-  .contact-page-email-text {
-    text-decoration: underline;
-    font-weight: bold;
   }
 }

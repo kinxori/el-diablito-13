@@ -50,7 +50,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: calc(15% - 20px);
 }
 
 /* ------------------------- Pop Up ------*/
