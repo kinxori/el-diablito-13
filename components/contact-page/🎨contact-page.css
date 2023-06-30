@@ -118,16 +118,7 @@
     flex-direction: column;
   }
 
-  .contact-page-copy {
-    width: 50%;
-    gap: 30px;
-    margin: 0 auto;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-page-copy h2 {
+  .contact-page-content h2 {
     font-size: 56px;
     text-align: center;
     font-weight: bold;
@@ -135,10 +126,27 @@
     color: var(--main-color);
   }
 
-  .contact-page-copy p {
+  .contact-page-content p {
     font-size: 20px;
     font-family: var(--sec-font);
     color: var(--main-color);
+  }
+
+  .contact-page-body {
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px dotted white;
+  }
+
+  .contact-page-copy {
+    gap: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-page-CTA-button {
@@ -146,5 +154,14 @@
     padding: 5% 0;
     display: flex;
     justify-content: center;
+  }
+
+  .contact-page-email-form {
+    width: 70%;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
